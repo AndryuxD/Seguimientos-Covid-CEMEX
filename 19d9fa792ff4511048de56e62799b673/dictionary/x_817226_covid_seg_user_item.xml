@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb" label="User Item" max_length="40" name="x_817226_covid_seg_user_item" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Caused By" max_length="40" name="caused_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Area" max_length="40" name="area" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="User Vicepresideny" max_length="150" name="user_vicepresideny" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date suspicious" max_length="40" name="date_suspicious" type="glide_date"/>
+        <element label="Last Temperature Value" max_length="15" name="last_temperature_value" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Forecast" max_length="40" name="forecast" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Direccion" max_length="40" name="direccion" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vulnerable Cause" max_length="40" name="vulnerable_cause" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Test" value="test"/>
+            </choice>
+        </element>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Checked Duration" max_length="40" name="checked_duration" type="glide_duration"/>
+        <element attributes="edge_encryption_enabled=true" label="Closed At" max_length="40" name="closed_at" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Closed Status" max_length="75" name="closed_status" type="string"/>
+        <element label="Is Vulnerable" max_length="40" name="is_vulnerable" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="User Category" max_length="50" name="user_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Condition" max_length="40" name="condition" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Last Oxygenation Value" max_length="15" name="last_oxygenation_value" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="User Number" max_length="50" name="user_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Location" max_length="250" name="user_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Name" max_length="150" name="user_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zona" max_length="40" name="zona" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Title" max_length="200" name="user_title" type="string"/>
+        <element label="Substatus" max_length="40" name="substatus" type="integer"/>
+        <element label="Risk" max_length="40" name="risk" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Plaza" max_length="40" name="plaza" type="string"/>
+        <element label="Last score" max_length="40" name="last_score" type="integer"/>
+        <element label="Isolated" max_length="40" name="isolated" type="boolean"/>
+    </element>
+</database>
