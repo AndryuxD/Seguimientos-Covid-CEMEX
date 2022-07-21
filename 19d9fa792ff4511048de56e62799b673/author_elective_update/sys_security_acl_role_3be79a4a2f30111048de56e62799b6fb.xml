@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 14:52:58</sys_created_on>
+        <sys_id>3be79a4a2f30111048de56e62799b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_817226_covid_seg_x_817226_covid_ui_tracking.x_817226_covid_seg._user_tracking_user</sys_name>
+        <sys_package display_value="Seguimientos COVID" source="x_817226_covid_seg">19d9fa792ff4511048de56e62799b673</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimientos COVID">19d9fa792ff4511048de56e62799b673</sys_scope>
+        <sys_security_acl display_value="x_817226_covid_seg_x_817226_covid_ui_tracking">a3e79a4a2f30111048de56e62799b6f8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3be79a4a2f30111048de56e62799b6fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 14:52:58</sys_updated_on>
+        <sys_user_role display_value="x_817226_covid_seg._user_tracking_user" name="x_817226_covid_seg._user_tracking_user">8be7920a2f30111048de56e62799b6ad</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimientos COVID">19d9fa792ff4511048de56e62799b673</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>sys_security_acl_role_3be79a4a2f30111048de56e62799b6fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-21 14:52:58</sys_created_on><sys_id>3be79a4a2f30111048de56e62799b6fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_817226_covid_seg_x_817226_covid_ui_tracking.x_817226_covid_seg._user_tracking_user</sys_name><sys_package display_value="Seguimientos COVID" source="x_817226_covid_seg">19d9fa792ff4511048de56e62799b673</sys_package><sys_policy/><sys_scope display_value="Seguimientos COVID">19d9fa792ff4511048de56e62799b673</sys_scope><sys_security_acl display_value="x_817226_covid_seg_x_817226_covid_ui_tracking">a3e79a4a2f30111048de56e62799b6f8</sys_security_acl><sys_update_name>sys_security_acl_role_3be79a4a2f30111048de56e62799b6fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-21 14:52:58</sys_updated_on><sys_user_role display_value="x_817226_covid_seg._user_tracking_user" name="x_817226_covid_seg._user_tracking_user">8be7920a2f30111048de56e62799b6ad</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1644956243</payload_hash>
+        <record_name>x_817226_covid_seg_x_817226_covid_ui_tracking.x_817226_covid_seg._user_tracking_user</record_name>
+        <reverted_from/>
+        <source>088103792fb8511048de56e62799b617</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 14:52:58</sys_created_on>
+        <sys_id>77e79a4a2f30111048de56e62799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182213f61b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 14:52:58</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>bfe79a4a1130111028b07f6d886710fd</update_guid>
+        <update_guid_history>bfe79a4a1130111028b07f6d886710fd:-1644956243</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_817226_covid_seg_x_817226_covid_ui_tracking.x_817226_covid_seg._user_tracking_">9014e2462f70111048de56e62799b64b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 15:45:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>7c05eb04d6c64bd88ac1682f8c79b890</sys_id>
+        <sys_metadata>3be79a4a2f30111048de56e62799b6fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_817226_covid_seg_x_817226_covid_ui_tracking.x_817226_covid_seg._user_tracking_user</sys_name>
+        <sys_package display_value="Seguimientos COVID" source="x_817226_covid_seg">19d9fa792ff4511048de56e62799b673</sys_package>
+        <sys_parent display_value="">a3e79a4a2f30111048de56e62799b6f8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Seguimientos COVID">19d9fa792ff4511048de56e62799b673</sys_scope>
+        <sys_scope_delete display_value="">683622182a7642f3addbac2c69c934a9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_3be79a4a2f30111048de56e62799b6fb</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_3be79a4a2f30111048de56e62799b6fb">77e79a4a2f30111048de56e62799b6fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 15:45:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_817226_covid_seg_user_item" label="User Tracking" max_length="40" name="x_817226_covid_seg_ui_tracking" type="collection">
+        <element label="Complementary Study" max_length="32" name="complementary_study" reference="x_817226_covid_seg_ui_choice" type="reference"/>
+        <element label="Cost Payer" max_length="40" name="cost_payer" type="string"/>
+        <element label="Result" max_length="250" name="result" type="string"/>
+        <element label="Test applied on" max_length="40" name="test_applied_on" type="string"/>
+        <element label="Type" max_length="40" name="type" type="integer"/>
+    </element>
+</database>

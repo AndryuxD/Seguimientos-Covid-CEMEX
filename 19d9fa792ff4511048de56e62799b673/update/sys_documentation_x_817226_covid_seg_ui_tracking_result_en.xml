@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="result" label="Result" language="en" table="x_817226_covid_seg_ui_tracking">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>result</element>
+            <help/>
+            <hint/>
+            <label>Result</label>
+            <language>en</language>
+            <name>x_817226_covid_seg_ui_tracking</name>
+            <plural>Results</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-21 16:04:17</sys_created_on>
+            <sys_id>6048a28a2f70111048de56e62799b6a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Result</sys_name>
+            <sys_package display_value="Seguimientos COVID" source="x_817226_covid_seg">19d9fa792ff4511048de56e62799b673</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguimientos COVID">19d9fa792ff4511048de56e62799b673</sys_scope>
+            <sys_update_name>sys_documentation_x_817226_covid_seg_ui_tracking_result_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-21 16:04:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

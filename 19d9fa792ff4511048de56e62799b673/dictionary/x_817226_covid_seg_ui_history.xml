@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_817226_covid_seg_user_item" label="User History" max_length="40" name="x_817226_covid_seg_ui_history" type="collection">
+        <element label="Record Producer" max_length="32" name="record_producer" reference="sc_cat_item_producer" type="reference"/>
+    </element>
+</database>
