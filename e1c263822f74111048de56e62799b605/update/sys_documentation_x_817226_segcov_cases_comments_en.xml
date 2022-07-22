@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="comments" label="Comments" language="en" table="x_817226_segcov_cases">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <help/>
+            <hint/>
+            <label>Comments</label>
+            <language>en</language>
+            <name>x_817226_segcov_cases</name>
+            <plural>Comments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-22 13:37:36</sys_created_on>
+            <sys_id>e5409fd62ff0511048de56e62799b688</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Comments</sys_name>
+            <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+            <sys_update_name>sys_documentation_x_817226_segcov_cases_comments_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-22 13:37:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
