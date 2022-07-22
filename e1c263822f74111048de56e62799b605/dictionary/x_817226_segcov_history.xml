@@ -4,7 +4,7 @@
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
-        <element label="Owned By" max_length="32" name="owned_by" reference="sys_user" type="reference"/>
+        <element label="User" max_length="32" name="owned_by" reference="sys_user" type="reference"/>
         <element label="Record Producer" max_length="32" name="record_producer" reference="sc_cat_item_producer" type="reference"/>
         <element label="Temperature" max_length="40" name="temperature" type="string"/>
         <index name="index">
