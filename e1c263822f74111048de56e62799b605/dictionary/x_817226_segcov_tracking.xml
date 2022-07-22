@@ -1,3 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="User Tracking" max_length="40" name="x_817226_segcov_tracking" type="collection"/>
+    <element label="User Tracking" max_length="40" name="x_817226_segcov_tracking" sizeclass="0" type="collection">
+        <element label="Case" max_length="32" name="case" reference="x_817226_segcov_cases" type="reference"/>
+        <element label="Complimetary Study" max_length="32" name="complimetary_study" reference="x_817226_segcov_choices" type="reference"/>
+        <element label="Cost Payer" max_length="40" name="cost_payer" type="string"/>
+        <element label="Result" max_length="250" name="result" type="string"/>
+        <element label="Test applied on" max_length="40" name="test_applied_on" type="string"/>
+        <element label="Type" max_length="40" name="type" type="integer"/>
+        <index name="index">
+            <element name="case"/>
+        </index>
+        <index name="index2">
+            <element name="complimetary_study"/>
+        </index>
+    </element>
 </database>

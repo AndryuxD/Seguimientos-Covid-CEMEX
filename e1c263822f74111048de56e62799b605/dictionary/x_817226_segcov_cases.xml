@@ -1,3 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="User Cases" max_length="40" name="x_817226_segcov_cases" type="collection"/>
+    <element label="User Cases" max_length="40" name="x_817226_segcov_cases" sizeclass="0" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Closed at" max_length="40" name="closed_at" type="glide_date"/>
+        <element choice="3" label="Closed status" max_length="40" name="closed_status" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Positivo - Fallecido" value="positivo_fallecido"/>
+                <element inactive_on_update="false" label="Positivo - Recuperado" value="positivo_alta"/>
+                <element inactive_on_update="false" label="Sospechoso - Fallecido" value="sospechoso_fallecido"/>
+                <element inactive_on_update="false" label="Sospechoso - Liberado" value="sospechoso_alta"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element label="Date suspicious" max_length="40" name="date_suspicious" type="glide_date"/>
+        <element label="Isolated" max_length="40" name="isolated" type="boolean"/>
+        <element label="Last Oxygenation Value" max_length="20" name="last_oxygenation_value" type="decimal"/>
+        <element label="Last Score" max_length="40" name="last_score" type="integer"/>
+        <element label="Last Temperature Value" max_length="20" name="last_temperature_value" type="decimal"/>
+        <element choice="1" label="Risk" max_length="40" name="risk" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Apto" language="es" value="4"/>
+                <element inactive_on_update="false" label="Apto" value="4"/>
+                <element inactive_on_update="false" label="No Apto" value="3"/>
+                <element inactive_on_update="false" label="No Apto" language="es" value="3"/>
+            </choice>
+        </element>
+        <element choice="3" label="Status" max_length="40" name="status" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Baja" value="100"/>
+                <element inactive_on_update="false" label="Baja" language="es" value="100"/>
+                <element inactive_on_update="false" label="Negativo" value="7"/>
+                <element inactive_on_update="false" label="Negativo" language="es" value="7"/>
+                <element inactive_on_update="false" label="Positivo" language="es" value="1"/>
+                <element inactive_on_update="false" label="Positivo" value="1"/>
+                <element inactive_on_update="false" label="Recuperado" value="6"/>
+                <element inactive_on_update="false" label="Recuperado" language="es" value="6"/>
+                <element inactive_on_update="false" label="Solicitado" value="2"/>
+                <element inactive_on_update="false" label="Solicitado" language="es" value="2"/>
+                <element inactive_on_update="false" label="Sospechoso" value="4"/>
+                <element inactive_on_update="false" label="Sospechoso" language="es" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Substatus" max_length="40" name="substatus" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Alta" value="1"/>
+                <element inactive_on_update="false" label="Alta" language="es" value="1"/>
+                <element inactive_on_update="false" label="Asintomatico" language="es" value="2"/>
+                <element inactive_on_update="false" label="Asymptomatic" value="2"/>
+                <element inactive_on_update="false" label="CEMEX Location" value="7"/>
+                <element inactive_on_update="false" label="En casa" language="es" value="6"/>
+                <element inactive_on_update="false" label="Estable en casa" language="es" value="11"/>
+                <element inactive_on_update="false" label="Estable en casa" value="11"/>
+                <element inactive_on_update="false" label="Fallecido" language="es" value="100"/>
+                <element inactive_on_update="false" label="Fallecido" value="100"/>
+                <element inactive_on_update="false" label="Grave en domicilio" language="es" value="12"/>
+                <element inactive_on_update="false" label="Grave en domicilio" value="12"/>
+                <element inactive_on_update="false" label="Home Office" value="6"/>
+                <element inactive_on_update="false" label="Hospitalizado estable" value="21"/>
+                <element inactive_on_update="false" label="Hospitalizado estable" language="es" value="21"/>
+                <element inactive_on_update="false" label="Hospitalizado grave" value="22"/>
+                <element inactive_on_update="false" label="Hospitalizado grave" language="es" value="22"/>
+                <element inactive_on_update="false" label="Sospechoso por contacto" value="3"/>
+                <element inactive_on_update="false" label="Sospechoso por contacto" language="es" value="3"/>
+                <element inactive_on_update="false" label="Sospechoso por sintomas" language="es" value="99"/>
+                <element inactive_on_update="false" label="Sospechoso por sintomas" value="99"/>
+                <element inactive_on_update="false" label="Ubicacion CEMEX" language="es" value="7"/>
+            </choice>
+        </element>
+        <element label="User Item" max_length="32" name="user_item" reference="x_817226_segcov_ui" type="reference"/>
+        <element label="Is vulnerable" max_length="40" name="vulnerable" type="boolean"/>
+        <index name="index">
+            <element name="user_item"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+    </element>
 </database>

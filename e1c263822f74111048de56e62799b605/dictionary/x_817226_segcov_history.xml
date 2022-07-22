@@ -1,3 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="User History" max_length="40" name="x_817226_segcov_history" type="collection"/>
+    <element label="User History" max_length="40" name="x_817226_segcov_history" sizeclass="0" type="collection">
+        <element label="Case" max_length="32" name="case" reference="x_817226_segcov_cases" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Owned By" max_length="32" name="owned_by" reference="sys_user" type="reference"/>
+        <element label="Record Producer" max_length="32" name="record_producer" reference="sc_cat_item_producer" type="reference"/>
+        <element label="Temperature" max_length="40" name="temperature" type="string"/>
+        <index name="index">
+            <element name="record_producer"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="owned_by"/>
+        </index>
+        <index name="index4">
+            <element name="department"/>
+        </index>
+        <index name="index5">
+            <element name="case"/>
+        </index>
+    </element>
 </database>
