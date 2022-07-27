@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>User</column_label>
+        <column_label>User Item</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -40,7 +40,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference display_value="" name="x_817226_segcov_ui">x_817226_segcov_ui</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-21 21:25:14</sys_created_on>
         <sys_id>d0213f062fb4111048de56e62799b6dc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>User</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>User Item</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sys_dictionary_x_817226_segcov_history_owned_by</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-22 20:29:05</sys_updated_on>
+        <sys_updated_on>2022-07-26 20:41:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

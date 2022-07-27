@@ -21,7 +21,7 @@
         <example_text/>
         <field/>
         <global>false</global>
-        <help_tag>More information</help_tag>
+        <help_tag/>
         <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>contact_user</name>
-        <order>860</order>
+        <order>895</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -61,24 +61,24 @@
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>false</show_help>
-        <show_help_on_load>false</show_help_on_load>
+        <show_help_on_load>true</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 21:58:22</sys_created_on>
         <sys_id>49e2c5662fb8511048de56e62799b689</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>SI tuvo contacto con una persona confirmada con COVID-19 CONFIRMADA por laboratorio, escribir el correo electrónico y celular</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>item_option_new_49e2c5662fb8511048de56e62799b689</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-22 21:58:22</sys_updated_on>
+        <sys_updated_on>2022-07-26 15:37:36</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>7</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

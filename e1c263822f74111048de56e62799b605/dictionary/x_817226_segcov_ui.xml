@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="User Item" max_length="40" name="x_817226_segcov_ui" sizeclass="0" type="collection">
-        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+    <element label="User Item" max_length="40" name="x_817226_segcov_ui" sizeclass="1" type="collection">
+        <element display="true" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <element label="User Location" max_length="250" name="user_location" type="string"/>
         <element label="User Vicepresidency" max_length="150" name="user_vicepresidency" type="string"/>
         <index name="index">

@@ -68,17 +68,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 21:56:12</sys_created_on>
         <sys_id>956205662fb8511048de56e62799b6ee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>En los últimos 14 días ha tenido contacto cercano con:</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>item_option_new_956205662fb8511048de56e62799b6ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-22 21:56:12</sys_updated_on>
+        <sys_updated_on>2022-07-25 21:54:36</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>7</type>
+        <type>11</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

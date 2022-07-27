@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
     <sys_app_application action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <category display_value="Administration">647e6524c0a80a080010856a87e15ce2</category>
         <description/>
         <device_type>browser</device_type>
         <hint/>
@@ -14,16 +14,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5f66eb8a2f74111048de56e62799b6fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>History</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Seguimiento COVID</sys_name>
         <sys_overrides/>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sys_app_application_5f66eb8a2f74111048de56e62799b6fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-21 20:35:54</sys_updated_on>
-        <title>History</title>
+        <sys_updated_on>2022-07-26 15:49:10</sys_updated_on>
+        <title>Seguimiento COVID</title>
         <view_name/>
     </sys_app_application>
 </record_update>

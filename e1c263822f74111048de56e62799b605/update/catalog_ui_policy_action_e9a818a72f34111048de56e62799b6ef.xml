@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Registro de Cerco Sanitario">e88d63562f74511048de56e62799b675</catalog_item>
+        <catalog_variable>IO:49e2c5662fb8511048de56e62799b689</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 21:27:52</sys_created_on>
+        <sys_id>e9a818a72f34111048de56e62799b6ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>contact_user</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e9a818a72f34111048de56e62799b6ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 15:36:35</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Contact with user">ce955ce32f34111048de56e62799b6fc</ui_policy>
+        <variable>contact_user</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

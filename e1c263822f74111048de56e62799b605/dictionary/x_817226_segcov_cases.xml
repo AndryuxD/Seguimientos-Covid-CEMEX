@@ -69,6 +69,7 @@
         </element>
         <element label="User Item" max_length="32" name="user_item" reference="x_817226_segcov_ui" type="reference"/>
         <element label="Is vulnerable" max_length="40" name="vulnerable" type="boolean"/>
+        <element label="Vulnerable Cause" max_length="40" name="vulnerable_cause" reference="x_817226_segcov_choices" reference_qual="element=vulnerable_cause^EQ" reference_qual_condition="element=vulnerable_cause^EQ" type="glide_list"/>
         <index name="index">
             <element name="user_item"/>
         </index>
