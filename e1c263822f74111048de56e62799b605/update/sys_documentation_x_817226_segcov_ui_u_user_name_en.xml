@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="user_location" label="User Location" language="en" table="x_817226_segcov_ui">
+    <sys_documentation element="u_user_name" label="User Name" language="en" table="x_817226_segcov_ui">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>user_location</element>
+            <element>u_user_name</element>
             <help/>
             <hint/>
-            <label>User Location</label>
+            <label>User Name</label>
             <language>en</language>
             <name>x_817226_segcov_ui</name>
-            <plural>User Locations</plural>
+            <plural>User Names</plural>
             <sys_class_name>sys_documentation</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-22 15:37:05</sys_created_on>
-            <sys_id>f39bef922f74511048de56e62799b690</sys_id>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-01 16:54:27</sys_created_on>
+            <sys_id>e63d9f6197411110321635dfe153af11</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>User Location</sys_name>
+            <sys_name>User Name</sys_name>
             <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
             <sys_policy/>
             <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
-            <sys_update_name>sys_documentation_x_817226_segcov_ui_user_location_en</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-22 15:37:05</sys_updated_on>
+            <sys_update_name>sys_documentation_x_817226_segcov_ui_u_user_name_en</sys_update_name>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-01 16:54:27</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

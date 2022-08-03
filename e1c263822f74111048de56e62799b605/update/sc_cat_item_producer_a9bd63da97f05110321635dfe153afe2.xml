@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Proceso de entrega:</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">* En pacientes POSITIVOS COVID-19 con prueba PCR que tienen menos de 18 días, en cuarentena y NO esten </span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">próximas a ser dados de ALTA</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">* Solamente se entregan a sintomáticos y Asintomáticos desde el día en que son POSITIVOS COVID-19</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">* En este enlace pueden bajar para su impresion las indicaciones y protocolos COVID: <a href="https://cmx.to/31Q7VFX" rel="nofollow">https://cmx.to/31Q7VFX</a></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>NOTA</strong>: NO SE ENTREGAN a pacientes con más de 19-20 días, previos al alta, estables.</span></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Entrega de Kit COVID</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Salvador Centeno Téllez">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a9bd63da97f05110321635dfe153afe2&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[createRecord();
+
+function createRecord() {
+    current.u_tracking_type = 6;
+    current.name = 'Entrega de kit ' + producer.kit;
+    current.u_result = producer.kit;
+    current.install_status = 100;
+
+    //Search for existing User Item Records
+    var user = producer.owned_by;
+    var ui = getUserItem(user);
+    current.u_parent = ui;
+
+    //Set user field values
+    current.u_user_location = producer.location.getDisplayValue();
+    current.u_user_name = producer.owned_by.getDisplayValue();
+    current.u_user_number = producer.employee_number;
+    current.u_user_title = producer.user_title;
+    current.u_user_department = producer.department.getDisplayValue();
+    current.u_user_category = producer.user_category;
+	current.assignment_group = '8f859f6997011110321635dfe153afc7';
+
+    //Set medicine list in comments
+	var medicineList = '';
+    if (producer.medical_supply == 'Yes') {
+		medicineList+= 'Medicamento entregado: \n';
+        if (producer.medicine_acc == 'true')
+			medicineList+= '- ACC EFERVECENTE 600MG 20 TAB \n';
+		if (producer.medicine_dalvear == 'true')
+			medicineList+= '- DALVEAR 200ML JBE ADULTO FRESA \n';
+		if (producer.medicine_dexametasona == 'true')
+			medicineList+= '- ALMUS DEXAMETASONA 8MG 2ML C/1 AMP \n';
+		if (producer.medicine_dimegan == 'true')
+			medicineList+= '- DIMEGAN-D 5MG/20MG CAPS LIB PROL C/10 \n';
+		if (producer.medicine_febrax == 'true')
+			medicineList+= '- FEBRAX 300 MG. TABS. C/15 \n';
+		if (producer.medicine_ibuprofeno == 'true')
+			medicineList+= '- GM IBUPROFENO 600 MG 20 TAB \n';
+		if (producer.medicine_iprikene == 'true')
+			medicineList+= '- IPRIKENE 3G 10 SOBRES \n';
+		if (producer.medicine_libertrim == 'true')
+			medicineList+= '- LIBERTRIM 200 MG.COMPRIM. C/24 \n';
+		if (producer.medicine_litasina == 'true')
+			medicineList+= '- LITASINA 100MG 30 TAB \n';
+		if (producer.medicine_marzivag == 'true')
+			medicineList+= '- GM MARZIVAG AZITROMICINA 500MG 3TAB \n';
+		if (producer.medicine_meticorten == 'true')
+			medicineList+= '- METICORTEN TAB 50 MG C/20 \n';
+		if (producer.medicine_plaquenil == 'true')
+			medicineList+= '- PLAQUENIL 200 MG C/20 TAB \n';
+		if (producer.medicine_relvare == 'true')
+			medicineList+= '- RELVARE 200/25UCG POLVO 30 DOSIS \n';
+		if (producer.medicine_spiolto == 'true')
+			medicineList+= '- SPIOLTO 0.226MG 0.226MG SOL \n';
+		if (producer.medicine_tempra == 'true')
+			medicineList+= '- TEMPRA 650MG FORTE|TAB|24 \n';
+		if (producer.medicine_tiaminal == 'true')
+			medicineList+= '- TIAMINAL B12 TRIV AP.CAPS.C/30 \n';
+		if (producer.medicine_tylex == 'true')
+			medicineList+= '- TYLEX 750 MG C/20 TABS \n';
+		if (producer.medicine_virazide == 'true')
+			medicineList+= '- AVIRAZIDE 400 MG C/18 TABS \n';
+		if (producer.medicine_xarelto == 'true')
+			medicineList+= '- XARELTO 20MG TAB C/28 \n';
+		if (producer.medicine_zyplo == 'true')
+			medicineList+= '- ZYPLO JARABE 120 ML \n';
+		if (producer.medicine_other == 'true')
+			medicineList+= '- '+ producer.medicine_other_text +' \n';
+		if (producer.medicine_keterolaco == 'true')
+			medicineList+= '- Ketorolaco tab 10 mg \n';
+		if (producer.medicine_colchicina == 'true')
+			medicineList+= '- Colchicina tab 1 mg \n';
+		if (producer.medicine_moxifloxacino == 'true')
+			medicineList+= '- Moxifloxacino \n';
+		if (producer.medicine_loperamida == 'true')
+			medicineList+= '- Loperamida tab 2mg \n';
+		if (producer.medicine_sensibit == 'true')
+			medicineList+= '- Sensibit D NF \n';
+		if (producer.medicine_sensemoc == 'true')
+			medicineList+= '- Sensemoc (Acetilcisteína 200 mg) \n';
+		if (producer.medicine_meticorten5 == 'true')
+			medicineList+= '- Meticorten (Prednisona 5 mg) \n';
+		if (producer.medicine_alin == 'true')
+			medicineList+= '- Alin IM (Dexametasona 4 mg) \n';
+		if (producer.medicine_celestamine == 'true')
+			medicineList+= '- Celestamine NS (Loratadina/Betametasona) \n';
+		if (producer.medicine_aspirina == 'true')
+			medicineList+= '- Aspirina Protect (ASA 100) \n';
+		if (producer.medicine_dorixina == 'true')
+			medicineList+= '- Dorixina, Firac ó Sedepron 250 mgs (clonixinato de lisina) \n';
+		if (producer.medicine_malival == 'true')
+			medicineList+= '- Malival (Indometacina ) capsulas de 25 mgs \n';
+		if (producer.medicine_amoxicilina == 'true')
+			medicineList+= '- Amoxicilina/Ac Clavulanico 875/125 mg \n';
+		if (producer.medicine_tempra500 == 'true')
+			medicineList+= '- TEMPRA 500 \n';
+		if (producer.medicine_tempra750 == 'true')
+			medicineList+= '- TEMPRA 750 \n';
+    }
+	else {
+		medicineList+= 'No se entregó medicamento.';
+	}
+
+	if (producer.concentrador_de_oxigeno == 'Yes'){
+		current.u_comments = medicineList + 'Entrega de concentrador de oxígeno.';
+	}else{
+			current.u_comments = medicineList;
+	}
+		
+
+    //Redirect to Parent Record
+    var urlBack = 'x_817226_segcov_ui.do?sys_id=' + ui;
+	var urlPortal = 'x_817226_segcov_ui.do?sys_id=' + ui;
+	
+    if (!gs.hasRole('cmdb_ui_user') && !gs.hasRole('cmdb_ui_admin') && !gs.hasRole('cmdb_ui_manager') &&     !gs.hasRole('admin')) {
+        gs.addInfoMessage('Registro de entrega de Kit Covid');
+		urlBack = 'https://dev122336.service-now.com/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Da9bd63da97f05110321635dfe153afe2';
+        urlPortal = 'https://dev122336.service-now.com/sp?id=sc_cat_item&sys_id=a9bd63da97f05110321635dfe153afe2&referrer=popular_items';
+    }
+    producer.redirect = urlBack;
+	producer.portal_redirect = urlPortal;
+}
+
+function getUserItem(user) {
+
+    if (producer.user_not_found != 'true') {
+        //Look for existing record
+        var gr = new GlideRecord('x_817226_segcov_ui');
+        gr.addQuery('owned_by', user);
+        gr.addQuery('sys_class_name', 'x_817226_segcov_ui');
+        gr.query();
+        if (gr.next()) {
+            return gr.sys_id;
+        }
+    } else {
+        //check User
+        var gr2 = new GlideRecord('sys_user');
+        gr2.addQuery('u_vp', producer.department);
+        gr2.addQuery('name', producer.user_name);
+        gr2.query();
+        if (gr2.next()) {
+            var ui = new GlideRecord('x_817226_segcov_ui');
+            ui.addQuery('owned_by', gr2.sys_id);
+            ui.addQuery('sys_class_name', 'x_817226_segcov_ui');
+            ui.query();
+            if (ui.next()) {
+                return ui.sys_id;
+            }
+        }
+    }
+    return createUI();
+}
+
+function createUI() {
+
+    var ui = new GlideRecord('x_817226_segcov_ui');
+    ui.initialize();
+    ui.owned_by = producer.owned_by;
+    ui.name = producer.owned_by.getDisplayValue();
+    if (producer.user_not_found == 'true') {
+        ui.name = producer.user_name;
+        var user = checkCreateUser();
+        ui.owned_by = user;
+    }
+    ui.location = producer.location;
+    ui.department = producer.department;
+
+    //Set user field values
+    ui.u_user_location = producer.location.getDisplayValue();
+    ui.u_user_name = ui.name;
+    ui.u_user_number = producer.employee_number;
+    ui.u_user_title = producer.user_title;
+    ui.user_vicepresidency = producer.department.getDisplayValue();
+    ui.u_user_category = producer.user_category;
+
+    ui.assignment_group = '8f859f6997011110321635dfe153afc7'; // CX BSO MX Personal Medico
+    ui.comments = 'Creado por ' + gs.getUserDisplayName() + ' (' + gs.getUserName() + ') ' + 'por kit entregado en: ' + producer.location.getDisplayValue() + ' el dia ' + new GlideDateTime();
+    var uiID = ui.insert();
+    return uiID;
+}
+
+function checkCreateUser() {
+    var id = 'cxbsomx.new.' + producer.user_name;
+    var usr = new GlideAggregate('sys_user');
+    usr.addAggregate('COUNT');
+    usr.addEncodedQuery('user_nameSTARTSWITH' + id);
+    var count = 0;
+    usr.query();
+    if (usr.next()) {
+        count = usr.getAggregate('COUNT');
+        count++;
+        id += count;
+    }
+    if (producer.employee_number != '') {
+        var gr = new GlideRecord('sys_user');
+        if (!gr.get('employee_number', producer.employee_number)) {
+			return '';
+            gr.initialize();
+            gr.first_name = producer.user_name;
+            gr.employee_number = producer.employee_number;
+            gr.user_name = id;
+            gr.location = producer.location;
+            gr.department = producer.department;
+            gr.x_817226_segcov_u_vp = producer.department;
+            gr.x_817226_segcov_user_category = producer.user_category;
+            gr.title = producer.user_title.getDisplayValue();
+            gr.x_817226_segcov_u_business_unit = '2bfebe101b62d054c28b997e0d4bcbdb';
+            //var user = gr.insert();
+            //return user;
+        }
+    } else {
+        var gr2 = new GlideRecord('sys_user');
+        gr2.addQuery('x_817226_segcov_u_vp', producer.department);
+        gr2.addQuery('name', producer.user_name);
+        gr2.query();
+        if (gr2.next()) {
+            return gr2.sys_id;
+        } else {
+			return '';
+            gr2.newRecord();
+            gr2.first_name = producer.user_name;
+            gr2.employee_number = producer.employee_number;
+            gr2.user_name = id;
+            gr2.location = producer.location;
+            gr2.department = producer.department;
+            gr2.x_817226_segcov_u_vp = producer.department;
+            gr2.x_817226_segcov_user_category = producer.user_category;
+            gr2.title = producer.user_title.getDisplayValue();
+            gr2.x_817226_segcov_u_business_unit = '2bfebe101b62d054c28b997e0d4bcbdb';
+           // gr2.insert();
+            //return gr2.getUniqueValue();
+        }
+    }
+}]]></script>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-07-22 15:49:13</sys_created_on>
+        <sys_id>a9bd63da97f05110321635dfe153afe2</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Entrega de Kit COVID</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sc_cat_item_producer_a9bd63da97f05110321635dfe153afe2</sys_update_name>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-03 16:28:08</sys_updated_on>
+        <table_name>x_817226_segcov_tracking</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=a9bd63da97f05110321635dfe153afe2"/>
+    <fx_price action="delete_multiple" query="id=a9bd63da97f05110321635dfe153afe2"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="EUR">EUR</currency>
+        <field>price</field>
+        <id>a9bd63da97f05110321635dfe153afe2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-07-22 15:49:13</sys_created_on>
+        <sys_id>a16e2fda97f05110321635dfe153af4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-07-22 15:49:13</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
