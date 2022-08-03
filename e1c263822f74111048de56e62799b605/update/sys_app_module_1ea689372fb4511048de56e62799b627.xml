@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <application display_value="Seguimiento COVID">5f66eb8a2f74111048de56e62799b6fc</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Registro de Seguimiento de Caso</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=feef84ff2fb0511048de56e62799b63a</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 19:28:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ea689372fb4511048de56e62799b627</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Registro de Seguimiento de Caso</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_app_module_1ea689372fb4511048de56e62799b627</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:32:33</sys_updated_on>
+        <timeline_page/>
+        <title>Registro de Seguimiento de Caso</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

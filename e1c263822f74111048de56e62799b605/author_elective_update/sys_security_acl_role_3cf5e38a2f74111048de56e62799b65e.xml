@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 20:33:50</sys_created_on>
+        <sys_id>3cf5e38a2f74111048de56e62799b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_817226_segcov_cases.x_817226_segcov.cases_user</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_security_acl display_value="x_817226_segcov_cases">34f5e38a2f74111048de56e62799b65c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3cf5e38a2f74111048de56e62799b65e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 20:33:50</sys_updated_on>
+        <sys_user_role display_value="x_817226_segcov.cases_user" name="x_817226_segcov.cases_user">38f5eb4a2f74111048de56e62799b684</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>sys_security_acl_role_3cf5e38a2f74111048de56e62799b65e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-21 20:33:50</sys_created_on><sys_id>3cf5e38a2f74111048de56e62799b65e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_817226_segcov_cases.x_817226_segcov.cases_user</sys_name><sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package><sys_policy/><sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope><sys_security_acl display_value="x_817226_segcov_cases">34f5e38a2f74111048de56e62799b65c</sys_security_acl><sys_update_name>sys_security_acl_role_3cf5e38a2f74111048de56e62799b65e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-21 20:33:50</sys_updated_on><sys_user_role display_value="x_817226_segcov.cases_user" name="x_817226_segcov.cases_user">38f5eb4a2f74111048de56e62799b684</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>223647648</payload_hash>
+        <record_name>x_817226_segcov_cases.x_817226_segcov.cases_user</record_name>
+        <reverted_from/>
+        <source>da14ef462f74111048de56e62799b659</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 20:33:50</sys_created_on>
+        <sys_id>8df5e38a2f74111048de56e62799b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182227775660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 20:33:50</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c5f5e38ae8741110de716c883f605f60</update_guid>
+        <update_guid_history>c5f5e38ae8741110de716c883f605f60:223647648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_817226_segcov_cases.x_817226_segcov.cases_user">5f819d0a97c11110614839000153afb7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 20:01:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3b3f6cbdf5d94e94a39820aa8fac3991</sys_id>
+        <sys_metadata>3cf5e38a2f74111048de56e62799b65e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_817226_segcov_cases.x_817226_segcov.cases_user</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent display_value="x_817226_segcov_cases">34f5e38a2f74111048de56e62799b65c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_3cf5e38a2f74111048de56e62799b65e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_3cf5e38a2f74111048de56e62799b65e">8df5e38a2f74111048de56e62799b660</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 20:01:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

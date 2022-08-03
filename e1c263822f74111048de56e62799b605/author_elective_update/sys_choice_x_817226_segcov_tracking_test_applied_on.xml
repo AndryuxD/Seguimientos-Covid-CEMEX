@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="test_applied_on" table="x_817226_segcov_tracking" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>test_applied_on</element>
+            <name>x_817226_segcov_tracking</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-01 20:44:49</sys_created_on>
+            <sys_id>89f1d07997c11110614839000153afaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>test_applied_on</sys_name>
+            <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+            <sys_update_name>sys_choice_x_817226_segcov_tracking_test_applied_on</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-01 20:44:49</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>test_applied_on</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CEMEX Site</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-01 20:44:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cce1983997c11110614839000153afdf</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-01 20:45:29</sys_updated_on>
+            <value>on site</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>test_applied_on</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unidad de Negocio CEMEX</label>
+            <language>es</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-01 20:45:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73f1983997c11110614839000153afe2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-01 20:45:41</sys_updated_on>
+            <value>on site</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>test_applied_on</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hospital / Lab</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-01 20:44:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5df11cb597c11110614839000153af72</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-01 20:45:22</sys_updated_on>
+            <value>third party</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>test_applied_on</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laboratorio / Hospital Conveniado</label>
+            <language>es</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-01 20:44:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32f198f597c11110614839000153afa0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-01 20:45:39</sys_updated_on>
+            <value>third party</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_regex">
+    <question_regex action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Phone Number 10 digit</name>
+        <regex>^[0-9]{10}$</regex>
+        <regex_flag/>
+        <sys_class_name>question_regex</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 20:58:12</sys_created_on>
+        <sys_id>fc0538e62f78511048de56e62799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Phone Number 10 digit</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>question_regex_fc0538e62f78511048de56e62799b6c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 20:58:12</sys_updated_on>
+        <validation_message>Input only numbers, 10 digits</validation_message>
+    </question_regex>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc0538e62f78511048de56e62799b6c0"/>
+</record_update>

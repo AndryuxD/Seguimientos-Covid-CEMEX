@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA MX Seguimiento COVID - New Tab">94507bac2f05511048de56e62799b65b</canvas_page>
+        <name>MX Seguimiento COVID - New Tab</name>
+        <page/>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:43:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c507bac2f05511048de56e62799b65d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MX Seguimiento COVID - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>pa_tabs_5c507bac2f05511048de56e62799b65d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:43:56</sys_updated_on>
+    </pa_tabs>
+</record_update>
