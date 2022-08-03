@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>0902954a97c11110614839000153af74</sys_id>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>7a7cea1a97451110614839000153afcd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,111 +18,111 @@
             <element>user_item</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>dd02954a97c11110614839000153af74</sys_id>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>fa7cea1a97451110614839000153afcd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5102954a97c11110614839000153af75</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_suspicious</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>d102954a97c11110614839000153af75</sys_id>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>7e7cea1a97451110614839000153afcd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>closed_status</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5502954a97c11110614839000153af75</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>closed_at</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>d502954a97c11110614839000153af75</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>6</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5902954a97c11110614839000153af75</sys_id>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>fe7cea1a97451110614839000153afcd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>727cea1a97451110614839000153afce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>7</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>d902954a97c11110614839000153af75</sys_id>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>f27cea1a97451110614839000153afce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
             <sys_user/>
             <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>767cea1a97451110614839000153afce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vulnerable_cause</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>f67cea1a97451110614839000153afce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5d02954a97c11110614839000153af75</sys_id>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>7a7cea1a97451110614839000153afce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,41 +130,41 @@
             <element>substatus</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>dd02954a97c11110614839000153af75</sys_id>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>fa7cea1a97451110614839000153afce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>last_oxygenation_value</element>
+            <element>caused_by</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5102954a97c11110614839000153af76</sys_id>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>7e7cea1a97451110614839000153afce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>last_temperature_value</element>
+            <element>condition</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>d102954a97c11110614839000153af76</sys_id>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>fe7cea1a97451110614839000153afce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,209 +172,27 @@
             <element>last_score</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5502954a97c11110614839000153af76</sys_id>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>727cea1a97451110614839000153afcf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>risk</element>
-            <position>13</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>d502954a97c11110614839000153af76</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>isolated</element>
-            <position>14</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5902954a97c11110614839000153af76</sys_id>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_id>f27cea1a97451110614839000153afcf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>vulnerable_cause</element>
-            <position>15</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>d902954a97c11110614839000153af76</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>type</element>
-            <position>16</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5d02954a97c11110614839000153af76</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>17</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>dd02954a97c11110614839000153af76</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>comments</element>
-            <position>18</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5102954a97c11110614839000153af77</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>19</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>d102954a97c11110614839000153af77</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>checked_in</element>
-            <position>20</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5502954a97c11110614839000153af77</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>checked_out</element>
-            <position>21</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>d502954a97c11110614839000153af77</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>22</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5902954a97c11110614839000153af77</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>checked_duration</element>
-            <position>23</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>d902954a97c11110614839000153af77</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>condition</element>
-            <position>24</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5d02954a97c11110614839000153af77</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>caused_by</element>
-            <position>25</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>dd02954a97c11110614839000153af77</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>forecast</element>
-            <position>26</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-02 20:03:12</sys_created_on>
-            <sys_id>5102954a97c11110614839000153af78</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="global" view="Default view">f68c621c2f41111048de56e62799b6ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-02 20:03:12</sys_updated_on>
+            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -384,8 +202,8 @@
             <name>x_817226_segcov_cases</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-28 16:09:21</sys_created_on>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-02 20:45:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f68c621c2f41111048de56e62799b6ab</sys_id>
@@ -396,8 +214,8 @@
             <sys_policy/>
             <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
             <sys_update_name>sys_ui_section_f68c621c2f41111048de56e62799b6ab</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-28 16:09:21</sys_updated_on>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-02 20:45:01</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>
