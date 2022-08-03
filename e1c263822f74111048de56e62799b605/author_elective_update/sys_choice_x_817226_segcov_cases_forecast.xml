@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="forecast" table="x_817226_segcov_cases" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>forecast</element>
+            <name>x_817226_segcov_cases</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-01 16:58:29</sys_created_on>
+            <sys_id>a52edfa597011110614839000153af62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>forecast</sys_name>
+            <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+            <sys_update_name>sys_choice_x_817226_segcov_cases_forecast</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-01 16:58:29</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>forecast</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bueno</label>
+            <language>en</language>
+            <name>x_817226_segcov_cases</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-01 16:58:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8a65b2597011110614839000153af2f</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-01 16:58:45</sys_updated_on>
+            <value>bueno</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>forecast</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Con potencial de complicación</label>
+            <language>en</language>
+            <name>x_817226_segcov_cases</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-01 16:58:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>792e536997011110614839000153af53</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-01 16:59:09</sys_updated_on>
+            <value>potencial_complicacion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>forecast</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Malo</label>
+            <language>en</language>
+            <name>x_817226_segcov_cases</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-01 16:58:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>073ed3e997011110614839000153af05</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-01 16:59:17</sys_updated_on>
+            <value>malo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>forecast</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reservado</label>
+            <language>en</language>
+            <name>x_817226_segcov_cases</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-01 16:58:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>333e176997011110614839000153affa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-01 16:59:27</sys_updated_on>
+            <value>reservado</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

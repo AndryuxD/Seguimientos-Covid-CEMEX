@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA MX Seguimiento COVID - New Tab 3">4d3ff3ec2f45511048de56e62799b6bf</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2022-08-02 09:22:11">636f980a97011110614839000153af52</portal_widget>
+        <posx>0</posx>
+        <posy>15</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 16:22:11</sys_created_on>
+        <sys_id>2f6f980a97011110614839000153af53</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>4d3ff3ec2f45511048de56e62799b6bf</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_2f6f980a97011110614839000153af53</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 16:42:33</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>sys_grid_canvas_pane_2f6f980a97011110614839000153af53</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA MX Seguimiento COVID - New Tab 3">4d3ff3ec2f45511048de56e62799b6bf</grid_canvas><height>10</height><portal_widget display_value="Created 2022-08-02 09:22:11">636f980a97011110614839000153af52</portal_widget><posx>0</posx><posy>15</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-02 16:22:11</sys_created_on><sys_id>2f6f980a97011110614839000153af53</sys_id><sys_mod_count>5</sys_mod_count><sys_name>4d3ff3ec2f45511048de56e62799b6bf</sys_name><sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package><sys_policy/><sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope><sys_update_name>sys_grid_canvas_pane_2f6f980a97011110614839000153af53</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-02 16:42:33</sys_updated_on><width>6</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-119999668</payload_hash>
+        <record_name>4d3ff3ec2f45511048de56e62799b6bf</record_name>
+        <reverted_from/>
+        <source>da14ef462f74111048de56e62799b659</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 16:42:33</sys_created_on>
+        <sys_id>8214684e97011110614839000153af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1825f7008470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 16:42:33</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>4214ec0ee60111101641fb54f21b4404</update_guid>
+        <update_guid_history>4214ec0ee60111101641fb54f21b4404:-119999668,9d13240e1b011110bc9155ba757b4547:-1773518479,9b03eccaa101111072551c3bce78ceee:-119999668,637f980aa70111102944d118d2295961:-1773518479,7d7f980a1a0111107b2b3b53514734c5:-210514388,236f980ac90111103a69892d97807b55:1115563201</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 16:42:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>0fcfceb7c1aa4968987fd27c89c6f491</sys_id>
+        <sys_metadata>2f6f980a97011110614839000153af53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4d3ff3ec2f45511048de56e62799b6bf</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_2f6f980a97011110614839000153af53</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_2f6f980a97011110614839000153af53">8214684e97011110614839000153af13</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 16:42:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_publisher">
+    <sys_ui_hp_publisher action="INSERT_OR_UPDATE">
+        <allow_database_view_filter>false</allow_database_view_filter>
+        <allow_extended_table>false</allow_extended_table>
+        <boolean_field/>
+        <boolean_table/>
+        <date_filter/>
+        <default_boolean_field/>
+        <default_choice/>
+        <default_date_filter/>
+        <default_reference_field_value/>
+        <description/>
+        <exclusion_choice_list/>
+        <look_up_name>BSO MX Vicepresidencia</look_up_name>
+        <name>Vicepresidencia</name>
+        <reference_conditions table="cmn_department">business_unit=52e8b3282f45511048de56e62799b682<item display_table="business_unit" display_value="Mexico" endquery="false" field="business_unit" goto="false" newquery="false" operator="=" or="false" value="52e8b3282f45511048de56e62799b682"/>
+        </reference_conditions>
+        <reference_table>cmn_department</reference_table>
+        <remove_all_option>false</remove_all_option>
+        <source_field/>
+        <source_table/>
+        <sys_class_name>sys_ui_hp_publisher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 16:24:47</sys_created_on>
+        <sys_id>17897f282f45511048de56e62799b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vicepresidencia</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_ui_hp_publisher_17897f282f45511048de56e62799b609</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 16:24:47</sys_updated_on>
+        <type>2</type>
+        <ui_control_type>4</ui_control_type>
+    </sys_ui_hp_publisher>
+</record_update>

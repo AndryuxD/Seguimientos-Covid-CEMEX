@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>User Items</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_817226_segcov_ui</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_817226_segcov.user_item_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 20:32:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1952f4a2f74111048de56e62799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_app_module_d1952f4a2f74111048de56e62799b6c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 20:32:14</sys_updated_on>
+        <timeline_page/>
+        <title>User Items</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>sys_app_module_d1952f4a2f74111048de56e62799b6c0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>User Items</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_817226_segcov_ui</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_817226_segcov.user_item_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-21 20:32:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d1952f4a2f74111048de56e62799b6c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Items</sys_name><sys_overrides/><sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package><sys_policy/><sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope><sys_update_name>sys_app_module_d1952f4a2f74111048de56e62799b6c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-21 20:32:14</sys_updated_on><timeline_page/><title>User Items</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>434998407</payload_hash>
+        <record_name>User Items</record_name>
+        <reverted_from/>
+        <source>da14ef462f74111048de56e62799b659</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-28 20:05:37</sys_created_on>
+        <sys_id>0ca2e7502f45111048de56e62799b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182466a25e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-28 20:05:37</sys_updated_on>
+        <type>Module</type>
+        <update_guid>48a2e750c34511102ed4edeefbfca0ff</update_guid>
+        <update_guid_history>48a2e750c34511102ed4edeefbfca0ff:0,e9952f4a257411108669e63a237fb1c2:-1857316207</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="User Items">c5c2eb502f45111048de56e62799b65c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-28 20:06:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3a3a285a254f4488afdb7cc076762b90</sys_id>
+        <sys_metadata>d1952f4a2f74111048de56e62799b6c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Items</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>sys_app_module_d1952f4a2f74111048de56e62799b6c0</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d1952f4a2f74111048de56e62799b6c0">0ca2e7502f45111048de56e62799b6ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-28 20:06:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

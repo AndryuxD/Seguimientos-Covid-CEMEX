@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Registro de Cerco Sanitario</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>true</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=e88d63562f74511048de56e62799b675&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[if(producer.seguimiento_de_caso == 'true'){
+	seguimientoCaso();
+}else{
+	cercoSanitario();
+}
+
+function seguimientoCaso() {
+	//producer.patient = reference from user cases table
+	var c_array = checkCaseData(producer.patient);
+	createHistory(c_array[0],c_array[1]);
+
+}
+
+function createRecord() {
+	//If there's not user item related to the producer.owned_by (sys_user) it creates an user item and always gets an id
+	var ui_id = createUserItem(producer.owned_by);
+
+	//If the last case is open gets an id, if not then gets null 
+	var c_id = checkCaseStatus(ui_id);
+	
+	//If the person has no symptoms and if there's no case opened
+	if(producer.semaphore == 'green' && c_id == null){
+		//Just create a history and relate it to the user item's table
+		createHistory(ui_id,null);
+	}else{
+		//Create a case, a history, relate history to the case, and the case to the user item's table
+		c_id = createNewCase(ui_id);
+		createHistory(ui_id,c_id);
+
+	}
+
+}
+
+function createUserItem(user) {
+	//querys if there's an existing record with that user, if not then creates a new one and return the ID, if yes then just return its ID
+	var gr = new GlideRecord('x_817226_segcov_ui');
+	gr.addQuery('user', user);
+	gr.query();
+	if (gr.next()) {
+		return gr.sys_id;
+	}else{
+		var gr_ui = new GlideRecord('x_817226_segcov_ui');
+		gr_ui.initialize();
+		gr_ui.user = producer.owned_by;
+		var gr_ui_ID = gr_ui.insert();
+		return gr_ui_ID;
+	}
+}
+
+function checkCaseData(c_id){
+	var gr_c = new GlideRecord('x_817226_segcov_cases');
+	gr_c.addQuery('sys_id', c_id);
+	gr_c.addQuery('type', "not_vulnerable");
+	gr_c.orderByDesc('sys_created_on');
+	gr_c.setLimit(1);
+	gr_c.query();
+	if (gr_c.next()) {
+		var array = [];
+		array[0] = gr.user_item;
+		array[1] = gr.sys_id;
+		return array;
+	}
+	return null;
+}
+
+function checkCaseStatus(user){
+	var gr_c = new GlideRecord('x_817226_segcov_cases');
+	gr_c.addQuery('user_item', user);
+	gr_c.addQuery('type', "not_vulnerable");
+	gr_c.orderByDesc('sys_created_on');
+	gr_c.setLimit(1);
+	gr_c.query();
+	if (gr_c.next()) {
+		if(gr.status != 6){
+			return gr.sys_id;
+		}
+	}
+	return null;
+}
+
+function createNewCase(user){
+	var gr_c = new GlideRecord('x_817226_segcov_cases');
+	gr_c.initialize();
+	gr_c.user_item = user;
+	gr_c.type = "not_vulnerable";
+	//gr_h.assigned_to = producer.user_medic; For review or checking
+	var comments = producer.comments;
+	if (producer.contact_with_positive == 'true')
+		comments += 'Contacto con positivo: ' + producer.contact_user;
+	if (producer.contact_with_suspect == 'true')
+		comments += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
+	gr_c.comments = comments;
+	gr_c.risk = 3;
+	gr_c.last_temperature_value = producer.temperature;
+	gr_c.last_score = producer.score;
+	gr_c.active = true;
+	
+	gr_c.status = 4; //4=sospechoso, 1=positivo
+	gr_c.substatus = 99; // 99=sospechoso por sintomas
+	if (producer.contact_with_suspect == 'true' || producer.contact_with_positive == 'true')
+		gr_c.substatus = 3; //3=sospechoso por contacto
+	gr_c.date_suspicious = new GlideDateTime();
+	gr_c.assigned_to = producer.user_medic;
+	var info = producer.comments + '\n';
+	info += 'Ubicacion: ' + producer.state + ', '+ producer.location.getDisplayValue();
+	if (producer.contact_with_positive == 'true')
+		info += 'Contacto con positivo: ' + producer.contact_user;
+	if (producer.contact_with_suspect == 'true')
+		info += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
+	current.comments = info;
+	
+	return gr_c.insert();
+}
+
+function createHistory (ui_id,c_id){
+	//creates a history based on the "is_case" variable which means if is a history related to a case or a user item
+	if(c_id != null){
+		current['case'] = c_id;
+	}
+	current.owned_by = ui_id;
+	current.score = producer.score;
+	current.risk = 3;
+	if(producer.semaphore == "green"){
+		current.risk = 4;
+	}
+	current.supported_by = producer.user_medic;
+
+	var info = producer.comments + '\n';
+	info += 'Ubicacion: ' + producer.state + ', '+ producer.location.getDisplayValue();
+	if (producer.contact_with_positive == 'true')
+		info += 'Contacto con positivo: ' + producer.contact_user;
+	if (producer.contact_with_suspect == 'true')
+		info += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
+	current.comments = info;
+
+    if (!gs.hasRole('x_817226_segcov.admin') || !gs.hasRole('admin')) {
+        gs.addInfoMessage('Cerco Sanitario registrado correctamente');
+		producer.redirect = 'com.glideapp.servicecatalog_cat_item_view.do?v=1&sysparm_id=e88d63562f74511048de56e62799b675';
+    }
+}]]></script>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 15:49:43</sys_created_on>
+        <sys_id>e88d63562f74511048de56e62799b675</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>Registro de Cerco Sanitario</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sc_cat_item_producer_e88d63562f74511048de56e62799b675</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-28 23:01:34</sys_updated_on>
+        <table_name>x_817226_segcov_history</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=e88d63562f74511048de56e62799b675"/>
+    <fx_price action="delete_multiple" query="id=e88d63562f74511048de56e62799b675"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>e88d63562f74511048de56e62799b675</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 15:49:43</sys_created_on>
+        <sys_id>388ee3162f74511048de56e62799b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 15:49:43</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
