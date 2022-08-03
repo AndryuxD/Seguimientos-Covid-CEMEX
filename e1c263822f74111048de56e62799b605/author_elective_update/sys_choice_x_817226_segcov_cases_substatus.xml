@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:46:33</sys_created_on>
-            <sys_id>09540c962ff4111048de56e62799b6a4</sys_id>
+            <sys_id>d21d239a97f05110321635dfe153afb3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>substatus</sys_name>
             <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
@@ -26,7 +26,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:47:10</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -47,7 +46,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:47:14</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -68,7 +66,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:47:01</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -89,7 +86,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:46:57</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -110,7 +106,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:46:45</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -131,7 +126,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:46:33</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -152,7 +146,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:48:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -173,7 +166,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:48:36</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -194,7 +186,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:47:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -215,7 +206,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:47:26</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -236,7 +226,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:48:13</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -257,7 +246,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:48:17</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -278,7 +266,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:48:25</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -299,7 +286,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:48:29</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -320,7 +306,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:49:03</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -341,7 +326,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:49:08</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -362,7 +346,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:51:50</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -383,7 +366,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:52:03</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -404,7 +386,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:51:21</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -425,7 +406,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:51:25</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -446,7 +426,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:50:55</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -467,7 +446,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-21 22:50:51</sys_created_on>
             <sys_domain>global</sys_domain>

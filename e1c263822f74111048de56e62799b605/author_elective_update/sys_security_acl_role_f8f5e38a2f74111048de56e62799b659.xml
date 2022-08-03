@@ -42,7 +42,7 @@
         <update_guid_history>b4f5e38a7b7411105909805810448c5b:1594839261</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_817226_segcov_cases.x_817226_segcov.cases_user">d3819d0a97c11110614839000153afc3</sys_audit_delete>
+        <sys_audit_delete display_value="">d3819d0a97c11110614839000153afc3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-02 20:01:09</sys_created_on>

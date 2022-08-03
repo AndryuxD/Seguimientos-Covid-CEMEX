@@ -52,7 +52,7 @@
         <update_guid_history>66bbc9ae07b85110e46cb7109fd5307c:1119914382,715bcd6ef2b85110150b40e8d075c34c:-1596423130,a6c50de60eb851107c54fceca132e4d9:1941357104,875fe3561b7451109a64bf3aa6b50276:-1596423130</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Seguimiento COVID">7e1497572f30111048de56e62799b653</sys_audit_delete>
+        <sys_audit_delete display_value="">7e1497572f30111048de56e62799b653</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-25 16:28:16</sys_created_on>

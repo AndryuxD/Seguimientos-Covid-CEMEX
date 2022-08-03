@@ -42,7 +42,7 @@
         <update_guid_history>a5952f4a46741110f55d96c5669e59db:-1897231409</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_817226_segcov_ui.x_817226_segcov.user_item_user">1492118a97c11110614839000153af5a</sys_audit_delete>
+        <sys_audit_delete display_value="">1492118a97c11110614839000153af5a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-02 20:05:36</sys_created_on>

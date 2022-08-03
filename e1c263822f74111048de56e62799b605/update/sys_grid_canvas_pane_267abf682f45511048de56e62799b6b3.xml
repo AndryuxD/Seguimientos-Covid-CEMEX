@@ -2,7 +2,7 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA MX Seguimiento COVID - New Tab">4075fbe02f45511048de56e62799b628</grid_canvas>
         <height>4</height>
-        <portal_widget display_value="Created 2022-07-29 09:28:19">2a7abf682f45511048de56e62799b6b0</portal_widget>
+        <portal_widget display_value="">2a7abf682f45511048de56e62799b6b0</portal_widget>
         <posx>4</posx>
         <posy>0</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>

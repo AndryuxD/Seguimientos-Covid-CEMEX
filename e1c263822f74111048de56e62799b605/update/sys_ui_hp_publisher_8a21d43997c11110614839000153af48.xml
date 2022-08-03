@@ -13,8 +13,8 @@
         <exclusion_choice_list/>
         <look_up_name>C19 Lugar de Prueba</look_up_name>
         <name>Prueba aplicada en</name>
-        <reference_conditions table="x_817226_segcov_tracking">complimetary_study=2cfb92982f01111048de56e62799b65d^ORcomplimetary_study=ae2c1a982f01111048de56e62799b6ac<item display_table="x_817226_segcov_choices" display_value="PCR" endquery="false" field="complimetary_study" goto="false" newquery="false" operator="=" or="false" value="2cfb92982f01111048de56e62799b65d"/>
-            <item display_table="x_817226_segcov_choices" display_value="Prueba de antígeno para SARS-COV-2" endquery="false" field="complimetary_study" goto="false" newquery="false" operator="=" or="true" value="ae2c1a982f01111048de56e62799b6ac"/>
+        <reference_conditions table="x_817226_segcov_tracking">complimetary_study=2cfb92982f01111048de56e62799b65d^ORcomplimetary_study=ae2c1a982f01111048de56e62799b6ac<item endquery="false" field="complimetary_study" goto="false" newquery="false" operator="=" or="false" value="2cfb92982f01111048de56e62799b65d"/>
+            <item endquery="false" field="complimetary_study" goto="false" newquery="false" operator="=" or="true" value="ae2c1a982f01111048de56e62799b6ac"/>
         </reference_conditions>
         <reference_table>x_817226_segcov_tracking</reference_table>
         <remove_all_option>false</remove_all_option>

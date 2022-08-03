@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 16:17:10</sys_created_on>
-            <sys_id>5cb49b6197011110614839000153af21</sys_id>
+            <sys_id>3117921297451110321635dfe153afdd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>condition</sys_name>
             <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
@@ -26,7 +26,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence>1</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 16:17:10</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -47,7 +46,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence>1</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 16:17:48</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -68,7 +66,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence>2</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 16:18:13</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -89,7 +86,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence>2</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 16:18:18</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -110,7 +106,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence>3</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 16:17:26</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -131,7 +126,6 @@
             <name>x_817226_segcov_cases</name>
             <sequence>3</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 16:17:50</sys_created_on>
             <sys_domain>global</sys_domain>

@@ -13,7 +13,7 @@
         <exclusion_choice_list/>
         <look_up_name>BSO MX Vicepresidencia</look_up_name>
         <name>Vicepresidencia</name>
-        <reference_conditions table="cmn_department">business_unit=52e8b3282f45511048de56e62799b682<item display_table="business_unit" display_value="Mexico" endquery="false" field="business_unit" goto="false" newquery="false" operator="=" or="false" value="52e8b3282f45511048de56e62799b682"/>
+        <reference_conditions table="cmn_department">business_unit=52e8b3282f45511048de56e62799b682<item endquery="false" field="business_unit" goto="false" newquery="false" operator="=" or="false" value="52e8b3282f45511048de56e62799b682"/>
         </reference_conditions>
         <reference_table>cmn_department</reference_table>
         <remove_all_option>false</remove_all_option>

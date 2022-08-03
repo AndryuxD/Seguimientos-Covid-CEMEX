@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-08-03 20:22:17">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-02 20:33:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38f8d9ce97c11110321635dfe153afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Seguimiento Usuarios - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_portal_page_38f8d9ce97c11110321635dfe153afb0</sys_update_name>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-02 20:33:29</sys_updated_on>
+        <title>PA Seguimiento Usuarios - New Tab</title>
+        <user/>
+        <view>pa_seguimiento_usuarios_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Seguimiento Usuarios - New Tab">38f8d9ce97c11110321635dfe153afb0</page>
+                <summary>Personal vulnerable por Status de Salud</summary>
+                <sys_created_by>salvador.centenotéllez</sys_created_by>
+                <sys_created_on>2022-08-02 21:42:32</sys_created_on>
+                <sys_id>10c8e9ce97051110321635dfe153af9e</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                <sys_updated_on>2022-08-02 21:46:02</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-08-02 21:42:32">10c8e9ce97051110321635dfe153af9e</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:42:32</sys_created_on>
+                        <sys_id>18c8e9ce97051110321635dfe153af9e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:42:32</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-08-02 21:42:32">10c8e9ce97051110321635dfe153af9e</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:42:32</sys_created_on>
+                        <sys_id>90c8e9ce97051110321635dfe153af9e</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:46:02</sys_updated_on>
+                        <value>6389a58e97051110321635dfe153af88</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-08-02 21:42:32">10c8e9ce97051110321635dfe153af9e</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:42:32</sys_created_on>
+                        <sys_id>9cc8e9ce97051110321635dfe153af9e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:42:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-08-02 21:42:32">10c8e9ce97051110321635dfe153af9e</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:42:32</sys_created_on>
+                        <sys_id>d8c8e9ce97051110321635dfe153af9e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:42:32</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-08-02 21:42:32">10c8e9ce97051110321635dfe153af9e</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:42:32</sys_created_on>
+                        <sys_id>dcc8adce97051110321635dfe153afd3</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:46:02</sys_updated_on>
+                        <value>Personal vulnerable por Status de Salud</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Seguimiento Usuarios - New Tab">38f8d9ce97c11110321635dfe153afb0</page>
+                <summary>Personal vulnerable por Vicepresidencia</summary>
+                <sys_created_by>salvador.centenotéllez</sys_created_by>
+                <sys_created_on>2022-08-02 21:25:19</sys_created_on>
+                <sys_id>1cd4adca97051110321635dfe153af5c</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                <sys_updated_on>2022-08-02 21:33:58</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-08-02 21:25:19">1cd4adca97051110321635dfe153af5c</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:25:19</sys_created_on>
+                        <sys_id>14d4adca97051110321635dfe153af5d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:25:19</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-08-02 21:25:19">1cd4adca97051110321635dfe153af5c</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:25:19</sys_created_on>
+                        <sys_id>5cd4adca97051110321635dfe153af5d</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:33:58</sys_updated_on>
+                        <value>Personal vulnerable por Vicepresidencia</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-08-02 21:25:19">1cd4adca97051110321635dfe153af5c</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:25:19</sys_created_on>
+                        <sys_id>98d4adca97051110321635dfe153af5d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:25:19</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-08-02 21:25:19">1cd4adca97051110321635dfe153af5c</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:25:19</sys_created_on>
+                        <sys_id>9cd4adca97051110321635dfe153af5c</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:33:58</sys_updated_on>
+                        <value>fec6a90e97051110321635dfe153afb4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-08-02 21:25:19">1cd4adca97051110321635dfe153af5c</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:25:19</sys_created_on>
+                        <sys_id>d4d4adca97051110321635dfe153af5d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:25:19</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Seguimiento Usuarios - New Tab">38f8d9ce97c11110321635dfe153afb0</page>
+                <summary>Personal vulnerable por Medico Asignado</summary>
+                <sys_created_by>salvador.centenotéllez</sys_created_by>
+                <sys_created_on>2022-08-02 21:35:14</sys_created_on>
+                <sys_id>25176d4e97051110321635dfe153afe7</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                <sys_updated_on>2022-08-02 21:41:01</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-08-02 21:35:14">25176d4e97051110321635dfe153afe7</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:35:14</sys_created_on>
+                        <sys_id>2d176d4e97051110321635dfe153afe7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:35:14</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-08-02 21:35:14">25176d4e97051110321635dfe153afe7</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:35:14</sys_created_on>
+                        <sys_id>65176d4e97051110321635dfe153afe8</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:41:01</sys_updated_on>
+                        <value>Personal vulnerable por Medico Asignado</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-08-02 21:35:14">25176d4e97051110321635dfe153afe7</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:35:14</sys_created_on>
+                        <sys_id>a1176d4e97051110321635dfe153afe8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:35:14</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-08-02 21:35:14">25176d4e97051110321635dfe153afe7</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:35:14</sys_created_on>
+                        <sys_id>a5176d4e97051110321635dfe153afe7</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:41:01</sys_updated_on>
+                        <value>fd68a58e97051110321635dfe153af6c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-08-02 21:35:14">25176d4e97051110321635dfe153afe7</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:35:14</sys_created_on>
+                        <sys_id>ed176d4e97051110321635dfe153afe7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:35:14</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Seguimiento Usuarios - New Tab">38f8d9ce97c11110321635dfe153afb0</page>
+                <summary>Personal de baja</summary>
+                <sys_created_by>salvador.centenotéllez</sys_created_by>
+                <sys_created_on>2022-08-02 20:53:22</sys_created_on>
+                <sys_id>408d910697051110321635dfe153afee</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                <sys_updated_on>2022-08-02 20:55:03</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-08-02 20:53:22">408d910697051110321635dfe153afee</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:53:22</sys_created_on>
+                        <sys_id>0c8d910697051110321635dfe153afee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:53:22</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-08-02 20:53:22">408d910697051110321635dfe153afee</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:53:22</sys_created_on>
+                        <sys_id>488d910697051110321635dfe153afee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:53:22</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-08-02 20:53:22">408d910697051110321635dfe153afee</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:53:22</sys_created_on>
+                        <sys_id>808d910697051110321635dfe153afef</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:55:03</sys_updated_on>
+                        <value>Personal de baja</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-08-02 20:53:22">408d910697051110321635dfe153afee</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:53:22</sys_created_on>
+                        <sys_id>c08d910697051110321635dfe153afee</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:55:03</sys_updated_on>
+                        <value>b8ed990697051110321635dfe153af95</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-08-02 20:53:22">408d910697051110321635dfe153afee</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:53:22</sys_created_on>
+                        <sys_id>cc8d910697051110321635dfe153afee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:53:22</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Seguimiento Usuarios - New Tab">38f8d9ce97c11110321635dfe153afb0</page>
+                <summary>Personal vulnerable operando</summary>
+                <sys_created_by>salvador.centenotéllez</sys_created_by>
+                <sys_created_on>2022-08-02 21:12:57</sys_created_on>
+                <sys_id>7ef1ad0a97051110321635dfe153afe9</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                <sys_updated_on>2022-08-02 21:14:22</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-08-02 21:12:57">7ef1ad0a97051110321635dfe153afe9</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:12:57</sys_created_on>
+                        <sys_id>36f1ad0a97051110321635dfe153afeb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:12:57</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-08-02 21:12:57">7ef1ad0a97051110321635dfe153afe9</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:12:57</sys_created_on>
+                        <sys_id>72f1ad0a97051110321635dfe153afeb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:12:57</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-08-02 21:12:57">7ef1ad0a97051110321635dfe153afe9</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:12:57</sys_created_on>
+                        <sys_id>bef1ad0a97051110321635dfe153afea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:12:57</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-08-02 21:12:57">7ef1ad0a97051110321635dfe153afe9</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:12:57</sys_created_on>
+                        <sys_id>f2f1ad0a97051110321635dfe153afea</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:14:22</sys_updated_on>
+                        <value>2342e14a97051110321635dfe153afcf</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-08-02 21:12:57">7ef1ad0a97051110321635dfe153afe9</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:12:57</sys_created_on>
+                        <sys_id>f6f1ad0a97051110321635dfe153afeb</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:14:22</sys_updated_on>
+                        <value>Personal vulnerable operando</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Seguimiento Usuarios - New Tab">38f8d9ce97c11110321635dfe153afb0</page>
+                <summary>Personal no operando</summary>
+                <sys_created_by>salvador.centenotéllez</sys_created_by>
+                <sys_created_on>2022-08-02 20:49:20</sys_created_on>
+                <sys_id>819cdd8297051110321635dfe153af8b</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                <sys_updated_on>2022-08-02 20:51:25</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-08-02 20:49:20">819cdd8297051110321635dfe153af8b</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:49:20</sys_created_on>
+                        <sys_id>099cdd8297051110321635dfe153af8b</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:51:25</sys_updated_on>
+                        <value>af0d11c297051110321635dfe153af3b</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-08-02 20:49:20">819cdd8297051110321635dfe153af8b</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:49:21</sys_created_on>
+                        <sys_id>0d9cdd8297051110321635dfe153af8c</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:51:25</sys_updated_on>
+                        <value>Personal no operando</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-08-02 20:49:20">819cdd8297051110321635dfe153af8b</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:49:21</sys_created_on>
+                        <sys_id>499cdd8297051110321635dfe153af8c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:49:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-08-02 20:49:20">819cdd8297051110321635dfe153af8b</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:49:21</sys_created_on>
+                        <sys_id>859cdd8297051110321635dfe153af8c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:49:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-08-02 20:49:20">819cdd8297051110321635dfe153af8b</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:49:21</sys_created_on>
+                        <sys_id>c19cdd8297051110321635dfe153af8c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:49:21</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Seguimiento Usuarios - New Tab">38f8d9ce97c11110321635dfe153afb0</page>
+                <summary>Personal reincorporado</summary>
+                <sys_created_by>salvador.centenotéllez</sys_created_by>
+                <sys_created_on>2022-08-02 21:15:18</sys_created_on>
+                <sys_id>d582a94a97051110321635dfe153af5e</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                <sys_updated_on>2022-08-02 21:16:45</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-08-02 21:15:18">d582a94a97051110321635dfe153af5e</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:15:18</sys_created_on>
+                        <sys_id>1982a94a97051110321635dfe153af5f</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:16:45</sys_updated_on>
+                        <value>Personal reincorporado</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-08-02 21:15:18">d582a94a97051110321635dfe153af5e</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:15:18</sys_created_on>
+                        <sys_id>5582a94a97051110321635dfe153af5f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:15:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-08-02 21:15:18">d582a94a97051110321635dfe153af5e</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:15:18</sys_created_on>
+                        <sys_id>5982a94a97051110321635dfe153af5e</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:16:45</sys_updated_on>
+                        <value>26d2a94a97051110321635dfe153afcf</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-08-02 21:15:18">d582a94a97051110321635dfe153af5e</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:15:18</sys_created_on>
+                        <sys_id>9182a94a97051110321635dfe153af5f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:15:18</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-08-02 21:15:18">d582a94a97051110321635dfe153af5e</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:15:18</sys_created_on>
+                        <sys_id>dd82a94a97051110321635dfe153af5e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:15:18</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Seguimiento Usuarios - New Tab">38f8d9ce97c11110321635dfe153afb0</page>
+                <summary>Personal vulnerable por Status</summary>
+                <sys_created_by>salvador.centenotéllez</sys_created_by>
+                <sys_created_on>2022-08-02 20:35:02</sys_created_on>
+                <sys_id>e34959ce97c11110321635dfe153af8a</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                <sys_updated_on>2022-08-02 20:47:40</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-08-02 20:35:02">e34959ce97c11110321635dfe153af8a</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:35:02</sys_created_on>
+                        <sys_id>2f49510297051110321635dfe153afe6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:35:02</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-08-02 20:35:02">e34959ce97c11110321635dfe153af8a</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:35:02</sys_created_on>
+                        <sys_id>6749510297051110321635dfe153afe7</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:47:40</sys_updated_on>
+                        <value>Personal vulnerable por Status</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-08-02 20:35:02">e34959ce97c11110321635dfe153af8a</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:35:02</sys_created_on>
+                        <sys_id>a349510297051110321635dfe153afe7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:35:02</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-08-02 20:35:02">e34959ce97c11110321635dfe153af8a</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:35:02</sys_created_on>
+                        <sys_id>eb4959ce97c11110321635dfe153af8a</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:47:40</sys_updated_on>
+                        <value>643c11c297051110321635dfe153afbc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-08-02 20:35:02">e34959ce97c11110321635dfe153af8a</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 20:35:02</sys_created_on>
+                        <sys_id>ef49510297051110321635dfe153afe6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 20:35:02</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Seguimiento Usuarios - New Tab">38f8d9ce97c11110321635dfe153afb0</page>
+                <summary>Causas de vulnerabilidad</summary>
+                <sys_created_by>salvador.centenotéllez</sys_created_by>
+                <sys_created_on>2022-08-02 21:46:35</sys_created_on>
+                <sys_id>efa969ce97051110321635dfe153af3b</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                <sys_updated_on>2022-08-02 21:48:12</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-08-02 21:46:35">efa969ce97051110321635dfe153af3b</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:46:35</sys_created_on>
+                        <sys_id>23a969ce97051110321635dfe153af3d</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:48:12</sys_updated_on>
+                        <value>Causas de vulnerabilidad</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-08-02 21:46:35">efa969ce97051110321635dfe153af3b</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:46:35</sys_created_on>
+                        <sys_id>63a969ce97051110321635dfe153af3c</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:48:12</sys_updated_on>
+                        <value>5f0aedce97051110321635dfe153af4f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-08-02 21:46:35">efa969ce97051110321635dfe153af3b</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:46:35</sys_created_on>
+                        <sys_id>6fa969ce97051110321635dfe153af3c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:46:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-08-02 21:46:35">efa969ce97051110321635dfe153af3b</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:46:35</sys_created_on>
+                        <sys_id>aba969ce97051110321635dfe153af3c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:46:35</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-08-02 21:46:35">efa969ce97051110321635dfe153af3b</portal_section>
+                        <sys_created_by>salvador.centenotéllez</sys_created_by>
+                        <sys_created_on>2022-08-02 21:46:35</sys_created_on>
+                        <sys_id>e7a969ce97051110321635dfe153af3c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+                        <sys_updated_on>2022-08-02 21:46:35</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
