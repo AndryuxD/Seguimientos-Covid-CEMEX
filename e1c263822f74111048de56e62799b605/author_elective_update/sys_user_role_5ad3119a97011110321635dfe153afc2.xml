@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_817226_segcov.cmdb_ui_admin</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>cmdb_ui_admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-03 14:49:54</sys_created_on>
+        <sys_id>5ad3119a97011110321635dfe153afc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_817226_segcov.cmdb_ui_admin</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_user_role_5ad3119a97011110321635dfe153afc2</sys_update_name>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-03 14:49:54</sys_updated_on>
+    </sys_user_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>7c67cc5edb910d101b813feb689619da</instance_id>
+        <instance_name>dev122336</instance_name>
+        <name>sys_user_role_5ad3119a97011110321635dfe153afc2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_817226_segcov.cmdb_ui_admin</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>cmdb_ui_admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-03 14:49:54</sys_created_on>
+        <sys_id>5ad3119a97011110321635dfe153afc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_817226_segcov.cmdb_ui_admin</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_user_role_5ad3119a97011110321635dfe153afc2</sys_update_name>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-03 14:49:54</sys_updated_on>
+    </sys_user_role>
+</record_update>]]></payload>
+        <payload_hash>-237104533</payload_hash>
+        <record_name>x_817226_segcov.cmdb_ui_admin</record_name>
+        <reverted_from/>
+        <source>7edf929a97451110321635dfe153afef</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-03 20:22:05</sys_created_on>
+        <sys_id>27ef5e9a97451110321635dfe153afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182655f616b0000001</sys_recorded_at>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-03 20:22:05</sys_updated_on>
+        <type>Role</type>
+        <update_guid>63ef5e9a4f451110e7a217af224decec</update_guid>
+        <update_guid_history>63ef5e9a4f451110e7a217af224decec:0,92071edea50511102244a8e7a7b9e207:-1211372465,f0d3dadad3051110d625163cc32b2179:0,40bf061634051110ebf4bc82f779971d:-1211372465,21e3d996300111104ca8d8edf27e2234:-385850045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_817226_segcov.cmdb_ui_admin">f1f26e9e97451110321635dfe153afbc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-03 20:35:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>3f4497ebfe6342969e0895e62e85ba44</sys_id>
+        <sys_metadata>5ad3119a97011110321635dfe153afc2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_817226_segcov.cmdb_ui_admin</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>sys_user_role_5ad3119a97011110321635dfe153afc2</sys_update_name>
+        <sys_update_version display_value="sys_user_role_5ad3119a97011110321635dfe153afc2">27ef5e9a97451110321635dfe153afec</sys_update_version>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-03 20:35:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

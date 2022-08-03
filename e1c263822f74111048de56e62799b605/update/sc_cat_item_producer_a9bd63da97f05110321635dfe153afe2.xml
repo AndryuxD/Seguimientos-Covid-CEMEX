@@ -187,7 +187,7 @@ function createRecord() {
     var urlBack = 'x_817226_segcov_ui.do?sys_id=' + ui;
 	var urlPortal = 'x_817226_segcov_ui.do?sys_id=' + ui;
 	
-    if (!gs.hasRole('cmdb_ui_user') && !gs.hasRole('cmdb_ui_admin') && !gs.hasRole('cmdb_ui_manager') &&     !gs.hasRole('admin')) {
+    if (!gs.hasRole('x_817226_segcov.user') && !gs.hasRole('x_817226_segcov.admin') && !gs.hasRole('x_817226_segcov.manager') &&  !gs.hasRole('admin')) {
         gs.addInfoMessage('Registro de entrega de Kit Covid');
 		urlBack = 'https://dev122336.service-now.com/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Da9bd63da97f05110321635dfe153afe2';
         urlPortal = 'https://dev122336.service-now.com/sp?id=sc_cat_item&sys_id=a9bd63da97f05110321635dfe153afe2&referrer=popular_items';
@@ -315,14 +315,14 @@ function checkCreateUser() {
         <sys_created_by>salvador.centenotéllez</sys_created_by>
         <sys_created_on>2022-07-22 15:49:13</sys_created_on>
         <sys_id>a9bd63da97f05110321635dfe153afe2</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Entrega de Kit COVID</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sc_cat_item_producer_a9bd63da97f05110321635dfe153afe2</sys_update_name>
         <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-        <sys_updated_on>2022-08-03 16:28:08</sys_updated_on>
+        <sys_updated_on>2022-08-03 20:37:14</sys_updated_on>
         <table_name>x_817226_segcov_tracking</table_name>
         <taxonomy_topic/>
         <template/>
