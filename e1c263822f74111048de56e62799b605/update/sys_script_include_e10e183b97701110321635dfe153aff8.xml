@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_817226_segcov.cxServiceCatalogAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>General client-script functions</description>
+        <name>cxServiceCatalogAjax</name>
+        <script><![CDATA[var cxServiceCatalogAjax = Class.create();
+cxServiceCatalogAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    getRecordInfo: function() {
+        /*Input Parameters: 
+        1. table: related Table to query from
+        2. table_sys_id: related record's sys_id
+        3. fields: array of fields to return
+        */
+        var tableName = this.getParameter('sysparm_table');
+        var table_sys_id = this.getParameter('sysparm_table_sys_id');
+        var fields = this.getParameter('sysparm_fields');
+        var lookupField = this.getParameter('sysparm_lookup_field');
+		
+		if (lookupField === null) 
+            lookupField = 'sys_id';
+		
+        var fieldsArray = fields.toString().split(',');
+
+        //Get related record
+        var gr = new GlideRecord(tableName);
+        if (gr.get(lookupField, table_sys_id)) {
+            //generate object with requested fields
+            var result = {};
+            var resultArray = [];
+            var len = fieldsArray.length;
+            for (var i = 0; i < len; i++) {
+                var fieldName = fieldsArray[i];          
+				var fieldValue = gr.getElement(fieldName); //to accept fields with dot walk, i.e. contact.name
+				//var fieldValue = gr[fieldName].toString();
+                result[fieldName] = fieldValue.toString();
+            }
+
+            return JSON.stringify(result);
+
+        }
+		else {
+			return JSON.stringify('not_found');
+		}
+		
+		
+    },
+	
+	getRecordInfoCurrencyFields: function() {
+        /*Input Parameters: 
+        1. table: related Table to query from
+        2. table_sys_id: related record's sys_id
+        3. fields: array of fields to return
+        */
+        var tableName = this.getParameter('sysparm_table');
+        var table_sys_id = this.getParameter('sysparm_table_sys_id');
+        var fields = this.getParameter('sysparm_fields');
+        var lookupField = this.getParameter('sysparm_lookup_field');
+		
+		if (lookupField === null) 
+            lookupField = 'sys_id';
+		
+        var fieldsArray = fields.toString().split(',');
+
+        //Get related record
+        var gr = new GlideRecord(tableName);
+        if (gr.get(lookupField, table_sys_id)) {
+            //generate object with requested fields
+            var result = {};
+            var resultArray = [];
+            var len = fieldsArray.length;
+            for (var i = 0; i < len; i++) {
+				var fieldName = fieldsArray[i];
+                result[fieldName] = {
+					get_currency_value: gr[fieldName].getCurrencyValue(),
+					get_value: gr[fieldName].getValue(),
+					get_currency_code: gr[fieldName].getCurrencyCode(),
+					get_display_value: gr[fieldName].getDisplayValue(),
+					get_currency_display_value: gr[fieldName].getCurrencyDisplayValue(),
+					get_currency_string: gr[fieldName].getCurrencyString()
+				};
+            }
+
+            return JSON.stringify(result);
+
+        }
+		
+		else {
+			return JSON.stringify('not_found');
+		}
+    },
+	
+	getFiveLastRecords: function() {
+       
+        var tableName = this.getParameter('sysparm_table');
+        var user_sys_id = this.getParameter('sysparm_user_sys_id');
+        var arrReq = [];
+		var i = 0;
+		
+		//+// Glideworcord //+//
+		var reqGR = new GlideRecord(tableName);
+		var strQuery = 'state=3';
+		strQuery = strQuery + '^cat_item=3d3508491bc628d0c28b997e0d4bcbe3';
+		strQuery = strQuery + '^requested_for=' + user_sys_id;
+		strQuery = strQuery + '^variables.8eab01571b062810c28b997e0d4bcbfa=Descuento aplicado';
+		reqGR.addEncodedQuery(strQuery);
+		reqGR.orderByDesc('closed_at');
+		reqGR.query();
+		
+		if (reqGR.hasNext()){
+			//+// Array fill //+//
+		while(reqGR.next() && i <= 4){
+			arrReq.push( reqGR.number +'\t' +reqGR.sys_created_on + '\t'+ reqGR.closed_at + '\t '+ reqGR.variables.estatus_final +'\n').join();
+			i++;
+		}
+		return JSON.stringify(arrReq.join(''));
+			
+		} 
+		
+    },
+	
+	
+	//RITM opened this year
+	validateRequesterRITM : function() {
+		var itemName = this.getParameter('sysparm_itemName');
+		var result = false;
+		var gr = new GlideRecord('sc_req_item');
+		gr.addQuery('opened_by',gs.getUserID());
+		gr.addQuery('cat_item.name',itemName); //name of item
+		gr.addEncodedQuery('opened_atONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()'); //Opened on this year
+		gr.query();
+		if (gr.hasNext())
+			result = true;
+		return JSON.stringify(result);
+	},
+	
+	
+	
+    type: 'cxServiceCatalogAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-07-26 16:30:47</sys_created_on>
+        <sys_id>e10e183b97701110321635dfe153aff8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>cxServiceCatalogAjax</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_script_include_e10e183b97701110321635dfe153aff8</sys_update_name>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-07-26 17:30:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

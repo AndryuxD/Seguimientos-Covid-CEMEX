@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,display_image=photo,global_search_config_handler=UserConfig,ih_process_sync_enabled=true,iterativeDelete=true,metadata_link_exempt=true,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name,ref_auto_completer=AJAXTableCompleter" create_roles="user_admin" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" sizeclass="639" text_index="true" type="collection">
+        <element choice="1" label="User Category" max_length="40" name="x_817226_segcov_user_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Cliente" language="es" value="customer"/>
+                <element inactive_on_update="false" label="Contractor" value="contractor"/>
+                <element inactive_on_update="false" label="Contratista" language="es" value="contractor"/>
+                <element inactive_on_update="false" label="Customer" value="customer"/>
+                <element inactive_on_update="false" label="Empleado" language="es" value="employee"/>
+                <element inactive_on_update="false" label="Employee" value="employee"/>
+                <element inactive_on_update="false" label="External" value="external"/>
+                <element inactive_on_update="false" label="Externo" language="es" value="external"/>
+                <element inactive_on_update="false" label="Familiar" language="es" value="relative"/>
+                <element inactive_on_update="false" label="Proveedor" language="es" value="vendor"/>
+                <element inactive_on_update="false" label="Relative" value="relative"/>
+                <element inactive_on_update="false" label="Seguridad Patrimonial" value="patrimonial"/>
+                <element inactive_on_update="false" label="Seguridad Patrimonial" language="es" value="partimonial"/>
+                <element inactive_on_update="false" label="Vendor" value="vendor"/>
+            </choice>
+        </element>
+        <element label="Business Unit" max_length="32" name="x_817226_segcov_u_business_unit" reference="business_unit" type="reference"/>
+        <element label="Vicepresidency" max_length="32" name="x_817226_segcov_u_vp" reference="cmn_department" type="reference"/>
+        <index name="index">
+            <element name="x_817226_segcov_u_vp"/>
+        </index>
+    </element>
+</database>

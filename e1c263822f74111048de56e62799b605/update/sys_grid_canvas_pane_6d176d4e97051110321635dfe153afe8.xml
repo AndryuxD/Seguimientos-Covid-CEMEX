@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Seguimiento Usuarios - New Tab">34f8d9ce97c11110321635dfe153afb2</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2022-08-02 21:35:14">25176d4e97051110321635dfe153afe7</portal_widget>
+        <posx>6</posx>
+        <posy>8</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-02 21:35:14</sys_created_on>
+        <sys_id>6d176d4e97051110321635dfe153afe8</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>34f8d9ce97c11110321635dfe153afb2</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_6d176d4e97051110321635dfe153afe8</sys_update_name>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-02 21:48:48</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>
