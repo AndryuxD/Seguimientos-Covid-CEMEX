@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-<<<<<<< HEAD
     <element label="User Item" max_length="40" name="x_817226_segcov_ui" sizeclass="2" type="collection">
         <element label="Change Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="comments" max_length="250" name="comments" type="string"/>
@@ -16,13 +15,6 @@
         <element label="User Name" max_length="150" name="u_user_name" type="string"/>
         <element label="User Number" max_length="50" name="u_user_number" type="string"/>
         <element label="User Title" max_length="200" name="u_user_title" type="string"/>
-=======
-    <element label="User Item" max_length="40" name="x_817226_segcov_ui" sizeclass="1" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element display="true" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
-        <element label="User Location" max_length="250" name="user_location" reference="cmn_location" type="reference"/>
-        <element label="User Vicepresidency" max_length="150" name="user_vicepresidency" reference="cmn_department" type="reference"/>
->>>>>>> master
         <index name="index">
             <element name="assignment_group"/>
         </index>
