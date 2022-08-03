@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA MX Seguimiento COVID - Status Tab">0475fbe02f45511048de56e62799b627</legacy_page>
+        <name>PA MX Seguimiento COVID - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 16:06:18</sys_created_on>
+        <sys_id>4075fbe02f45511048de56e62799b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA MX Seguimiento COVID - New Tab</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_grid_canvas_4075fbe02f45511048de56e62799b628</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 16:06:18</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

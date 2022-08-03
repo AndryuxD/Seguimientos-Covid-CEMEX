@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>User Choices</name>
+        <order>100</order>
+        <roles>x_817226_segcov.user_choices_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 23:01:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9c7c4da2ff4111048de56e62799b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Choices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_app_application_f9c7c4da2ff4111048de56e62799b61c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 23:01:37</sys_updated_on>
+        <title>User Choices</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>sys_app_application_f9c7c4da2ff4111048de56e62799b61c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>User Choices</name><order>100</order><roles>x_817226_segcov.user_choices_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-21 23:01:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f9c7c4da2ff4111048de56e62799b61c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Choices</sys_name><sys_overrides/><sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package><sys_policy/><sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope><sys_update_name>sys_app_application_f9c7c4da2ff4111048de56e62799b61c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-21 23:01:37</sys_updated_on><title>User Choices</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>557848484</payload_hash>
+        <record_name>User Choices</record_name>
+        <reverted_from/>
+        <source>da14ef462f74111048de56e62799b659</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 23:01:37</sys_created_on>
+        <sys_id>f9c7c4da2ff4111048de56e62799b61f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18222fec1eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 23:01:37</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>35c7c4daf9f4111018440e4e488fce1f</update_guid>
+        <update_guid_history>35c7c4daf9f4111018440e4e488fce1f:557848484</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="User Choices">be92e7502f45111048de56e62799b691</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-28 20:05:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>104538b1f66842288fa8715ee8595640</sys_id>
+        <sys_metadata>f9c7c4da2ff4111048de56e62799b61c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Choices</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>sys_app_application_f9c7c4da2ff4111048de56e62799b61c</sys_update_name>
+        <sys_update_version display_value="sys_app_application_f9c7c4da2ff4111048de56e62799b61c">f9c7c4da2ff4111048de56e62799b61f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-28 20:05:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -72,7 +72,18 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <script><![CDATA[createRecord();
+        <script><![CDATA[if(producer.seguimiento_de_caso == 'true'){
+	seguimientoCaso();
+}else{
+	cercoSanitario();
+}
+
+function seguimientoCaso() {
+	//producer.patient = reference from user cases table
+	var c_array = checkCaseData(producer.patient);
+	createHistory(c_array[0],c_array[1]);
+
+}
 
 function createRecord() {
 	//If there's not user item related to the producer.owned_by (sys_user) it creates an user item and always gets an id
@@ -84,11 +95,11 @@ function createRecord() {
 	//If the person has no symptoms and if there's no case opened
 	if(producer.semaphore == 'green' && c_id == null){
 		//Just create a history and relate it to the user item's table
-		createHistory(ui_id,false);
+		createHistory(ui_id,null);
 	}else{
 		//Create a case, a history, relate history to the case, and the case to the user item's table
 		c_id = createNewCase(ui_id);
-		createHistory(c_id,true);
+		createHistory(ui_id,c_id);
 
 	}
 
@@ -110,9 +121,26 @@ function createUserItem(user) {
 	}
 }
 
+function checkCaseData(c_id){
+	var gr_c = new GlideRecord('x_817226_segcov_cases');
+	gr_c.addQuery('sys_id', c_id);
+	gr_c.addQuery('type', "not_vulnerable");
+	gr_c.orderByDesc('sys_created_on');
+	gr_c.setLimit(1);
+	gr_c.query();
+	if (gr_c.next()) {
+		var array = [];
+		array[0] = gr.user_item;
+		array[1] = gr.sys_id;
+		return array;
+	}
+	return null;
+}
+
 function checkCaseStatus(user){
 	var gr_c = new GlideRecord('x_817226_segcov_cases');
 	gr_c.addQuery('user_item', user);
+	gr_c.addQuery('type', "not_vulnerable");
 	gr_c.orderByDesc('sys_created_on');
 	gr_c.setLimit(1);
 	gr_c.query();
@@ -128,9 +156,10 @@ function createNewCase(user){
 	var gr_c = new GlideRecord('x_817226_segcov_cases');
 	gr_c.initialize();
 	gr_c.user_item = user;
+	gr_c.type = "not_vulnerable";
 	//gr_h.assigned_to = producer.user_medic; For review or checking
-	var comments = 'Información de cerco: ' + '\n';
-	if (producer.contact_with_positive == 'true' )
+	var comments = producer.comments;
+	if (producer.contact_with_positive == 'true')
 		comments += 'Contacto con positivo: ' + producer.contact_user;
 	if (producer.contact_with_suspect == 'true')
 		comments += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
@@ -139,41 +168,49 @@ function createNewCase(user){
 	gr_c.last_temperature_value = producer.temperature;
 	gr_c.last_score = producer.score;
 	gr_c.active = true;
-	return gr_c.insert();
-}
-
-function createHistory (id,is_case){
-	//creates a history based on the "is_case" variable which means if is a history related to a case or a user item
-	var gr_h = new GlideRecord('x_817226_segcov_history');
-	gr_h.initialize();
-	if(!is_case){
-		gr_h.owned_by = id;
-	}else{
-		gr_h['case'] = id;
-	}
-	gr_h.location = producer.location;
-	gr_h.temperature = producer.temperature;
-	gr_h.score = producer.score;
-	gr_h.risk = 3;
-	if(producer.semaphore == "green"){
-		gr_h.risk = 4;
-	}
-	gr_h.supported_by = producer.user_medic;
-
-	var info = 'Información de cerco: ' + '\n';
-	if (producer.contact_with_positive == 'true' )
+	
+	gr_c.status = 4; //4=sospechoso, 1=positivo
+	gr_c.substatus = 99; // 99=sospechoso por sintomas
+	if (producer.contact_with_suspect == 'true' || producer.contact_with_positive == 'true')
+		gr_c.substatus = 3; //3=sospechoso por contacto
+	gr_c.date_suspicious = new GlideDateTime();
+	gr_c.assigned_to = producer.user_medic;
+	var info = producer.comments + '\n';
+	info += 'Ubicacion: ' + producer.state + ', '+ producer.location.getDisplayValue();
+	if (producer.contact_with_positive == 'true')
 		info += 'Contacto con positivo: ' + producer.contact_user;
 	if (producer.contact_with_suspect == 'true')
 		info += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
-	gr_h.comments = info;
+	current.comments = info;
+	
+	return gr_c.insert();
+}
 
-	var gr_h_ID = gr_h.insert();
-
-	var url = 'x_817226_segcov_history.do?sys_id=' + gr_h_ID;
-	if (!gs.hasRole('x_817226_segcov.admin') && !gs.hasRole('x_817226_segcov.user_history_user') && !gs.hasRole('admin')) {
-		url = 'home.do?';
+function createHistory (ui_id,c_id){
+	//creates a history based on the "is_case" variable which means if is a history related to a case or a user item
+	if(c_id != null){
+		current['case'] = c_id;
 	}
-	producer.redirect = url;
+	current.owned_by = ui_id;
+	current.score = producer.score;
+	current.risk = 3;
+	if(producer.semaphore == "green"){
+		current.risk = 4;
+	}
+	current.supported_by = producer.user_medic;
+
+	var info = producer.comments + '\n';
+	info += 'Ubicacion: ' + producer.state + ', '+ producer.location.getDisplayValue();
+	if (producer.contact_with_positive == 'true')
+		info += 'Contacto con positivo: ' + producer.contact_user;
+	if (producer.contact_with_suspect == 'true')
+		info += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
+	current.comments = info;
+
+    if (!gs.hasRole('x_817226_segcov.admin') || !gs.hasRole('admin')) {
+        gs.addInfoMessage('Cerco Sanitario registrado correctamente');
+		producer.redirect = 'com.glideapp.servicecatalog_cat_item_view.do?v=1&sysparm_id=e88d63562f74511048de56e62799b675';
+    }
 }]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
@@ -183,14 +220,14 @@ function createHistory (id,is_case){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 15:49:43</sys_created_on>
         <sys_id>e88d63562f74511048de56e62799b675</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Registro de Cerco Sanitario</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sc_cat_item_producer_e88d63562f74511048de56e62799b675</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-27 22:51:43</sys_updated_on>
+        <sys_updated_on>2022-07-28 23:01:34</sys_updated_on>
         <table_name>x_817226_segcov_history</table_name>
         <taxonomy_topic/>
         <template/>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>Cases</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-21 20:33:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7cf5e38a2f74111048de56e62799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cases</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_ui_module_7cf5e38a2f74111048de56e62799b64a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 20:33:49</sys_updated_on>
+        <table>x_817226_segcov_cases</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>sys_ui_module_7cf5e38a2f74111048de56e62799b64a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>Cases</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-21 20:33:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7cf5e38a2f74111048de56e62799b64a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cases</sys_name><sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package><sys_policy/><sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope><sys_update_name>sys_ui_module_7cf5e38a2f74111048de56e62799b64a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-21 20:33:49</sys_updated_on><table>x_817226_segcov_cases</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>822782785</payload_hash>
+        <record_name>Cases</record_name>
+        <reverted_from/>
+        <source>da14ef462f74111048de56e62799b659</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 20:52:30</sys_created_on>
+        <sys_id>ef4dd9c297051110614839000153afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1826054ddfa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 20:52:30</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2f4dd9c265051110a85e029a6a4a35db</update_guid>
+        <update_guid_history>2f4dd9c265051110a85e029a6a4a35db:0,30f5e38a4c741110543bf1fd0738b74c:-1673694953</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 20:53:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>1366441e477d4d8cb89df28fede57d24</sys_id>
+        <sys_metadata>7cf5e38a2f74111048de56e62799b64a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cases</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>sys_ui_module_7cf5e38a2f74111048de56e62799b64a</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_7cf5e38a2f74111048de56e62799b64a">ef4dd9c297051110614839000153afdb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 20:53:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

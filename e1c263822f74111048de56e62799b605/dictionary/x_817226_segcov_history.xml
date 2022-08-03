@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="User History" max_length="40" name="x_817226_segcov_history" sizeclass="9" type="collection">
+    <element label="User History" max_length="40" name="x_817226_segcov_history" sizeclass="5" type="collection">
         <element label="Case" max_length="32" name="case" reference="x_817226_segcov_cases" type="reference"/>
-        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
         <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="User Item" max_length="32" name="owned_by" reference="x_817226_segcov_ui" type="reference"/>
         <element label="Record Producer" max_length="32" name="record_producer" reference="sc_cat_item_producer" type="reference"/>
         <element choice="1" label="Risk" max_length="40" name="risk" type="integer">

@@ -1,11 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="User Tracking" max_length="40" name="x_817226_segcov_tracking" sizeclass="0" type="collection">
         <element label="Case" max_length="32" name="case" reference="x_817226_segcov_cases" type="reference"/>
-        <element label="Complimetary Study" max_length="32" name="complimetary_study" reference="x_817226_segcov_choices" type="reference"/>
+        <element choice="3" label="Complimetary Study" max_length="32" name="complimetary_study" reference="x_817226_segcov_choices" reference_qual="element=complimetary_study^EQ" reference_qual_condition="element=complimetary_study^EQ" type="reference">
+            <choice/>
+        </element>
         <element label="Cost Payer" max_length="40" name="cost_payer" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Result" max_length="250" name="result" type="string"/>
-        <element label="Test applied on" max_length="40" name="test_applied_on" type="string"/>
-        <element label="Type" max_length="40" name="type" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" default="1" label="Status" max_length="40" name="status" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="N/A" language="es" value="100"/>
+                <element inactive_on_update="false" label="N/A" value="100"/>
+                <element inactive_on_update="false" label="Negativo" value="7"/>
+                <element inactive_on_update="false" label="Negativo" language="es" value="7"/>
+                <element inactive_on_update="false" label="Pendiente" value="4"/>
+                <element inactive_on_update="false" label="Pendiente" language="es" value="4"/>
+                <element inactive_on_update="false" label="Positivo" language="es" value="1"/>
+                <element inactive_on_update="false" label="Positivo" value="1"/>
+                <element inactive_on_update="false" label="Solicitado" value="2"/>
+                <element inactive_on_update="false" label="Solicitado" language="es" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test applied on" max_length="40" name="test_applied_on" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CEMEX Site" value="on site"/>
+                <element inactive_on_update="false" label="Hospital / Lab" value="third party"/>
+                <element inactive_on_update="false" label="Laboratorio / Hospital Conveniado" language="es" value="third party"/>
+                <element inactive_on_update="false" label="Unidad de Negocio CEMEX" language="es" value="on site"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="type" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Aislamiento" language="es" value="5"/>
+                <element inactive_on_update="false" label="Estudio Médico" language="es" value="4"/>
+                <element inactive_on_update="false" label="Hospitalización" language="es" value="3"/>
+                <element inactive_on_update="false" label="Hospitalization" value="3"/>
+                <element inactive_on_update="false" label="Isolation" value="5"/>
+                <element inactive_on_update="false" label="Kit COVID-19" language="es" value="6"/>
+                <element inactive_on_update="false" label="Kit COVID-19" value="6"/>
+                <element inactive_on_update="false" label="Medical Study" value="4"/>
+                <element inactive_on_update="false" label="Prueba" language="es" value="1"/>
+                <element inactive_on_update="false" label="Test" value="1"/>
+                <element inactive_on_update="false" label="Tratamiento" language="es" value="2"/>
+                <element inactive_on_update="false" label="Treatment" value="2"/>
+                <element inactive_on_update="false" label="Vulnerabilidad" language="es" value="7"/>
+                <element inactive_on_update="false" label="Vulnerability" value="7"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="case"/>
         </index>

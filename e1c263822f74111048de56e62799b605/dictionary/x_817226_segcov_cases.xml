@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="User Cases" max_length="40" name="x_817226_segcov_cases" sizeclass="0" type="collection">
+    <element label="User Cases" max_length="40" name="x_817226_segcov_cases" sizeclass="1" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element choice="1" dependent="status" dependent_on_field="status" label="Caused By" max_length="40" name="caused_by" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="1" inactive_on_update="false" label="Contacto comunitario" language="es" value="community_contact"/>
+                <element dependent_value="1" inactive_on_update="false" label="Contacto comunitario" value="community_contact"/>
+                <element dependent_value="1" inactive_on_update="false" label="Hogar" value="home"/>
+                <element dependent_value="1" inactive_on_update="false" label="Hogar" language="es" value="home"/>
+                <element dependent_value="1" inactive_on_update="false" label="Otros" language="es" value="other"/>
+                <element dependent_value="1" inactive_on_update="false" label="Otros" value="other"/>
+                <element dependent_value="4" inactive_on_update="false" label="Por contacto" value="suspect_contact"/>
+                <element dependent_value="4" inactive_on_update="false" label="Por contacto" language="es" value="suspect_contact"/>
+                <element dependent_value="4" inactive_on_update="false" label="Por sintomas" language="es" value="suspect_symptoms"/>
+                <element dependent_value="4" inactive_on_update="false" label="Por sintomas" value="suspect_symptoms"/>
+                <element dependent_value="1" inactive_on_update="false" label="Restaurante" language="es" value="restaurant"/>
+                <element dependent_value="1" inactive_on_update="false" label="Restaurante" value="restaurant"/>
+                <element dependent_value="1" inactive_on_update="false" label="Reunion familiar" language="es" value="family_reunion"/>
+                <element dependent_value="1" inactive_on_update="false" label="Reunion familiar" value="family_reunion"/>
+                <element dependent_value="1" inactive_on_update="false" label="Transporte publico" value="public_transport"/>
+                <element dependent_value="1" inactive_on_update="false" label="Transporte publico" language="es" value="public_transport"/>
+                <element dependent_value="1" inactive_on_update="false" label="Viaje a extranjero" language="es" value="travel"/>
+                <element dependent_value="1" inactive_on_update="false" label="Viaje a extranjero" value="travel"/>
+                <element dependent_value="1" inactive_on_update="false" label="Visitas a familiares" value="family_visit"/>
+                <element dependent_value="1" inactive_on_update="false" label="Visitas a familiares" language="es" value="family_visit"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;    //Get aging from Created Date&#13;&#10;    var dur = new GlideDateTime();&#13;&#10;&#9;&#13;&#10;    if (current.checked_out != '')&#13;&#10;        dur = gs.dateDiff(current.checked_in.getDisplayValue(), current.checked_out.getDisplayValue(), false);&#13;&#10;    else&#13;&#10;        dur = gs.dateDiff(current.checked_in.getDisplayValue(), new GlideDateTime().getDisplayValue(), false);&#13;&#10;&#13;&#10;    return dur;&#13;&#10;&#13;&#10;})(current);" label="Checked Duration" max_length="40" name="checked_duration" type="glide_duration" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Checked in" max_length="40" name="checked_in" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Checked out" max_length="40" name="checked_out" type="glide_date_time"/>
         <element label="Closed at" max_length="40" name="closed_at" type="glide_date"/>
         <element choice="3" label="Closed status" max_length="40" name="closed_status" type="integer">
             <choice>
@@ -11,12 +38,31 @@
                 <element inactive_on_update="false" label="Sospechoso - Liberado" value="sospechoso_alta"/>
             </choice>
         </element>
-        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element choice="1" dependent="substatus" dependent_on_field="substatus" label="Condition" max_length="40" name="condition" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="11" inactive_on_update="false" label="Mild symptoms" sequence="1" value="mild_symptoms"/>
+                <element dependent_value="11" inactive_on_update="false" label="Moderate symptoms" sequence="1" value="moderate_symptoms"/>
+                <element dependent_value="11" inactive_on_update="false" label="Severe symptoms" sequence="2" value="severe_symptoms"/>
+                <element dependent_value="11" inactive_on_update="false" label="Sintomas intensos" language="es" sequence="2" value="severe_symptoms"/>
+                <element dependent_value="11" inactive_on_update="false" label="Sintomas leves" language="es" sequence="3" value="mild_symptoms"/>
+                <element dependent_value="11" inactive_on_update="false" label="Sintomas moderados" language="es" sequence="3" value="moderate_symptoms"/>
+            </choice>
+        </element>
         <element label="Date suspicious" max_length="40" name="date_suspicious" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Forecast" max_length="40" name="forecast" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Bueno" sequence="1" value="bueno"/>
+                <element inactive_on_update="false" label="Con potencial de complicación" sequence="2" value="potencial_complicacion"/>
+                <element inactive_on_update="false" label="Malo" sequence="3" value="malo"/>
+                <element inactive_on_update="false" label="Reservado" sequence="4" value="reservado"/>
+            </choice>
+        </element>
         <element label="Isolated" max_length="40" name="isolated" type="boolean"/>
         <element label="Last Oxygenation Value" max_length="20" name="last_oxygenation_value" type="decimal"/>
         <element label="Last Score" max_length="40" name="last_score" type="integer"/>
         <element label="Last Temperature Value" max_length="20" name="last_temperature_value" type="decimal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Risk" max_length="40" name="risk" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Apto" language="es" value="4"/>
@@ -25,7 +71,7 @@
                 <element inactive_on_update="false" label="No Apto" language="es" value="3"/>
             </choice>
         </element>
-        <element choice="3" label="Status" max_length="40" name="status" type="integer">
+        <element choice="1" default="1" label="Status" max_length="40" name="status" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Baja" value="100"/>
                 <element inactive_on_update="false" label="Baja" language="es" value="100"/>
@@ -67,8 +113,13 @@
                 <element inactive_on_update="false" label="Ubicacion CEMEX" language="es" value="7"/>
             </choice>
         </element>
+        <element choice="3" default="not_vulnerable" label="Type" max_length="40" name="type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not vulnerable" sequence="100" value="not_vulnerable"/>
+                <element inactive_on_update="false" label="Vulnerable" sequence="200" value="vulnerable"/>
+            </choice>
+        </element>
         <element label="User Item" max_length="32" name="user_item" reference="x_817226_segcov_ui" type="reference"/>
-        <element label="Is vulnerable" max_length="40" name="vulnerable" type="boolean"/>
         <element label="Vulnerable Cause" max_length="40" name="vulnerable_cause" reference="x_817226_segcov_choices" reference_qual="element=vulnerable_cause^EQ" reference_qual_condition="element=vulnerable_cause^EQ" type="glide_list"/>
         <index name="index">
             <element name="user_item"/>
