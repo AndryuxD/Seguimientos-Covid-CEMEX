@@ -85,7 +85,7 @@ function seguimientoCaso() {
 
 }
 
-function createRecord() {
+function cercoSanitario() {
 	//If there's not user item related to the producer.owned_by (sys_user) it creates an user item and always gets an id
 	var ui_id = createUserItem(producer.owned_by);
 
@@ -173,6 +173,7 @@ function createNewCase(user){
 	gr_c.substatus = 99; // 99=sospechoso por sintomas
 	if (producer.contact_with_suspect == 'true' || producer.contact_with_positive == 'true')
 		gr_c.substatus = 3; //3=sospechoso por contacto
+	gr_c.checked_in = new GlideDateTime();
 	gr_c.date_suspicious = new GlideDateTime();
 	gr_c.assigned_to = producer.user_medic;
 	var info = producer.comments + '\n';
@@ -207,7 +208,7 @@ function createHistory (ui_id,c_id){
 		info += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
 	current.comments = info;
 
-    if (!gs.hasRole('x_817226_segcov.admin') || !gs.hasRole('admin')) {
+    if (!gs.hasRole('x_817226_segcov.admin') || !gs.hasRole('x_817226_segcov.manager') || !gs.hasRole('x_817226_segcov.user') || !gs.hasRole('admin')) {
         gs.addInfoMessage('Cerco Sanitario registrado correctamente');
 		producer.redirect = 'com.glideapp.servicecatalog_cat_item_view.do?v=1&sysparm_id=e88d63562f74511048de56e62799b675';
     }
@@ -220,14 +221,14 @@ function createHistory (ui_id,c_id){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 15:49:43</sys_created_on>
         <sys_id>e88d63562f74511048de56e62799b675</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Registro de Cerco Sanitario</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sc_cat_item_producer_e88d63562f74511048de56e62799b675</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-28 23:01:34</sys_updated_on>
+        <sys_updated_on>2022-08-04 20:23:39</sys_updated_on>
         <table_name>x_817226_segcov_history</table_name>
         <taxonomy_topic/>
         <template/>

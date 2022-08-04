@@ -17,22 +17,22 @@
         <override_menu_roles>false</override_menu_roles>
         <query>https://dev105063.service-now.com/$pa_dashboard.do?sysparm_dashboard=bbc89d8e97c11110321635dfe153afe6&amp;sysparm_tab=41f8d9ce97c11110321635dfe153afb5&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false</query>
         <report/>
-        <roles/>
+        <roles>admin,x_817226_segcov.admin,x_817226_segcov.manager</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>salvador.centenotéllez</sys_created_by>
         <sys_created_on>2022-08-04 16:14:59</sys_created_on>
         <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
         <sys_domain_path>!!!/!!!/</sys_domain_path>
         <sys_id>f96fae6e97011110614839000153af19</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Dashboard Seguimiento Vulnerables</sys_name>
         <sys_overrides/>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sys_app_module_f96fae6e97011110614839000153af19</sys_update_name>
-        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-        <sys_updated_on>2022-08-04 16:44:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 20:01:16</sys_updated_on>
         <timeline_page/>
         <title>Dashboard Seguimiento Vulnerables</title>
         <uncancelable>false</uncancelable>

@@ -5,7 +5,7 @@
         <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="User" max_length="32" name="owned_by" reference="sys_user" type="reference"/>
+        <element display="true" label="User" max_length="32" name="owned_by" reference="sys_user" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element choice="1" choice_field="x_817226_segcov_user_category" choice_table="sys_user" label="User Category" max_length="50" name="u_user_category" type="string">
             <choice/>
