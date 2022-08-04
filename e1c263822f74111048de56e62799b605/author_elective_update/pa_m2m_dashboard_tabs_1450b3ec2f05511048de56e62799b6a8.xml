@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="DELETE">
+        <dashboard display_value="MX Seguimiento COVID-19">5210bfac2f05511048de56e62799b67a</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:43:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1450b3ec2f05511048de56e62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5210bfac2f05511048de56e62799b67a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_1450b3ec2f05511048de56e62799b6a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:43:56</sys_updated_on>
+        <tab display_value="MX Seguimiento COVID - New Tab">5c507bac2f05511048de56e62799b65d</tab>
+    </pa_m2m_dashboard_tabs>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>pa_m2m_dashboard_tabs_1450b3ec2f05511048de56e62799b6a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="MX Seguimiento COVID-19">5210bfac2f05511048de56e62799b67a</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:43:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1450b3ec2f05511048de56e62799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5210bfac2f05511048de56e62799b67a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_1450b3ec2f05511048de56e62799b6a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:43:56</sys_updated_on>
+        <tab display_value="MX Seguimiento COVID - New Tab">5c507bac2f05511048de56e62799b65d</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>]]></payload>
+        <payload_hash>-1459221843</payload_hash>
+        <record_name>5210bfac2f05511048de56e62799b67a</record_name>
+        <reverted_from/>
+        <source>1a9ce1da97411110614839000153af46</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 16:38:05</sys_created_on>
+        <sys_id>1eac2dda97411110614839000153afb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18264924a160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 16:38:05</sys_updated_on>
+        <type>Dashboard Tab</type>
+        <update_guid>5aac2ddaa541111021704eb6505d6bb1</update_guid>
+        <update_guid_history>5aac2ddaa541111021704eb6505d6bb1:0,6ffb615a53411110e9ff05100c54a879:42593721,2450b3ec960551107172941899b9b0aa:59393197</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MX Seguimiento COVID-19">f944f6e297411110614839000153af51</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 16:29:27</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_dashboard_tabs">pa_m2m_dashboard_tabs</sys_db_object>
+        <sys_id>309292e0309847c892de56899cbae604</sys_id>
+        <sys_metadata>1450b3ec2f05511048de56e62799b6a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5210bfac2f05511048de56e62799b67a</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent display_value="">5210bfac2f05511048de56e62799b67a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>pa_m2m_dashboard_tabs_1450b3ec2f05511048de56e62799b6a8</sys_update_name>
+        <sys_update_version display_value="pa_m2m_dashboard_tabs_1450b3ec2f05511048de56e62799b6a8">1eac2dda97411110614839000153afb1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 16:29:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
