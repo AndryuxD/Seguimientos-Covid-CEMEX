@@ -32,7 +32,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Salvador Centeno Téllez">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -108,16 +108,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fd68a58e97051110321635dfe153af6c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Personal vulnerable por Medico Asignado</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CXMX - Personal vulnerable por Medico Asignado</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sys_report_fd68a58e97051110321635dfe153af6c</sys_update_name>
         <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-        <sys_updated_on>2022-08-02 21:41:00</sys_updated_on>
+        <sys_updated_on>2022-08-04 16:00:13</sys_updated_on>
         <table>x_817226_segcov_cases</table>
-        <title>Personal vulnerable por Medico Asignado</title>
+        <title>CXMX - Personal vulnerable por Medico Asignado</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
