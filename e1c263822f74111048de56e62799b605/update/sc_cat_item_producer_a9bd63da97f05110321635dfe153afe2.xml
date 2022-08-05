@@ -86,6 +86,7 @@ function createRecord() {
     var ui = getUserItem(user);
     current.u_parent = ui;
 
+   
     //Set user field values
     current.u_user_location = producer.location.getDisplayValue();
     current.u_user_name = producer.owned_by.getDisplayValue();
@@ -93,107 +94,109 @@ function createRecord() {
     current.u_user_title = producer.user_title;
     current.u_user_department = producer.department.getDisplayValue();
     current.u_user_category = producer.user_category;
-	current.assignment_group = '269c872e97811110614839000153afb5';
+    current.assignment_group = '269c872e97811110614839000153afb5';
+
+
 
     //Set medicine list in comments
-	var medicineList = '';
+    var medicineList = '';
     if (producer.medical_supply == 'Yes') {
-		medicineList+= 'Medicamento entregado: \n';
+        medicineList += 'Medicamento entregado: \n';
         if (producer.medicine_acc == 'true')
-			medicineList+= '- ACC EFERVECENTE 600MG 20 TAB \n';
-		if (producer.medicine_dalvear == 'true')
-			medicineList+= '- DALVEAR 200ML JBE ADULTO FRESA \n';
-		if (producer.medicine_dexametasona == 'true')
-			medicineList+= '- ALMUS DEXAMETASONA 8MG 2ML C/1 AMP \n';
-		if (producer.medicine_dimegan == 'true')
-			medicineList+= '- DIMEGAN-D 5MG/20MG CAPS LIB PROL C/10 \n';
-		if (producer.medicine_febrax == 'true')
-			medicineList+= '- FEBRAX 300 MG. TABS. C/15 \n';
-		if (producer.medicine_ibuprofeno == 'true')
-			medicineList+= '- GM IBUPROFENO 600 MG 20 TAB \n';
-		if (producer.medicine_iprikene == 'true')
-			medicineList+= '- IPRIKENE 3G 10 SOBRES \n';
-		if (producer.medicine_libertrim == 'true')
-			medicineList+= '- LIBERTRIM 200 MG.COMPRIM. C/24 \n';
-		if (producer.medicine_litasina == 'true')
-			medicineList+= '- LITASINA 100MG 30 TAB \n';
-		if (producer.medicine_marzivag == 'true')
-			medicineList+= '- GM MARZIVAG AZITROMICINA 500MG 3TAB \n';
-		if (producer.medicine_meticorten == 'true')
-			medicineList+= '- METICORTEN TAB 50 MG C/20 \n';
-		if (producer.medicine_plaquenil == 'true')
-			medicineList+= '- PLAQUENIL 200 MG C/20 TAB \n';
-		if (producer.medicine_relvare == 'true')
-			medicineList+= '- RELVARE 200/25UCG POLVO 30 DOSIS \n';
-		if (producer.medicine_spiolto == 'true')
-			medicineList+= '- SPIOLTO 0.226MG 0.226MG SOL \n';
-		if (producer.medicine_tempra == 'true')
-			medicineList+= '- TEMPRA 650MG FORTE|TAB|24 \n';
-		if (producer.medicine_tiaminal == 'true')
-			medicineList+= '- TIAMINAL B12 TRIV AP.CAPS.C/30 \n';
-		if (producer.medicine_tylex == 'true')
-			medicineList+= '- TYLEX 750 MG C/20 TABS \n';
-		if (producer.medicine_virazide == 'true')
-			medicineList+= '- AVIRAZIDE 400 MG C/18 TABS \n';
-		if (producer.medicine_xarelto == 'true')
-			medicineList+= '- XARELTO 20MG TAB C/28 \n';
-		if (producer.medicine_zyplo == 'true')
-			medicineList+= '- ZYPLO JARABE 120 ML \n';
-		if (producer.medicine_other == 'true')
-			medicineList+= '- '+ producer.medicine_other_text +' \n';
-		if (producer.medicine_keterolaco == 'true')
-			medicineList+= '- Ketorolaco tab 10 mg \n';
-		if (producer.medicine_colchicina == 'true')
-			medicineList+= '- Colchicina tab 1 mg \n';
-		if (producer.medicine_moxifloxacino == 'true')
-			medicineList+= '- Moxifloxacino \n';
-		if (producer.medicine_loperamida == 'true')
-			medicineList+= '- Loperamida tab 2mg \n';
-		if (producer.medicine_sensibit == 'true')
-			medicineList+= '- Sensibit D NF \n';
-		if (producer.medicine_sensemoc == 'true')
-			medicineList+= '- Sensemoc (Acetilcisteína 200 mg) \n';
-		if (producer.medicine_meticorten5 == 'true')
-			medicineList+= '- Meticorten (Prednisona 5 mg) \n';
-		if (producer.medicine_alin == 'true')
-			medicineList+= '- Alin IM (Dexametasona 4 mg) \n';
-		if (producer.medicine_celestamine == 'true')
-			medicineList+= '- Celestamine NS (Loratadina/Betametasona) \n';
-		if (producer.medicine_aspirina == 'true')
-			medicineList+= '- Aspirina Protect (ASA 100) \n';
-		if (producer.medicine_dorixina == 'true')
-			medicineList+= '- Dorixina, Firac ó Sedepron 250 mgs (clonixinato de lisina) \n';
-		if (producer.medicine_malival == 'true')
-			medicineList+= '- Malival (Indometacina ) capsulas de 25 mgs \n';
-		if (producer.medicine_amoxicilina == 'true')
-			medicineList+= '- Amoxicilina/Ac Clavulanico 875/125 mg \n';
-		if (producer.medicine_tempra500 == 'true')
-			medicineList+= '- TEMPRA 500 \n';
-		if (producer.medicine_tempra750 == 'true')
-			medicineList+= '- TEMPRA 750 \n';
+            medicineList += '- ACC EFERVECENTE 600MG 20 TAB \n';
+        if (producer.medicine_dalvear == 'true')
+            medicineList += '- DALVEAR 200ML JBE ADULTO FRESA \n';
+        if (producer.medicine_dexametasona == 'true')
+            medicineList += '- ALMUS DEXAMETASONA 8MG 2ML C/1 AMP \n';
+        if (producer.medicine_dimegan == 'true')
+            medicineList += '- DIMEGAN-D 5MG/20MG CAPS LIB PROL C/10 \n';
+        if (producer.medicine_febrax == 'true')
+            medicineList += '- FEBRAX 300 MG. TABS. C/15 \n';
+        if (producer.medicine_ibuprofeno == 'true')
+            medicineList += '- GM IBUPROFENO 600 MG 20 TAB \n';
+        if (producer.medicine_iprikene == 'true')
+            medicineList += '- IPRIKENE 3G 10 SOBRES \n';
+        if (producer.medicine_libertrim == 'true')
+            medicineList += '- LIBERTRIM 200 MG.COMPRIM. C/24 \n';
+        if (producer.medicine_litasina == 'true')
+            medicineList += '- LITASINA 100MG 30 TAB \n';
+        if (producer.medicine_marzivag == 'true')
+            medicineList += '- GM MARZIVAG AZITROMICINA 500MG 3TAB \n';
+        if (producer.medicine_meticorten == 'true')
+            medicineList += '- METICORTEN TAB 50 MG C/20 \n';
+        if (producer.medicine_plaquenil == 'true')
+            medicineList += '- PLAQUENIL 200 MG C/20 TAB \n';
+        if (producer.medicine_relvare == 'true')
+            medicineList += '- RELVARE 200/25UCG POLVO 30 DOSIS \n';
+        if (producer.medicine_spiolto == 'true')
+            medicineList += '- SPIOLTO 0.226MG 0.226MG SOL \n';
+        if (producer.medicine_tempra == 'true')
+            medicineList += '- TEMPRA 650MG FORTE|TAB|24 \n';
+        if (producer.medicine_tiaminal == 'true')
+            medicineList += '- TIAMINAL B12 TRIV AP.CAPS.C/30 \n';
+        if (producer.medicine_tylex == 'true')
+            medicineList += '- TYLEX 750 MG C/20 TABS \n';
+        if (producer.medicine_virazide == 'true')
+            medicineList += '- AVIRAZIDE 400 MG C/18 TABS \n';
+        if (producer.medicine_xarelto == 'true')
+            medicineList += '- XARELTO 20MG TAB C/28 \n';
+        if (producer.medicine_zyplo == 'true')
+            medicineList += '- ZYPLO JARABE 120 ML \n';
+        if (producer.medicine_other == 'true')
+            medicineList += '- ' + producer.medicine_other_text + ' \n';
+        if (producer.medicine_keterolaco == 'true')
+            medicineList += '- Ketorolaco tab 10 mg \n';
+        if (producer.medicine_colchicina == 'true')
+            medicineList += '- Colchicina tab 1 mg \n';
+        if (producer.medicine_moxifloxacino == 'true')
+            medicineList += '- Moxifloxacino \n';
+        if (producer.medicine_loperamida == 'true')
+            medicineList += '- Loperamida tab 2mg \n';
+        if (producer.medicine_sensibit == 'true')
+            medicineList += '- Sensibit D NF \n';
+        if (producer.medicine_sensemoc == 'true')
+            medicineList += '- Sensemoc (Acetilcisteína 200 mg) \n';
+        if (producer.medicine_meticorten5 == 'true')
+            medicineList += '- Meticorten (Prednisona 5 mg) \n';
+        if (producer.medicine_alin == 'true')
+            medicineList += '- Alin IM (Dexametasona 4 mg) \n';
+        if (producer.medicine_celestamine == 'true')
+            medicineList += '- Celestamine NS (Loratadina/Betametasona) \n';
+        if (producer.medicine_aspirina == 'true')
+            medicineList += '- Aspirina Protect (ASA 100) \n';
+        if (producer.medicine_dorixina == 'true')
+            medicineList += '- Dorixina, Firac ó Sedepron 250 mgs (clonixinato de lisina) \n';
+        if (producer.medicine_malival == 'true')
+            medicineList += '- Malival (Indometacina ) capsulas de 25 mgs \n';
+        if (producer.medicine_amoxicilina == 'true')
+            medicineList += '- Amoxicilina/Ac Clavulanico 875/125 mg \n';
+        if (producer.medicine_tempra500 == 'true')
+            medicineList += '- TEMPRA 500 \n';
+        if (producer.medicine_tempra750 == 'true')
+            medicineList += '- TEMPRA 750 \n';
+    } else {
+        medicineList += 'No se entregó medicamento.';
     }
-	else {
-		medicineList+= 'No se entregó medicamento.';
-	}
 
-	if (producer.concentrador_de_oxigeno == 'Yes'){
-		current.u_comments = medicineList + 'Entrega de concentrador de oxígeno.';
-	}else{
-			current.u_comments = medicineList;
-	}
-		
+    if (producer.concentrador_de_oxigeno == 'Yes') {
+        current.u_comments = medicineList + 'Entrega de concentrador de oxígeno.';
+    } else {
+        current.u_comments = medicineList;
+    }
+
 
     //Redirect to Parent Record
     var urlBack = 'x_817226_segcov_ui.do?sys_id=' + ui;
-	var urlPortal = 'x_817226_segcov_ui.do?sys_id=' + ui;
-	
-    if (!gs.hasRole('x_817226_segcov.user') && !gs.hasRole('x_817226_segcov.admin') && !gs.hasRole('x_817226_segcov.manager') &&  !gs.hasRole('admin')) {
+    var urlPortal = 'x_817226_segcov_ui.do?sys_id=' + ui;
+
+    if (!gs.hasRole('x_817226_segcov.user') && !gs.hasRole('x_817226_segcov.admin') && !gs.hasRole('x_817226_segcov.manager') && !gs.hasRole('admin')) {
         gs.addInfoMessage('Registro de entrega de Kit Covid');
-		urlBack = 'https://dev122336.service-now.com/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Da9bd63da97f05110321635dfe153afe2';
-        urlPortal = 'https://dev122336.service-now.com/sp?id=sc_cat_item&sys_id=a9bd63da97f05110321635dfe153afe2&referrer=popular_items';
+        urlBack = 'https://dev105063.service-now.com/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Da9bd63da97f05110321635dfe153afe2';
+        urlPortal = 'https://dev105063.service-now.com/sp?id=sc_cat_item&sys_id=a9bd63da97f05110321635dfe153afe2&referrer=popular_items';
     }
     producer.redirect = urlBack;
-	producer.portal_redirect = urlPortal;
+    producer.portal_redirect = urlPortal;
+	
 }
 
 function getUserItem(user) {
@@ -269,7 +272,7 @@ function checkCreateUser() {
     if (producer.employee_number != '') {
         var gr = new GlideRecord('sys_user');
         if (!gr.get('employee_number', producer.employee_number)) {
-			return '';
+            return '';
             gr.initialize();
             gr.first_name = producer.user_name;
             gr.employee_number = producer.employee_number;
@@ -291,7 +294,7 @@ function checkCreateUser() {
         if (gr2.next()) {
             return gr2.sys_id;
         } else {
-			return '';
+            return '';
             gr2.newRecord();
             gr2.first_name = producer.user_name;
             gr2.employee_number = producer.employee_number;
@@ -302,7 +305,7 @@ function checkCreateUser() {
             gr2.x_817226_segcov_user_category = producer.user_category;
             gr2.title = producer.user_title.getDisplayValue();
             gr2.x_817226_segcov_u_business_unit = '2bfebe101b62d054c28b997e0d4bcbdb';
-           // gr2.insert();
+            // gr2.insert();
             //return gr2.getUniqueValue();
         }
     }
@@ -315,14 +318,14 @@ function checkCreateUser() {
         <sys_created_by>salvador.centenotéllez</sys_created_by>
         <sys_created_on>2022-07-22 15:49:13</sys_created_on>
         <sys_id>a9bd63da97f05110321635dfe153afe2</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Entrega de Kit COVID</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sc_cat_item_producer_a9bd63da97f05110321635dfe153afe2</sys_update_name>
         <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-        <sys_updated_on>2022-08-04 18:20:21</sys_updated_on>
+        <sys_updated_on>2022-08-05 15:08:04</sys_updated_on>
         <table_name>x_817226_segcov_tracking</table_name>
         <taxonomy_topic/>
         <template/>

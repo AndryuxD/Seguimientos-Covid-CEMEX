@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="install_status" table="x_817226_segcov_tracking" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>install_status</element>
+            <name>x_817226_segcov_tracking</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 15:13:15</sys_created_on>
+            <sys_id>876ca3f297055110614839000153affb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>install_status</sys_name>
+            <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+            <sys_update_name>sys_choice_x_817226_segcov_tracking_install_status</sys_update_name>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:13:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Positivo</label>
+            <language>es</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 15:19:54</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>36ddab3a97055110614839000153afd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:19:54</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Positivo</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 15:16:37</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>683debf697055110614839000153afb1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:16:59</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N/A</label>
+            <language>es</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 15:14:46</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>4eacabf697055110614839000153afff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:14:46</sys_updated_on>
+            <value>100</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N/A</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 15:13:15</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>854c2bf697055110614839000153af85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:13:15</sys_updated_on>
+            <value>100</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solicitado</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 15:20:32</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>351eab3a97055110614839000153afdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:20:32</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solicitado</label>
+            <language>es</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 15:20:13</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>910eebf697055110614839000153afb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:20:13</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pendiente</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 15:16:25</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>252d633a97055110614839000153afea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:16:25</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>pendiente</label>
+            <language>es</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 15:19:14</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>d6bdebf697055110614839000153af8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:19:14</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Negativo</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 15:15:26</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>03ecebf697055110614839000153af03</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:17:45</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Negativo</label>
+            <language>es</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 15:15:59</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>1b0d633a97055110614839000153afe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:15:59</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
