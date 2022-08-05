@@ -52,7 +52,7 @@
         <update_guid_history>c186a34a30741110220939193d089ef4:307220510</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="User Tracking">d9a2e7502f45111048de56e62799b659</sys_audit_delete>
+        <sys_audit_delete display_value="">d9a2e7502f45111048de56e62799b659</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 20:05:43</sys_created_on>

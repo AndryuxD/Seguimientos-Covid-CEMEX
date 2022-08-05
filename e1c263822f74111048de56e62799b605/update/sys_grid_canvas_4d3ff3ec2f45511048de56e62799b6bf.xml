@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
     <sys_grid_canvas action="INSERT_OR_UPDATE">
-        <legacy_page display_value="PA MX Seguimiento COVID - Cercos y SeguimientoTab">cd3ff3ec2f45511048de56e62799b6be</legacy_page>
+        <legacy_page display_value="">cd3ff3ec2f45511048de56e62799b6be</legacy_page>
         <name>PA MX Seguimiento COVID - New Tab 3</name>
         <sys_class_name>sys_grid_canvas</sys_class_name>
         <sys_created_by>admin</sys_created_by>

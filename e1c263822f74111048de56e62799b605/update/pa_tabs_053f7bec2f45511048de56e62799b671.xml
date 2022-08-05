@@ -2,7 +2,7 @@
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="PA MX Seguimiento COVID - New Tab 3">4d3ff3ec2f45511048de56e62799b6bf</canvas_page>
         <name>Cercos y Seguimiento</name>
-        <page display_value="PA MX Seguimiento COVID - Cercos y SeguimientoTab">cd3ff3ec2f45511048de56e62799b6be</page>
+        <page display_value="">cd3ff3ec2f45511048de56e62799b6be</page>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-29 16:48:58</sys_created_on>

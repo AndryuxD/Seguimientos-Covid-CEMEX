@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 20:32:07</sys_created_on>
-            <sys_id>470f847597c11110614839000153af09</sys_id>
+            <sys_id>2517921297451110321635dfe153af7e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>status</sys_name>
             <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
@@ -26,7 +26,6 @@
             <name>x_817226_segcov_tracking</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 20:32:31</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -47,7 +46,6 @@
             <name>x_817226_segcov_tracking</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 20:32:29</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -68,7 +66,6 @@
             <name>x_817226_segcov_tracking</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 20:32:09</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -89,7 +86,6 @@
             <name>x_817226_segcov_tracking</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 20:32:07</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -110,7 +106,6 @@
             <name>x_817226_segcov_tracking</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 20:32:36</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -131,7 +126,6 @@
             <name>x_817226_segcov_tracking</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 20:32:38</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -152,7 +146,6 @@
             <name>x_817226_segcov_tracking</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 20:32:23</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -173,7 +166,6 @@
             <name>x_817226_segcov_tracking</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 20:32:25</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -194,7 +186,6 @@
             <name>x_817226_segcov_tracking</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 20:32:14</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -215,7 +206,6 @@
             <name>x_817226_segcov_tracking</name>
             <sequence/>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-01 20:32:15</sys_created_on>
             <sys_domain>global</sys_domain>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="User Cases" max_length="40" name="x_817226_segcov_cases" sizeclass="1" type="collection">
+    <element label="User Cases" max_length="40" name="x_817226_segcov_cases" sizeclass="7" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element choice="1" dependent="status" dependent_on_field="status" label="Caused By" max_length="40" name="caused_by" type="string" use_dependent_field="true">
@@ -26,9 +26,9 @@
                 <element dependent_value="1" inactive_on_update="false" label="Visitas a familiares" language="es" value="family_visit"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;    //Get aging from Created Date&#13;&#10;    var dur = new GlideDateTime();&#13;&#10;&#9;&#13;&#10;    if (current.checked_out != '')&#13;&#10;        dur = gs.dateDiff(current.checked_in.getDisplayValue(), current.checked_out.getDisplayValue(), false);&#13;&#10;    else&#13;&#10;        dur = gs.dateDiff(current.checked_in.getDisplayValue(), new GlideDateTime().getDisplayValue(), false);&#13;&#10;&#13;&#10;    return dur;&#13;&#10;&#13;&#10;})(current);" label="Checked Duration" max_length="40" name="checked_duration" type="glide_duration" virtual="true"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Checked in" max_length="40" name="checked_in" type="glide_date_time"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Checked out" max_length="40" name="checked_out" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;    //Get aging from Created Date&#10;    var dur = new GlideDateTime();&#10;&#9;&#10;    if (current.checked_out != '')&#10;        dur = gs.dateDiff(current.checked_in.getDisplayValue(), current.checked_out.getDisplayValue(), false);&#10;    else&#10;        dur = gs.dateDiff(current.checked_in.getDisplayValue(), new GlideDateTime().getDisplayValue(), false);&#10;&#10;    return dur;&#10;&#10;})(current);" label="Checked Duration" max_length="40" name="checked_duration" type="glide_duration" virtual="true"/>
+        <element label="Checked in" max_length="40" name="checked_in" type="glide_date_time"/>
+        <element label="Checked out" max_length="40" name="checked_out" type="glide_date_time"/>
         <element label="Closed at" max_length="40" name="closed_at" type="glide_date"/>
         <element choice="3" label="Closed status" max_length="40" name="closed_status" type="integer">
             <choice>
@@ -50,7 +50,7 @@
             </choice>
         </element>
         <element label="Date suspicious" max_length="40" name="date_suspicious" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Forecast" max_length="40" name="forecast" type="string">
+        <element choice="1" label="Forecast" max_length="40" name="forecast" type="string">
             <choice>
                 <element inactive_on_update="false" label="Bueno" sequence="1" value="bueno"/>
                 <element inactive_on_update="false" label="Con potencial de complicación" sequence="2" value="potencial_complicacion"/>
@@ -120,12 +120,12 @@
             </choice>
         </element>
         <element label="User Item" max_length="32" name="user_item" reference="x_817226_segcov_ui" type="reference"/>
-        <element label="Vulnerable Cause" max_length="40" name="vulnerable_cause" reference="x_817226_segcov_choices" reference_qual="element=vulnerable_cause^EQ" reference_qual_condition="element=vulnerable_cause^EQ" type="glide_list"/>
+        <element label="Vulnerable Cause" max_length="1024" name="vulnerable_cause" reference="x_817226_segcov_choices" reference_qual="element=vulnerable_cause^EQ" reference_qual_condition="element=vulnerable_cause^EQ" type="glide_list"/>
         <index name="index">
-            <element name="user_item"/>
+            <element name="assigned_to"/>
         </index>
         <index name="index2">
-            <element name="assigned_to"/>
+            <element name="user_item"/>
         </index>
     </element>
 </database>

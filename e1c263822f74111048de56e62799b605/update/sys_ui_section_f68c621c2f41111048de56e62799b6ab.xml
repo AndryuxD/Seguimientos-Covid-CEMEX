@@ -384,8 +384,8 @@
             <name>x_817226_segcov_cases</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-28 16:09:21</sys_created_on>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-02 20:45:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f68c621c2f41111048de56e62799b6ab</sys_id>
@@ -396,8 +396,8 @@
             <sys_policy/>
             <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
             <sys_update_name>sys_ui_section_f68c621c2f41111048de56e62799b6ab</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-28 16:09:21</sys_updated_on>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-02 20:45:01</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

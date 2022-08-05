@@ -2,7 +2,7 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA Seguimiento Usuarios - New Tab">34f8d9ce97c11110321635dfe153afb2</grid_canvas>
         <height>8</height>
-        <portal_widget display_value="Created 2022-08-02 20:35:02">e34959ce97c11110321635dfe153af8a</portal_widget>
+        <portal_widget display_value="">e34959ce97c11110321635dfe153af8a</portal_widget>
         <posx>0</posx>
         <posy>0</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>

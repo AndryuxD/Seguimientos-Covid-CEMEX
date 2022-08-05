@@ -2,7 +2,7 @@
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="PA Seguimiento Usuarios - New Tab">34f8d9ce97c11110321635dfe153afb2</canvas_page>
         <name>Seguimiento Usuarios - New Tab</name>
-        <page display_value="PA Seguimiento Usuarios - New Tab">38f8d9ce97c11110321635dfe153afb0</page>
+        <page/>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>salvador.centenotéllez</sys_created_by>
         <sys_created_on>2022-08-02 20:33:29</sys_created_on>

@@ -65,7 +65,7 @@
         <update_guid_history>234e9c3fa0f05110f824029b99c4b65e:1936568628,2cd354f322f05110085e2fb30aee518e:907997121</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Registro de Seguimiento de Caso">0ad68d372fb4511048de56e62799b66d</sys_audit_delete>
+        <sys_audit_delete display_value="">0ad68d372fb4511048de56e62799b66d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-26 19:28:03</sys_created_on>

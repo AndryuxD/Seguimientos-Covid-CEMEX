@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-03 19:11:57</sys_created_on>
+        <sys_id>80ef8e5697051110321635dfe153af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_817226_segcov_history.snc_internal</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_security_acl display_value="x_817226_segcov_history">9b662f8a2f74111048de56e62799b605</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_80ef8e5697051110321635dfe153af95</sys_update_name>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-03 19:11:57</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>be9f0ed297051110321635dfe153af0d</transaction_id>
+    </sys_security_acl_role>
+</record_update>

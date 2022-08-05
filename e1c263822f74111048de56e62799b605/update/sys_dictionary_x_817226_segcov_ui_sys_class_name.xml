@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>salvador.centenotéllez</sys_created_by>
         <sys_created_on>2022-07-22 16:28:41</sys_created_on>
-        <sys_id>ef67b71697345110321635dfe153afde</sys_id>
+        <sys_id>6fdf169a97451110321635dfe153af16</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Class</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sys_dictionary_x_817226_segcov_ui_sys_class_name</sys_update_name>
         <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-        <sys_updated_on>2022-07-22 16:28:41</sys_updated_on>
+        <sys_updated_on>2022-08-03 20:21:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
