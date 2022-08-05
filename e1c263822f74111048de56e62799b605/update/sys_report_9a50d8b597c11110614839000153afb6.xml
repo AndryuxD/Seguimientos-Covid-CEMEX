@@ -47,8 +47,9 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>case,complimetary_study,cost_payer,result,test_applied_on,type</field_list>
-        <filter table="x_817226_segcov_tracking">type=1^statusIN4,2<item display_value="Test" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="1"/>
-            <item display_value="4,2" endquery="false" field="status" goto="false" newquery="false" operator="IN" or="false" value="4,2"/>
+        <filter table="x_817226_segcov_tracking">u_tracking_type=1^install_status=4^ORinstall_status=2<item display_value="1" endquery="false" field="u_tracking_type" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="4" endquery="false" field="install_status" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item display_value="2" endquery="false" field="install_status" goto="false" newquery="false" operator="=" or="true" value="2"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{"$COUNT_FIELD$,AGGREGATION":{"decimalPrecision":2,"groupingUsed":true,"roundingMode":"HALF_UP","metricPrefixSymbolUsed":false,"showOriginalNumberInTooltip":true,"addValueInTooltip":true}}}</formatting_configuration>
         <from/>
@@ -110,14 +111,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9a50d8b597c11110614839000153afb6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>CXMX - Pruebas pendiente de resultado</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sys_report_9a50d8b597c11110614839000153afb6</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 20:37:48</sys_updated_on>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-05 17:09:12</sys_updated_on>
         <table>x_817226_segcov_tracking</table>
         <title>CXMX - Pruebas pendiente de resultado</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

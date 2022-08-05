@@ -13,10 +13,10 @@
         <exclusion_choice_list/>
         <look_up_name>C19 Lugar de Prueba</look_up_name>
         <name>Prueba aplicada en</name>
-        <reference_conditions table="x_817226_segcov_tracking">complimetary_study=2cfb92982f01111048de56e62799b65d^ORcomplimetary_study=ae2c1a982f01111048de56e62799b6ac<item display_table="x_817226_segcov_choices" display_value="PCR" endquery="false" field="complimetary_study" goto="false" newquery="false" operator="=" or="false" value="2cfb92982f01111048de56e62799b65d"/>
-            <item display_table="x_817226_segcov_choices" display_value="Prueba de antígeno para SARS-COV-2" endquery="false" field="complimetary_study" goto="false" newquery="false" operator="=" or="true" value="ae2c1a982f01111048de56e62799b6ac"/>
+        <reference_conditions table="x_817226_segcov_choices">value=pcr^ORvalue=prueba_antigeno<item endquery="false" field="value" goto="false" newquery="false" operator="=" or="false" value="pcr"/>
+            <item endquery="false" field="value" goto="false" newquery="false" operator="=" or="true" value="prueba_antigeno"/>
         </reference_conditions>
-        <reference_table>x_817226_segcov_tracking</reference_table>
+        <reference_table>x_817226_segcov_choices</reference_table>
         <remove_all_option>false</remove_all_option>
         <source_field>test_applied_on</source_field>
         <source_table>x_817226_segcov_tracking</source_table>
@@ -24,14 +24,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-01 20:46:03</sys_created_on>
         <sys_id>8a21d43997c11110614839000153af48</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Prueba aplicada en</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sys_ui_hp_publisher_8a21d43997c11110614839000153af48</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 20:51:36</sys_updated_on>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-05 17:16:00</sys_updated_on>
         <type>1</type>
         <ui_control_type>4</ui_control_type>
     </sys_ui_hp_publisher>

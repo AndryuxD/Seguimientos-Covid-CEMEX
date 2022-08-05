@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_reference">
+    <sys_ui_hp_reference action="INSERT_OR_UPDATE">
+        <publisher_reference display_value="Prueba aplicada">4383dcb997c11110614839000153af37</publisher_reference>
+        <reference_field>complimetary_study</reference_field>
+        <reference_table>x_817226_segcov_tracking</reference_table>
+        <sys_class_name>sys_ui_hp_reference</sys_class_name>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-05 17:18:24</sys_created_on>
+        <sys_id>a9f8cc8797855110614839000153af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4383dcb997c11110614839000153af37</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_ui_hp_reference_a9f8cc8797855110614839000153af80</sys_update_name>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-05 17:18:24</sys_updated_on>
+    </sys_ui_hp_reference>
+</record_update>

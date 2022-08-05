@@ -47,8 +47,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>case,complimetary_study,cost_payer,result,test_applied_on,type</field_list>
-        <filter table="x_817226_segcov_tracking">type=4^status=4<item display_value="Medical Study" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="4"/>
-            <item display_value="Pendiente" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="4"/>
+        <filter table="x_817226_segcov_tracking">u_tracking_type=4^install_status=4<item display_value="4" endquery="false" field="u_tracking_type" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item display_value="4" endquery="false" field="install_status" goto="false" newquery="false" operator="=" or="false" value="4"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{"$COUNT_FIELD$,AGGREGATION":{"decimalPrecision":2,"groupingUsed":true,"roundingMode":"HALF_UP","metricPrefixSymbolUsed":false,"showOriginalNumberInTooltip":true,"addValueInTooltip":true}}}</formatting_configuration>
         <from/>
@@ -110,14 +110,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3f701cb597c11110614839000153af35</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>CXMX - Estudios medicos pendientes de resultado</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sys_report_3f701cb597c11110614839000153af35</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-01 20:38:27</sys_updated_on>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-05 17:09:44</sys_updated_on>
         <table>x_817226_segcov_tracking</table>
         <title>CXMX - Estudios medicos pendientes de resultado</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
