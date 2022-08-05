@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="9559940f97c55110614839000153af15" sys_domain="09ff3d105f231000b12e3572f2b4775d" table="x_817226_segcov_cases" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 18:29:28</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>5559940f97c55110614839000153af18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_817226_segcov_cases" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">9559940f97c55110614839000153af15</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 18:29:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 18:29:28</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>d159940f97c55110614839000153af19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_817226_segcov_cases" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">9559940f97c55110614839000153af15</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_817226_segcov_cases" sys_domain="global" view="Default view">51cb6ed697451110614839000153af63</sys_ui_section>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 18:29:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 18:29:28</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>5959940f97c55110614839000153af19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_817226_segcov_cases" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">9559940f97c55110614839000153af15</sys_ui_form>
+            <sys_ui_section caption="Last Scores" display_value="Last Scores" name="x_817226_segcov_cases" sys_domain="global" view="Default view">ae7cea1a97451110614839000153af75</sys_ui_section>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 18:29:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 18:29:28</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>1159940f97c55110614839000153af19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_817226_segcov_cases" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">9559940f97c55110614839000153af15</sys_ui_form>
+            <sys_ui_section caption="Closed settings" display_value="Closed settings" name="x_817226_segcov_cases" sys_domain="global" view="Default view">51cb6ed697451110614839000153afe0</sys_ui_section>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 18:29:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 18:29:28</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>9559940f97c55110614839000153af19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_817226_segcov_cases" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">9559940f97c55110614839000153af15</sys_ui_form>
+            <sys_ui_section caption="Comments and Activities" display_value="Comments and Activities" name="x_817226_segcov_cases" sys_domain="global" view="Default view">4f72fb7e97055110614839000153af64</sys_ui_section>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 18:29:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_817226_segcov_cases</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-05 18:29:28</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>9559940f97c55110614839000153af15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_817226_segcov_cases</sys_name>
+            <sys_overrides display_value="x_817226_segcov_cases" name="x_817226_segcov_cases" sys_domain="global" view="Default view">11cb6ed697451110614839000153afe1</sys_overrides>
+            <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9559940f97c55110614839000153af15</sys_update_name>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-05 18:29:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

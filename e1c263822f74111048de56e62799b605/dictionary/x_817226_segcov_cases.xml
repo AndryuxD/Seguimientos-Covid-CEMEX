@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="User Cases" max_length="40" name="x_817226_segcov_cases" sizeclass="1" type="collection">
+    <element label="User Cases" max_length="40" name="x_817226_segcov_cases" sizeclass="4" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element choice="1" dependent="status" dependent_on_field="status" label="Caused By" max_length="40" name="caused_by" type="string" use_dependent_field="true">
@@ -119,8 +119,18 @@
                 <element inactive_on_update="false" label="Vulnerable" sequence="200" value="vulnerable"/>
             </choice>
         </element>
-        <element display="true" label="User Item" max_length="32" name="user_item" reference="x_817226_segcov_ui" type="reference"/>
-        <element label="Vulnerable Cause" max_length="40" name="vulnerable_cause" reference="x_817226_segcov_choices" reference_qual="element=vulnerable_cause^EQ" reference_qual_condition="element=vulnerable_cause^EQ" type="glide_list"/>
+        <element label="User Item" max_length="32" name="user_item" reference="x_817226_segcov_ui" type="reference"/>
+        <element choice="1" label="Health Status" max_length="40" name="u_health_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Empeorando" language="es" value="worsen"/>
+                <element inactive_on_update="false" label="Improving" value="improve"/>
+                <element inactive_on_update="false" label="Mejorando" language="es" value="improve"/>
+                <element inactive_on_update="false" label="No changes" value="no change"/>
+                <element inactive_on_update="false" label="No hay cambios" language="es" value="no change"/>
+                <element inactive_on_update="false" label="Worsen" value="worsen"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Vulnerable Cause" max_length="40" name="vulnerable_cause" reference="x_817226_segcov_choices" reference_qual="element=vulnerable_cause^EQ" reference_qual_condition="element=vulnerable_cause^EQ" type="reference"/>
         <index name="index">
             <element name="user_item"/>
         </index>
