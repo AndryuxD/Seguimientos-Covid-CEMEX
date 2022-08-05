@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_817226_segcov_ui">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="oxygenation" table="x_817226_segcov_history">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>ignore_filter_on_new=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -14,10 +14,10 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>asdasdasdasdasdasd</column_label>
+        <column_label>Oxygenation</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:global.getNextObjNumberPadded();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,7 +27,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>number</element>
+        <element>oxygenation</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -35,7 +35,7 @@
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_817226_segcov_ui</name>
+        <name>x_817226_segcov_history</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-28 17:02:39</sys_created_on>
-        <sys_id>7e9c25da97411110614839000153af37</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>asdasdasdasdasdasd</sys_name>
+        <sys_created_on>2022-08-05 15:21:41</sys_created_on>
+        <sys_id>407c2bf697055110614839000153af8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Oxygenation</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
-        <sys_update_name>sys_dictionary_x_817226_segcov_ui_number</sys_update_name>
+        <sys_update_name>sys_dictionary_x_817226_segcov_history_oxygenation</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-05 16:10:08</sys_updated_on>
+        <sys_updated_on>2022-08-05 15:21:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_user_category" table="x_817226_segcov_ui" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_user_category</element>
+            <name>x_817226_segcov_ui</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 15:35:49</sys_created_on>
+            <sys_id>79917f3e97055110614839000153af5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_user_category</sys_name>
+            <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+            <sys_update_name>sys_choice_x_817226_segcov_ui_u_user_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:35:49</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_user_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contractor</label>
+            <language>en</language>
+            <name>x_817226_segcov_ui</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 15:35:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1917f3e97055110614839000153af5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:35:49</sys_updated_on>
+            <value>contractor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_user_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer</label>
+            <language>en</language>
+            <name>x_817226_segcov_ui</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 15:35:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d917f3e97055110614839000153af5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:35:49</sys_updated_on>
+            <value>customer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_user_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee</label>
+            <language>en</language>
+            <name>x_817226_segcov_ui</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 15:35:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9917f3e97055110614839000153af60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:35:49</sys_updated_on>
+            <value>employee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_user_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>External</label>
+            <language>en</language>
+            <name>x_817226_segcov_ui</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 15:35:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79917f3e97055110614839000153af61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:35:49</sys_updated_on>
+            <value>external</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_user_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Relative</label>
+            <language>en</language>
+            <name>x_817226_segcov_ui</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 15:35:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5917f3e97055110614839000153af62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:35:49</sys_updated_on>
+            <value>relative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_user_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Seguridad Patrimonial</label>
+            <language>en</language>
+            <name>x_817226_segcov_ui</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 15:35:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d917f3e97055110614839000153af6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:35:49</sys_updated_on>
+            <value>patrimonial</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_user_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vendor</label>
+            <language>en</language>
+            <name>x_817226_segcov_ui</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 15:35:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9917f3e97055110614839000153af70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:35:49</sys_updated_on>
+            <value>vendor</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

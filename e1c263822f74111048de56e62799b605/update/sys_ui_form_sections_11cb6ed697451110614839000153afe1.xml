@@ -17,30 +17,30 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>fe7cea1a97451110614839000153afbd</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_817226_segcov_cases" name="x_817226_segcov_cases" sys_domain="global" view="Default view">11cb6ed697451110614839000153afe1</sys_ui_form>
-            <sys_ui_section caption="Comments" display_value="Comments" name="x_817226_segcov_cases" sys_domain="global" view="Default view">ae7cea1a97451110614839000153af75</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-03 21:13:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>91cb6ed697451110614839000153afe9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_817226_segcov_cases" name="x_817226_segcov_cases" sys_domain="global" view="Default view">11cb6ed697451110614839000153afe1</sys_ui_form>
-            <sys_ui_section caption="Checked" display_value="Checked" name="x_817226_segcov_cases" sys_domain="global" view="Default view">51cb6ed697451110614839000153af63</sys_ui_section>
+            <sys_ui_section caption="General" display_value="General" name="x_817226_segcov_cases" sys_domain="global" view="Default view">51cb6ed697451110614839000153af63</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-03 21:13:49</sys_updated_on>
+            <sys_updated_on>2022-08-05 15:39:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe7cea1a97451110614839000153afbd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_817226_segcov_cases" name="x_817226_segcov_cases" sys_domain="global" view="Default view">11cb6ed697451110614839000153afe1</sys_ui_form>
+            <sys_ui_section caption="Last Scores" display_value="Last Scores" name="x_817226_segcov_cases" sys_domain="global" view="Default view">ae7cea1a97451110614839000153af75</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:39:44</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
@@ -55,6 +55,20 @@
             <sys_ui_section caption="Closed settings" display_value="Closed settings" name="x_817226_segcov_cases" sys_domain="global" view="Default view">51cb6ed697451110614839000153afe0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-08-03 21:13:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-05 15:39:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf72fb7e97055110614839000153af68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_817226_segcov_cases" name="x_817226_segcov_cases" sys_domain="global" view="Default view">11cb6ed697451110614839000153afe1</sys_ui_form>
+            <sys_ui_section caption="Comments and Activities" display_value="Comments and Activities" name="x_817226_segcov_cases" sys_domain="global" view="Default view">4f72fb7e97055110614839000153af64</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-05 15:39:44</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_817226_segcov_cases</name>

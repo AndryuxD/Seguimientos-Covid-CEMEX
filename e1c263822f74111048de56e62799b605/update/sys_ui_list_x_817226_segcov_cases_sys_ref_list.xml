@@ -3,17 +3,17 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>user_item</element>
-            <list_id display_value="x_817226_segcov_cases" element="NULL" name="x_817226_segcov_cases" parent="NULL" relationship="NULL" sys_domain="global" view="d2a5c07121120110a866589604c20d22">d746847a97851110614839000153afaa</list_id>
+            <list_id display_value="x_817226_segcov_cases" element="NULL" name="x_817226_segcov_cases" parent="NULL" relationship="NULL" sys_domain="global" view="d2a5c07121120110a866589604c20d22">4237fbb297455110614839000153af66</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-04 22:27:50</sys_created_on>
-            <sys_id>5346847a97851110614839000153afac</sys_id>
+            <sys_created_on>2022-08-05 16:00:24</sys_created_on>
+            <sys_id>0e37fbb297455110614839000153af66</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-04 22:27:50</sys_updated_on>
+            <sys_updated_on>2022-08-05 16:00:24</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -27,10 +27,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-04 22:27:50</sys_created_on>
+            <sys_created_on>2022-08-05 16:00:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d746847a97851110614839000153afaa</sys_id>
+            <sys_id>4237fbb297455110614839000153af66</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_817226_segcov_cases</sys_name>
             <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
@@ -38,7 +38,7 @@
             <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
             <sys_update_name>sys_ui_list_x_817226_segcov_cases_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-04 22:27:50</sys_updated_on>
+            <sys_updated_on>2022-08-05 16:00:24</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">d2a5c07121120110a866589604c20d22</view>
             <view_name/>
