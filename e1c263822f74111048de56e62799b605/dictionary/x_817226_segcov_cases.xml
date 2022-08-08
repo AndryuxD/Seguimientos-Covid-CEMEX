@@ -62,7 +62,7 @@
         <element label="Last Oxygenation Value" max_length="20" name="last_oxygenation_value" type="decimal"/>
         <element label="Last Score" max_length="40" name="last_score" type="integer"/>
         <element label="Last Temperature Value" max_length="20" name="last_temperature_value" type="decimal"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
         <element choice="3" default="1" label="Status" max_length="40" name="opened_status" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Abierto" sequence="50" value="1"/>
