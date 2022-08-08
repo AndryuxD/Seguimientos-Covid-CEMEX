@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="status" table="x_817226_segcov_cases">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="opened_status" table="x_817226_segcov_cases">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -11,10 +11,10 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Status de salud</column_label>
+        <column_label>Status</column_label>
         <comments/>
         <create_roles/>
         <default_value>1</default_value>
@@ -27,7 +27,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>status</element>
+        <element>opened_status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-21 22:21:16</sys_created_on>
-        <sys_id>487eff422ff4111048de56e62799b65f</sys_id>
+        <sys_created_on>2022-08-05 23:28:52</sys_created_on>
+        <sys_id>9d9d1103970d5110614839000153afda</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Status de salud</sys_name>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
-        <sys_update_name>sys_dictionary_x_817226_segcov_cases_status</sys_update_name>
+        <sys_update_name>sys_dictionary_x_817226_segcov_cases_opened_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-05 23:28:52</sys_updated_on>
+        <sys_updated_on>2022-08-05 23:30:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

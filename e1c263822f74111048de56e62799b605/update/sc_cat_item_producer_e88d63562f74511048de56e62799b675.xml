@@ -172,8 +172,10 @@ function createNewCase(user){
 	gr_c.substatus = 99; // 99=sospechoso por sintomas
 	if (producer.contact_with_suspect == 'true' || producer.contact_with_positive == 'true')
 		gr_c.substatus = 3; //3=sospechoso por contacto
-	gr_c.checked_in = gs.nowDateTime();
-	gr_c.date_suspicious = gs.nowDateTime();
+	gr_c.checked_in = new GlideDateTime();
+	if(producer.semaphore != "green"){
+		gr_c.date_suspicious = new GlideDate();
+	}
 	gr_c.assigned_to = producer.user_medic;
 	var info = producer.comments + '\n';
 	info += 'Ubicacion: ' + producer.state + ', '+ producer.location.getDisplayValue();
@@ -220,14 +222,14 @@ function createHistory (ui_id,c_id){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 15:49:43</sys_created_on>
         <sys_id>e88d63562f74511048de56e62799b675</sys_id>
-        <sys_mod_count>55</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>Registro de Cerco Sanitario</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sc_cat_item_producer_e88d63562f74511048de56e62799b675</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-05 15:59:02</sys_updated_on>
+        <sys_updated_on>2022-08-05 22:51:05</sys_updated_on>
         <table_name>x_817226_segcov_history</table_name>
         <taxonomy_topic/>
         <template/>

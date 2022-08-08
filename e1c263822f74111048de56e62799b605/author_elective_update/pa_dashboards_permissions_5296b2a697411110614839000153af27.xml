@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="DELETE">
+        <dashboard display_value="Seguimiento Usuarios Vulnerables">bbc89d8e97c11110321635dfe153afe6</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>09c521852fa4111048de56e62799b621</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 16:39:36</sys_created_on>
+        <sys_id>5296b2a697411110614839000153af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>09c521852fa4111048de56e62799b621</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_5296b2a697411110614839000153af27</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 16:39:36</sys_updated_on>
+        <type>3</type>
+        <user display_value="Salvador Centeno Téllez">09c521852fa4111048de56e62799b621</user>
+        <write>true</write>
+    </pa_dashboards_permissions>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>pa_dashboards_permissions_5296b2a697411110614839000153af27</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions"><pa_dashboards_permissions action="INSERT_OR_UPDATE"><dashboard display_value="Seguimiento Usuarios Vulnerables">bbc89d8e97c11110321635dfe153afe6</dashboard><delete>false</delete><group/><identity>09c521852fa4111048de56e62799b621</identity><read>true</read><role/><sys_class_name>pa_dashboards_permissions</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-04 16:39:36</sys_created_on><sys_id>5296b2a697411110614839000153af27</sys_id><sys_mod_count>0</sys_mod_count><sys_name>09c521852fa4111048de56e62799b621</sys_name><sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package><sys_policy/><sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope><sys_update_name>pa_dashboards_permissions_5296b2a697411110614839000153af27</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-04 16:39:36</sys_updated_on><type>3</type><user display_value="Salvador Centeno Téllez">09c521852fa4111048de56e62799b621</user><write>true</write></pa_dashboards_permissions></record_update>]]></payload>
+        <payload_hash>-1575422121</payload_hash>
+        <record_name>09c521852fa4111048de56e62799b621</record_name>
+        <reverted_from/>
+        <source>1aec226a97011110614839000153af61</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 16:39:36</sys_created_on>
+        <sys_id>da96b2a697411110614839000153af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18269ba0b9c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 16:39:36</sys_updated_on>
+        <type>Dashboard Permissions</type>
+        <update_guid>1696b2a6b7411110d02c08f570f83629</update_guid>
+        <update_guid_history>1696b2a6b7411110d02c08f570f83629:-1575422121</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="09c521852fa4111048de56e62799b621">f6bec84f97855110614839000153afe8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 17:43:08</sys_created_on>
+        <sys_db_object display_value="" name="pa_dashboards_permissions">pa_dashboards_permissions</sys_db_object>
+        <sys_id>53dc28819a644f7c9c99ce883bc0eca4</sys_id>
+        <sys_metadata>5296b2a697411110614839000153af27</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>09c521852fa4111048de56e62799b621</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>pa_dashboards_permissions_5296b2a697411110614839000153af27</sys_update_name>
+        <sys_update_version display_value="pa_dashboards_permissions_5296b2a697411110614839000153af27">da96b2a697411110614839000153af29</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 17:43:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
