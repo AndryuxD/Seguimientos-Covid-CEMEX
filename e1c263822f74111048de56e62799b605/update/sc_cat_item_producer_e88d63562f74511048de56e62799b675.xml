@@ -124,6 +124,7 @@ function checkCaseData(c_id){
 	var gr_c = new GlideRecord('x_817226_segcov_cases');
 	gr_c.addQuery('sys_id', c_id);
 	gr_c.addQuery('type', "not_vulnerable");
+	gr_c.addQuery('opened_status', 1);
 	gr_c.orderByDesc('sys_created_on');
 	gr_c.setLimit(1);
 	gr_c.query();
@@ -140,6 +141,7 @@ function checkCaseStatus(user){
 	var gr_c = new GlideRecord('x_817226_segcov_cases');
 	gr_c.addQuery('user_item', user);
 	gr_c.addQuery('type', "not_vulnerable");
+	gr_c.addQuery('opened_status', 1);
 	gr_c.orderByDesc('sys_created_on');
 	gr_c.setLimit(1);
 	gr_c.query();
@@ -168,6 +170,7 @@ function createNewCase(user){
 	gr_c.last_score = producer.score;
 	gr_c.active = true;
 	
+	gr_c.opened_status = 1; //1=abierto, 2=cerrado
 	gr_c.status = 4; //4=sospechoso, 1=positivo
 	gr_c.substatus = 99; // 99=sospechoso por sintomas
 	if (producer.contact_with_suspect == 'true' || producer.contact_with_positive == 'true')
@@ -177,13 +180,13 @@ function createNewCase(user){
 		gr_c.date_suspicious = new GlideDate();
 	}
 	gr_c.assigned_to = producer.user_medic;
-	var info = producer.comments + '\n';
+	var info_c = producer.comments + '\n';
 	info += 'Ubicacion: ' + producer.state + ', '+ producer.location.getDisplayValue();
 	if (producer.contact_with_positive == 'true')
-		info += 'Contacto con positivo: ' + producer.contact_user;
+		info_c += 'Contacto con positivo: ' + producer.contact_user;
 	if (producer.contact_with_suspect == 'true')
-		info += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
-	current.comments = info;
+		info_c += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
+	gr_c.comments = info_c;
 	
 	return gr_c.insert();
 }
@@ -222,14 +225,14 @@ function createHistory (ui_id,c_id){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 15:49:43</sys_created_on>
         <sys_id>e88d63562f74511048de56e62799b675</sys_id>
-        <sys_mod_count>58</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>Registro de Cerco Sanitario</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sc_cat_item_producer_e88d63562f74511048de56e62799b675</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-05 22:51:05</sys_updated_on>
+        <sys_updated_on>2022-08-08 15:45:50</sys_updated_on>
         <table_name>x_817226_segcov_history</table_name>
         <taxonomy_topic/>
         <template/>
