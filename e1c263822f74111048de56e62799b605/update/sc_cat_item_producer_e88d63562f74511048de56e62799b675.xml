@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
+        <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -68,7 +68,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -89,7 +89,11 @@ function cercoSanitario() {
 	var ui_id = createUserItem(producer.owned_by);
 
 	//If the last case is open gets an id, if not then gets null 
-	var c_id = checkCaseStatus(ui_id);
+	var array = checkCaseData(ui_id);
+	var c_id = null;
+	if (array != null){
+		c_id = array[1];
+	}
 	
 	//If the person has no symptoms and if there's no case opened
 	if(producer.semaphore == 'green' && c_id == null){
@@ -133,22 +137,6 @@ function checkCaseData(ui_id){
 		array[0] = gr_c.user_item;
 		array[1] = gr_c.sys_id;
 		return array;
-	}
-	return null;
-}
-
-function checkCaseStatus(user){
-	var gr_c = new GlideRecord('x_817226_segcov_cases');
-	gr_c.addQuery('user_item', user);
-	gr_c.addQuery('type', "not_vulnerable");
-	gr_c.addQuery('opened_status', 1);
-	gr_c.orderByDesc('sys_created_on');
-	gr_c.setLimit(1);
-	gr_c.query();
-	if (gr_c.next()) {
-		if(gr_c.status != 6){
-			return gr_c.sys_id;
-		}
 	}
 	return null;
 }
@@ -216,13 +204,15 @@ function createHistory (ui_id,c_id){
 		info += 'Contacto con positivo: ' + producer.contact_user;
 	if (producer.contact_with_suspect == 'true')
 		info += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
-	current.comments = info;
+	current.comments =  info;
+	
 
     if (gs.hasRole('x_817226_segcov.admin') || gs.hasRole('x_817226_segcov.manager') || gs.hasRole('x_817226_segcov.user') || gs.hasRole('admin')) {
         gs.addInfoMessage('Cerco Sanitario registrado correctamente');
     }else{
 		gs.addInfoMessage('Cerco Sanitario registrado correctamente');
 		producer.redirect = 'com.glideapp.servicecatalog_cat_item_view.do?v=1&sysparm_id=e88d63562f74511048de56e62799b675';
+		producer.portal_redirect = 'sp?id=sc_cat_item&sys_id=e88d63562f74511048de56e62799b675';
 	}
 }]]></script>
         <short_description/>
@@ -233,14 +223,14 @@ function createHistory (ui_id,c_id){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 15:49:43</sys_created_on>
         <sys_id>e88d63562f74511048de56e62799b675</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>79</sys_mod_count>
         <sys_name>Registro de Cerco Sanitario</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sc_cat_item_producer_e88d63562f74511048de56e62799b675</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-08 18:34:24</sys_updated_on>
+        <sys_updated_on>2022-08-08 22:43:06</sys_updated_on>
         <table_name>x_817226_segcov_history</table_name>
         <taxonomy_topic/>
         <template/>

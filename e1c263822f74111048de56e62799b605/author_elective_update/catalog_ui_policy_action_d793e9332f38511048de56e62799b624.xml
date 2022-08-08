@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Registro de Cerco Sanitario">e88d63562f74511048de56e62799b675</catalog_item>
+        <catalog_variable>IO:4e6db8ae2f78511048de56e62799b65e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 21:34:10</sys_created_on>
+        <sys_id>d793e9332f38511048de56e62799b624</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>temperature</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d793e9332f38511048de56e62799b624</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 21:34:10</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Set temperature 38 if temperature check field is checked">aa132dff2ff4511048de56e62799b64b</ui_policy>
+        <variable>temperature</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>catalog_ui_policy_action_d793e9332f38511048de56e62799b624</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Registro de Cerco Sanitario">e88d63562f74511048de56e62799b675</catalog_item>
+        <catalog_variable>IO:4e6db8ae2f78511048de56e62799b65e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 21:34:10</sys_created_on>
+        <sys_id>d793e9332f38511048de56e62799b624</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>temperature</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d793e9332f38511048de56e62799b624</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 21:34:10</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Set temperature 38 if temperature check field is checked">aa132dff2ff4511048de56e62799b64b</ui_policy>
+        <variable>temperature</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>211501729</payload_hash>
+        <record_name>temperature</record_name>
+        <reverted_from/>
+        <source>1a9ce1da97411110614839000153af46</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 16:37:59</sys_created_on>
+        <sys_id>01ac69da97411110614839000153af0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1826492361b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 16:37:59</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>4dac69da50411110681a2e4385aa340c</update_guid>
+        <update_guid_history>4dac69da50411110681a2e4385aa340c:0,0f1cad5ae5411110fa7ee4dbec351fec:-1709353972,69b32d33f5385110b692f5bfb77285b6:-1249122645</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="temperature">bbfcdc4c97551110614839000153afb7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-08 21:19:24</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>8139bebef8834b2ea11ff1dded0ad9b1</sys_id>
+        <sys_metadata>d793e9332f38511048de56e62799b624</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>temperature</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_d793e9332f38511048de56e62799b624</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_d793e9332f38511048de56e62799b624">01ac69da97411110614839000153af0d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-08 21:19:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
