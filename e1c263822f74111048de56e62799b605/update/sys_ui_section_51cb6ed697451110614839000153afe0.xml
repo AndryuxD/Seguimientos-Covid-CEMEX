@@ -4,43 +4,43 @@
             <element>closed_status</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
-            <sys_id>767cea1a97451110614839000153aff3</sys_id>
+            <sys_created_on>2022-08-09 20:10:09</sys_created_on>
+            <sys_id>93b65d1c97d11110614839000153af88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Closed settings" display_value="Closed settings" name="x_817226_segcov_cases" sys_domain="global" view="Default view">51cb6ed697451110614839000153afe0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>closed_at</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
-            <sys_id>f67cea1a97451110614839000153aff3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Closed settings" display_value="Closed settings" name="x_817226_segcov_cases" sys_domain="global" view="Default view">51cb6ed697451110614839000153afe0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
+            <sys_updated_on>2022-08-09 20:10:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-03 21:16:55</sys_created_on>
-            <sys_id>7a7cea1a97451110614839000153aff3</sys_id>
+            <sys_created_on>2022-08-09 20:10:09</sys_created_on>
+            <sys_id>17b65d1c97d11110614839000153af88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Closed settings" display_value="Closed settings" name="x_817226_segcov_cases" sys_domain="global" view="Default view">51cb6ed697451110614839000153afe0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-03 21:16:55</sys_updated_on>
+            <sys_updated_on>2022-08-09 20:10:09</sys_updated_on>
             <sys_user/>
             <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-09 20:10:09</sys_created_on>
+            <sys_id>97b65d1c97d11110614839000153af88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closed settings" display_value="Closed settings" name="x_817226_segcov_cases" sys_domain="global" view="Default view">51cb6ed697451110614839000153afe0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 20:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Closed settings</caption>

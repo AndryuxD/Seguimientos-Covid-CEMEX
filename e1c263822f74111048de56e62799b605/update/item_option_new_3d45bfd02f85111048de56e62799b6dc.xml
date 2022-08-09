@@ -7,7 +7,7 @@
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
-        <create_roles/>
+        <create_roles>x_817226_segcov.user,x_817226_segcov.admin,x_817226_segcov.manager</create_roles>
         <default_html_value/>
         <default_value>false</default_value>
         <delete_roles/>
@@ -68,14 +68,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-28 21:30:05</sys_created_on>
         <sys_id>3d45bfd02f85111048de56e62799b6dc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Seguimiento de caso</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>item_option_new_3d45bfd02f85111048de56e62799b6dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-04 21:50:32</sys_updated_on>
+        <sys_updated_on>2022-08-09 21:45:44</sys_updated_on>
         <table/>
         <tooltip/>
         <type>7</type>
@@ -92,7 +92,7 @@
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
-        <write_roles/>
+        <write_roles>x_817226_segcov.manager,x_817226_segcov.admin,x_817226_segcov.user</write_roles>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=3d45bfd02f85111048de56e62799b6dc"/>
     <fx_price action="delete_multiple" query="id=3d45bfd02f85111048de56e62799b6dc"/>
