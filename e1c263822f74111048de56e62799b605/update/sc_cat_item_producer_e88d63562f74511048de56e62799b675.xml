@@ -158,13 +158,13 @@ function createNewCase(user){
 	gr_c.type = "not_vulnerable";
 	
 	//gr_h.assigned_to = producer.user_medic; For review or checking
-	var comments = producer.comments + '\n';
-	comments += 'Ubicacion: ' + producer.state + ', '+ producer.location.getDisplayValue();
+	var c_comments = producer.comments + '\n';
+	c_comments += 'Ubicacion: ' + producer.state + ', '+ producer.location.getDisplayValue();
 	if (producer.contact_with_positive == 'true')
-		comments += 'Contacto con positivo: ' + producer.contact_user;
+		c_comments += '\n' + 'Contacto con positivo: ' + producer.contact_user;
 	if (producer.contact_with_suspect == 'true')
-		comments += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
-	gr_c.comments = comments;
+		c_comments +=  '\n' + 'Contacto con sospechoso: ' + producer.contact_with_suspect;
+	gr_c.comments = c_comments;
 	
 	gr_c.risk = 3;
 	gr_c.last_temperature_value = producer.temperature;
@@ -206,14 +206,14 @@ function createHistory (ui_id,c_id){
 	}
 	current.supported_by = producer.user_medic;
 
-	var info = producer.comments + '\n';
+	var info = producer.comments;
 	if(producer.seguimiento_de_caso != 'true'){
-		info += 'Ubicacion: ' + producer.state + ', '+ producer.location.getDisplayValue();
+		info +=  '\n' + 'Ubicacion: ' + producer.state + ', '+ producer.location.getDisplayValue();
 	}
 	if (producer.contact_with_positive == 'true')
-		info += 'Contacto con positivo: ' + producer.contact_user;
+		info +=  '\n' +  'Contacto con positivo: ' + producer.contact_user;
 	if (producer.contact_with_suspect == 'true')
-		info += 'Contacto con sospechoso: ' + producer.contact_with_suspect;
+		info +=  '\n' +  'Contacto con sospechoso: ' + producer.contact_with_suspect;
 	current.comments =  info;
 	
 
@@ -233,14 +233,14 @@ function createHistory (ui_id,c_id){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 15:49:43</sys_created_on>
         <sys_id>e88d63562f74511048de56e62799b675</sys_id>
-        <sys_mod_count>85</sys_mod_count>
+        <sys_mod_count>88</sys_mod_count>
         <sys_name>Registro de Cerco Sanitario</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sc_cat_item_producer_e88d63562f74511048de56e62799b675</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-10 22:37:21</sys_updated_on>
+        <sys_updated_on>2022-08-10 23:05:52</sys_updated_on>
         <table_name>x_817226_segcov_history</table_name>
         <taxonomy_topic/>
         <template/>
