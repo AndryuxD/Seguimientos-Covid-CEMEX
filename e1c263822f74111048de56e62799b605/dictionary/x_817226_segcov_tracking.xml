@@ -50,7 +50,7 @@
                 <element inactive_on_update="false" label="Unidad de Negocio CEMEX" language="es" value="on site"/>
             </choice>
         </element>
-        <element label="Comments" max_length="250" name="u_comments" type="string"/>
+        <element label="Comments" max_length="250" name="u_comments" type="journal_input"/>
         <element label="Parent" max_length="32" name="u_parent" reference="x_817226_segcov_ui" type="reference"/>
         <element label="Result" max_length="250" name="u_result" type="string"/>
         <element choice="1" label="Type" mandatory="true" max_length="40" name="u_tracking_type" type="integer">
