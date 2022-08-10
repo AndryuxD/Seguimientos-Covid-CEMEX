@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="CXMX - NO APTO por Vicepresidencia">22f9983197051110614839000153af21</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 21:19:52</sys_created_on>
+        <sys_id>a6f9983197051110614839000153af21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>22f9983197051110614839000153af21</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_report_users_groups_a6f9983197051110614839000153af21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 21:19:52</sys_updated_on>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>sys_report_users_groups_a6f9983197051110614839000153af21</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="CXMX - NO APTO por Vicepresidencia">22f9983197051110614839000153af21</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-01 21:19:52</sys_created_on>
+        <sys_id>a6f9983197051110614839000153af21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>22f9983197051110614839000153af21</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_report_users_groups_a6f9983197051110614839000153af21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-01 21:19:52</sys_updated_on>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+</record_update>]]></payload>
+        <payload_hash>-1086773227</payload_hash>
+        <record_name>22f9983197051110614839000153af21</record_name>
+        <reverted_from/>
+        <source>1a9ce1da97411110614839000153af46</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 16:38:09</sys_created_on>
+        <sys_id>d7acedda97411110614839000153af79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18264925b6a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 16:38:09</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>17acedda4841111018d36099d35ea079</update_guid>
+        <update_guid_history>17acedda4841111018d36099d35ea079:0,fc0ce15a61411110e7eaa20beff85012:-1541900000,eaf99831070511107e60f4ebf6697e22:2008491284</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-10 22:40:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>12894dfc99c64459af9eeaae38b51871</sys_id>
+        <sys_metadata>a6f9983197051110614839000153af21</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>22f9983197051110614839000153af21</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_a6f9983197051110614839000153af21</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_a6f9983197051110614839000153af21">d7acedda97411110614839000153af79</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-10 22:40:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

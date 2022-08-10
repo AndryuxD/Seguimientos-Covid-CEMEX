@@ -139,6 +139,8 @@ function checkCaseData(ui_id){
 		if(producer.oxygen_saturation != ''){
 			try{
 				gr_c.last_oxygenation_value = producer.oxygen_saturation;
+				gr_c.last_temperature_value = producer.temperature;
+				gr_c.last_score = producer.score;
 				gr_c.update();
 			}catch (e){
 				gs.addInfoMessage(e);
@@ -231,14 +233,14 @@ function createHistory (ui_id,c_id){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 15:49:43</sys_created_on>
         <sys_id>e88d63562f74511048de56e62799b675</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>85</sys_mod_count>
         <sys_name>Registro de Cerco Sanitario</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sc_cat_item_producer_e88d63562f74511048de56e62799b675</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-10 16:57:39</sys_updated_on>
+        <sys_updated_on>2022-08-10 22:37:21</sys_updated_on>
         <table_name>x_817226_segcov_history</table_name>
         <taxonomy_topic/>
         <template/>
