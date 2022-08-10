@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="User Cases" max_length="40" name="x_817226_segcov_cases" sizeclass="4" type="collection">
+    <element label="User Cases" max_length="40" name="x_817226_segcov_cases" sizeclass="6" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element choice="1" dependent="status" dependent_on_field="status" label="Caused By" max_length="40" name="caused_by" type="string" use_dependent_field="true">
@@ -28,7 +28,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;//Get aging from Created Date&#13;&#10;&#9;var dur = new GlideDuration();&#13;&#10;&#9;&#13;&#10;&#9;var past = new GlideDateTime(current.checked_in);  &#13;&#10;&#9;var now = new GlideDateTime(); &#13;&#10;&#13;&#10;&#9;if (current.checked_out != ''){&#13;&#10;&#9;&#9;now = new GlideDateTime(current.checked_out); &#13;&#10;&#9;}&#13;&#10;&#9;dur = GlideDateTime.subtract(past,now);&#13;&#10;&#9;return dur;&#13;&#10;&#13;&#10;})(current);" label="Checked Duration" max_length="40" name="checked_duration" type="glide_duration" virtual="true"/>
         <element label="Checked in" max_length="40" name="checked_in" type="glide_date_time"/>
-        <element label="Checked out" max_length="40" name="checked_out" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;var checkedout = &quot;&quot;;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;if(current.opened_status == 2){&#13;&#10;&#9;&#9;checkedout = new GlideDateTime();  &#13;&#10;&#9;}&#13;&#10;&#9;return checkedout;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Checked out" max_length="40" name="checked_out" type="glide_date_time" virtual="true"/>
         <element label="Closed at" max_length="40" name="closed_at" type="glide_date"/>
         <element choice="3" label="Closed status" max_length="40" name="closed_status" type="integer">
             <choice>
