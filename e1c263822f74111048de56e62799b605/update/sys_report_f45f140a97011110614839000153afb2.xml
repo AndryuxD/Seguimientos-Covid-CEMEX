@@ -5,7 +5,7 @@
         <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <apply_alias>false</apply_alias>
-        <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
+        <axis_max_color display_value="UI14 Blue Light">a5a0656c97111110614839000153af2f</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
         <bar_unstack>false</bar_unstack>
         <calendar/>
@@ -109,14 +109,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f45f140a97011110614839000153afb2</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>CXMX - Ubicaciones de Cercos aplicados total</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sys_report_f45f140a97011110614839000153afb2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-08 20:53:50</sys_updated_on>
+        <sys_updated_on>2022-08-10 15:32:36</sys_updated_on>
         <table>x_817226_segcov_history</table>
         <title>CXMX - Ubicaciones de Cercos aplicados total</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

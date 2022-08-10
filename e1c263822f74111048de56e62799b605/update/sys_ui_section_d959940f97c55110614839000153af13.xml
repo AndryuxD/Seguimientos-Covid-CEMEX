@@ -3,154 +3,154 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>abel.tuter</sys_created_by>
-            <sys_created_on>2022-08-10 16:32:30</sys_created_on>
-            <sys_id>f08e2d2c97511110614839000153aff3</sys_id>
+            <sys_created_by>gerardo.sosa</sys_created_by>
+            <sys_created_on>2022-08-10 21:48:25</sys_created_on>
+            <sys_id>90d6b66497951110614839000153af8f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
-            <sys_updated_by>abel.tuter</sys_updated_by>
-            <sys_updated_on>2022-08-10 16:32:30</sys_updated_on>
+            <sys_updated_by>gerardo.sosa</sys_updated_by>
+            <sys_updated_on>2022-08-10 21:48:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>user_item</element>
             <position>1</position>
-            <sys_created_by>abel.tuter</sys_created_by>
-            <sys_created_on>2022-08-10 16:32:30</sys_created_on>
-            <sys_id>748e2d2c97511110614839000153aff3</sys_id>
+            <sys_created_by>gerardo.sosa</sys_created_by>
+            <sys_created_on>2022-08-10 21:48:25</sys_created_on>
+            <sys_id>9cd6ba6497951110614839000153afbc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
-            <sys_updated_by>abel.tuter</sys_updated_by>
-            <sys_updated_on>2022-08-10 16:32:30</sys_updated_on>
+            <sys_updated_by>gerardo.sosa</sys_updated_by>
+            <sys_updated_on>2022-08-10 21:48:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
             <position>2</position>
-            <sys_created_by>abel.tuter</sys_created_by>
-            <sys_created_on>2022-08-10 16:32:30</sys_created_on>
-            <sys_id>f48e2d2c97511110614839000153aff3</sys_id>
+            <sys_created_by>gerardo.sosa</sys_created_by>
+            <sys_created_on>2022-08-10 21:48:25</sys_created_on>
+            <sys_id>10d6ba6497951110614839000153afbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
-            <sys_updated_by>abel.tuter</sys_updated_by>
-            <sys_updated_on>2022-08-10 16:32:30</sys_updated_on>
+            <sys_updated_by>gerardo.sosa</sys_updated_by>
+            <sys_updated_on>2022-08-10 21:48:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
             <position>3</position>
-            <sys_created_by>abel.tuter</sys_created_by>
-            <sys_created_on>2022-08-10 16:32:30</sys_created_on>
-            <sys_id>788e2d2c97511110614839000153aff3</sys_id>
+            <sys_created_by>gerardo.sosa</sys_created_by>
+            <sys_created_on>2022-08-10 21:48:25</sys_created_on>
+            <sys_id>90d6ba6497951110614839000153afbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
-            <sys_updated_by>abel.tuter</sys_updated_by>
-            <sys_updated_on>2022-08-10 16:32:30</sys_updated_on>
+            <sys_updated_by>gerardo.sosa</sys_updated_by>
+            <sys_updated_on>2022-08-10 21:48:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>4</position>
-            <sys_created_by>abel.tuter</sys_created_by>
-            <sys_created_on>2022-08-10 16:32:30</sys_created_on>
-            <sys_id>f88e2d2c97511110614839000153aff3</sys_id>
+            <sys_created_by>gerardo.sosa</sys_created_by>
+            <sys_created_on>2022-08-10 21:48:25</sys_created_on>
+            <sys_id>14d6ba6497951110614839000153afbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
-            <sys_updated_by>abel.tuter</sys_updated_by>
-            <sys_updated_on>2022-08-10 16:32:30</sys_updated_on>
+            <sys_updated_by>gerardo.sosa</sys_updated_by>
+            <sys_updated_on>2022-08-10 21:48:25</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>opened_status</element>
             <position>5</position>
-            <sys_created_by>abel.tuter</sys_created_by>
-            <sys_created_on>2022-08-10 16:32:30</sys_created_on>
-            <sys_id>7c8e2d2c97511110614839000153aff3</sys_id>
+            <sys_created_by>gerardo.sosa</sys_created_by>
+            <sys_created_on>2022-08-10 21:48:25</sys_created_on>
+            <sys_id>94d6ba6497951110614839000153afbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
-            <sys_updated_by>abel.tuter</sys_updated_by>
-            <sys_updated_on>2022-08-10 16:32:30</sys_updated_on>
+            <sys_updated_by>gerardo.sosa</sys_updated_by>
+            <sys_updated_on>2022-08-10 21:48:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
             <position>6</position>
-            <sys_created_by>abel.tuter</sys_created_by>
-            <sys_created_on>2022-08-10 16:32:30</sys_created_on>
-            <sys_id>fc8e2d2c97511110614839000153aff3</sys_id>
+            <sys_created_by>gerardo.sosa</sys_created_by>
+            <sys_created_on>2022-08-10 21:48:25</sys_created_on>
+            <sys_id>18d6ba6497951110614839000153afbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
-            <sys_updated_by>abel.tuter</sys_updated_by>
-            <sys_updated_on>2022-08-10 16:32:30</sys_updated_on>
+            <sys_updated_by>gerardo.sosa</sys_updated_by>
+            <sys_updated_on>2022-08-10 21:48:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>substatus</element>
             <position>7</position>
-            <sys_created_by>abel.tuter</sys_created_by>
-            <sys_created_on>2022-08-10 16:32:30</sys_created_on>
-            <sys_id>708e2d2c97511110614839000153aff4</sys_id>
+            <sys_created_by>gerardo.sosa</sys_created_by>
+            <sys_created_on>2022-08-10 21:48:25</sys_created_on>
+            <sys_id>98d6ba6497951110614839000153afbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
-            <sys_updated_by>abel.tuter</sys_updated_by>
-            <sys_updated_on>2022-08-10 16:32:30</sys_updated_on>
+            <sys_updated_by>gerardo.sosa</sys_updated_by>
+            <sys_updated_on>2022-08-10 21:48:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>caused_by</element>
             <position>8</position>
-            <sys_created_by>abel.tuter</sys_created_by>
-            <sys_created_on>2022-08-10 16:32:30</sys_created_on>
-            <sys_id>f08e2d2c97511110614839000153aff4</sys_id>
+            <sys_created_by>gerardo.sosa</sys_created_by>
+            <sys_created_on>2022-08-10 21:48:25</sys_created_on>
+            <sys_id>1cd6ba6497951110614839000153afbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
-            <sys_updated_by>abel.tuter</sys_updated_by>
-            <sys_updated_on>2022-08-10 16:32:30</sys_updated_on>
+            <sys_updated_by>gerardo.sosa</sys_updated_by>
+            <sys_updated_on>2022-08-10 21:48:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>condition</element>
             <position>9</position>
-            <sys_created_by>abel.tuter</sys_created_by>
-            <sys_created_on>2022-08-10 16:32:30</sys_created_on>
-            <sys_id>748e2d2c97511110614839000153aff4</sys_id>
+            <sys_created_by>gerardo.sosa</sys_created_by>
+            <sys_created_on>2022-08-10 21:48:25</sys_created_on>
+            <sys_id>9cd6ba6497951110614839000153afbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
-            <sys_updated_by>abel.tuter</sys_updated_by>
-            <sys_updated_on>2022-08-10 16:32:30</sys_updated_on>
+            <sys_updated_by>gerardo.sosa</sys_updated_by>
+            <sys_updated_on>2022-08-10 21:48:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_suspicious</element>
             <position>10</position>
-            <sys_created_by>abel.tuter</sys_created_by>
-            <sys_created_on>2022-08-10 16:32:30</sys_created_on>
-            <sys_id>f48e2d2c97511110614839000153aff4</sys_id>
+            <sys_created_by>gerardo.sosa</sys_created_by>
+            <sys_created_on>2022-08-10 21:48:25</sys_created_on>
+            <sys_id>10d6ba6497951110614839000153afbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_cases" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">d959940f97c55110614839000153af13</sys_ui_section>
-            <sys_updated_by>abel.tuter</sys_updated_by>
-            <sys_updated_on>2022-08-10 16:32:30</sys_updated_on>
+            <sys_updated_by>gerardo.sosa</sys_updated_by>
+            <sys_updated_on>2022-08-10 21:48:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
