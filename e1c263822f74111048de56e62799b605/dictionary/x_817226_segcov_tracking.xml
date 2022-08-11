@@ -50,7 +50,7 @@
                 <element inactive_on_update="false" label="Unidad de Negocio CEMEX" language="es" value="on site"/>
             </choice>
         </element>
-        <element label="Comments" max_length="250" name="u_comments" type="journal_input"/>
+        <element label="Comments" max_length="250" name="u_comments" type="journal"/>
         <element label="Parent" max_length="32" name="u_parent" reference="x_817226_segcov_ui" type="reference"/>
         <element label="Result" max_length="250" name="u_result" type="string"/>
         <element choice="1" label="Type" mandatory="true" max_length="40" name="u_tracking_type" type="integer">
@@ -65,10 +65,12 @@
                 <element inactive_on_update="false" label="Medical Study" value="4"/>
                 <element inactive_on_update="false" label="Prueba" language="es" value="1"/>
                 <element inactive_on_update="false" label="Test" value="1"/>
+                <element inactive_on_update="false" label="testchava" value="222"/>
                 <element inactive_on_update="false" label="Tratamiento" language="es" value="2"/>
                 <element inactive_on_update="false" label="Treatment" value="2"/>
                 <element inactive_on_update="false" label="Vulnerabilidad" language="es" value="7"/>
                 <element inactive_on_update="false" label="Vulnerability" value="7"/>
+                <element inactive_on_update="false" label="testxd" sequence="55" value="123"/>
             </choice>
         </element>
         <element label="User Name" max_length="150" name="u_user_name" type="string"/>
