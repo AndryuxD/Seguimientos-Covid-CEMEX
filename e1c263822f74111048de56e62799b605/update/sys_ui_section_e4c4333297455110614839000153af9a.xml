@@ -1,72 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="General" section_id="e4c4333297455110614839000153af9a" sys_domain="global" table="x_817226_segcov_tracking" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_tracking_type</element>
+            <element>test_applied_on</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-05 15:49:40</sys_created_on>
-            <sys_id>acc4333297455110614839000153afd1</sys_id>
+            <sys_created_on>2022-08-11 14:40:44</sys_created_on>
+            <sys_id>518ede7497155110614839000153af4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_817226_segcov_tracking" sys_domain="global" view="Default view">e4c4333297455110614839000153af9a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-05 15:49:40</sys_updated_on>
+            <sys_updated_on>2022-08-11 14:40:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tracking_type</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 14:40:44</sys_created_on>
+            <sys_id>d18ede7497155110614839000153af4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_817226_segcov_tracking" sys_domain="global" view="Default view">e4c4333297455110614839000153af9a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 14:40:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>install_status</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-05 15:49:40</sys_created_on>
-            <sys_id>20c4333297455110614839000153afd2</sys_id>
+            <sys_created_on>2022-08-11 14:40:44</sys_created_on>
+            <sys_id>558ede7497155110614839000153af4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_817226_segcov_tracking" sys_domain="global" view="Default view">e4c4333297455110614839000153af9a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-05 15:49:40</sys_updated_on>
+            <sys_updated_on>2022-08-11 14:40:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_result</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-05 15:49:40</sys_created_on>
-            <sys_id>a0c4333297455110614839000153afd2</sys_id>
+            <sys_created_on>2022-08-11 14:40:44</sys_created_on>
+            <sys_id>d58ede7497155110614839000153af4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_817226_segcov_tracking" sys_domain="global" view="Default view">e4c4333297455110614839000153af9a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-05 15:49:40</sys_updated_on>
+            <sys_updated_on>2022-08-11 14:40:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>delivery_date</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-05 15:49:40</sys_created_on>
-            <sys_id>24c4333297455110614839000153afd2</sys_id>
+            <sys_created_on>2022-08-11 14:40:44</sys_created_on>
+            <sys_id>598ede7497155110614839000153af4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_817226_segcov_tracking" sys_domain="global" view="Default view">e4c4333297455110614839000153af9a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-05 15:49:40</sys_updated_on>
+            <sys_updated_on>2022-08-11 14:40:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>complimetary_study</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-05 15:49:40</sys_created_on>
-            <sys_id>a4c4333297455110614839000153afd2</sys_id>
+            <sys_created_on>2022-08-11 14:40:44</sys_created_on>
+            <sys_id>d98ede7497155110614839000153af4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_817226_segcov_tracking" sys_domain="global" view="Default view">e4c4333297455110614839000153af9a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-05 15:49:40</sys_updated_on>
+            <sys_updated_on>2022-08-11 14:40:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
