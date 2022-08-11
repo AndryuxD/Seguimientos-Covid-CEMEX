@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="7dab52f097155110614839000153af30" sys_domain="09ff3d105f231000b12e3572f2b4775d" table="x_817226_segcov_tracking" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-11 14:28:13</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>3dab52f097155110614839000153af34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_817226_segcov_tracking" name="x_817226_segcov_tracking" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">7dab52f097155110614839000153af30</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_817226_segcov_tracking" sys_domain="global" view="Default view">0fd9bf9697345110321635dfe153af14</sys_ui_section>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-11 14:28:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-11 14:28:13</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>79ab52f097155110614839000153af34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_817226_segcov_tracking" name="x_817226_segcov_tracking" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">7dab52f097155110614839000153af30</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_817226_segcov_tracking" sys_domain="global" view="Default view">e4c4333297455110614839000153af9a</sys_ui_section>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-11 14:28:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-11 14:28:13</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>b1ab52f097155110614839000153af34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_817226_segcov_tracking" name="x_817226_segcov_tracking" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">7dab52f097155110614839000153af30</sys_ui_form>
+            <sys_ui_section caption="Comments and Activities" display_value="Comments and Activities" name="x_817226_segcov_tracking" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">bdab52f097155110614839000153af2e</sys_ui_section>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-11 14:28:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_817226_segcov_tracking</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>salvador.centenotéllez</sys_created_by>
+            <sys_created_on>2022-08-11 14:28:13</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/</sys_domain_path>
+            <sys_id>7dab52f097155110614839000153af30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_817226_segcov_tracking</sys_name>
+            <sys_overrides display_value="x_817226_segcov_tracking" name="x_817226_segcov_tracking" sys_domain="global" view="Default view">20c4333297455110614839000153af9c</sys_overrides>
+            <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7dab52f097155110614839000153af30</sys_update_name>
+            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+            <sys_updated_on>2022-08-11 14:28:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
