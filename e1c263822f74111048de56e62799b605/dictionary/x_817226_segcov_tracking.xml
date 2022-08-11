@@ -2,24 +2,41 @@
     <element label="User Tracking" max_length="40" name="x_817226_segcov_tracking" sizeclass="16" type="collection">
         <element label="Change Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Case" max_length="32" name="case" reference="x_817226_segcov_cases" type="reference"/>
-        <element choice="3" label="Complimetary Study" max_length="32" name="complimetary_study" reference="x_817226_segcov_choices" reference_qual="element=complimetary_study^EQ" reference_qual_condition="element=complimetary_study^EQ" type="reference">
+        <element choice="3" label="Complimetary Study" max_length="32" name="complimetary_study" reference_qual="element=complimetary_study^EQ" reference_qual_condition="element=complimetary_study^EQ" type="string">
             <choice>
                 <element dependent_value="4" inactive_on_update="false" label="Ac Anti dengue" value="ac_anti_dengue"/>
+                <element dependent_value="4" inactive_on_update="false" label="Ac Anti dengue" value="ac_anti_dengue"/>
+                <element dependent_value="4" inactive_on_update="false" label="BHC" value="bhc"/>
                 <element dependent_value="4" inactive_on_update="false" label="BHC" value="bhc"/>
                 <element dependent_value="4" inactive_on_update="false" label="DHL" value="dhl"/>
+                <element dependent_value="4" inactive_on_update="false" label="DHL" value="dhl"/>
+                <element dependent_value="4" inactive_on_update="false" label="Electrocardiograma de reposo" value="electrocardiograma"/>
                 <element dependent_value="4" inactive_on_update="false" label="Electrocardiograma de reposo" value="electrocardiograma"/>
                 <element dependent_value="4" inactive_on_update="false" label="Examen General de Orina (EGO)" value="ego"/>
+                <element dependent_value="4" inactive_on_update="false" label="Examen General de Orina (EGO)" value="ego"/>
+                <element dependent_value="4" inactive_on_update="false" label="Ferritina" value="ferritin"/>
                 <element dependent_value="4" inactive_on_update="false" label="Ferritina" value="ferritin"/>
                 <element dependent_value="1" inactive_on_update="false" label="PCR" value="pcr"/>
+                <element dependent_value="1" inactive_on_update="false" label="PCR" value="pcr"/>
+                <element dependent_value="4" inactive_on_update="false" label="Perfil Diabetico" value="perfil_diabetico"/>
                 <element dependent_value="4" inactive_on_update="false" label="Perfil Diabetico" value="perfil_diabetico"/>
                 <element dependent_value="4" inactive_on_update="false" label="Procalcitonina" value="procalcitonin"/>
+                <element dependent_value="4" inactive_on_update="false" label="Procalcitonina" value="procalcitonin"/>
+                <element dependent_value="4" inactive_on_update="false" label="Proteína C Reactiva" value="reactive_protein_c"/>
                 <element dependent_value="4" inactive_on_update="false" label="Proteína C Reactiva" value="reactive_protein_c"/>
                 <element dependent_value="4" inactive_on_update="false" label="Prueba cuantitativa de anticuerpos IgM IgG en sangre" value="antibodies_igm_igg"/>
+                <element dependent_value="4" inactive_on_update="false" label="Prueba cuantitativa de anticuerpos IgM IgG en sangre" value="antibodies_igm_igg"/>
+                <element dependent_value="1" inactive_on_update="false" label="Prueba de antígeno para SARS-COV-2" value="prueba_antigeno"/>
                 <element dependent_value="1" inactive_on_update="false" label="Prueba de antígeno para SARS-COV-2" value="prueba_antigeno"/>
                 <element dependent_value="4" inactive_on_update="false" label="Prueba de funcion hepatica" value="prueba_hepatica"/>
+                <element dependent_value="4" inactive_on_update="false" label="Prueba de funcion hepatica" value="prueba_hepatica"/>
+                <element dependent_value="4" inactive_on_update="false" label="Quimica Sanguinea" value="quimica_sanguinea"/>
                 <element dependent_value="4" inactive_on_update="false" label="Quimica Sanguinea" value="quimica_sanguinea"/>
                 <element dependent_value="4" inactive_on_update="false" label="Radiografía tele de tórax" value="chest_xray"/>
+                <element dependent_value="4" inactive_on_update="false" label="Radiografía tele de tórax" value="chest_xray"/>
                 <element dependent_value="4" inactive_on_update="false" label="TAC de tórax simple" value="simple_chest_ct"/>
+                <element dependent_value="4" inactive_on_update="false" label="TAC de tórax simple" value="simple_chest_ct"/>
+                <element dependent_value="4" inactive_on_update="false" label="ZICA" value="zica"/>
                 <element dependent_value="4" inactive_on_update="false" label="ZICA" value="zica"/>
             </choice>
         </element>
@@ -29,14 +46,14 @@
             <choice>
                 <element inactive_on_update="false" label="N/A" language="es" value="100"/>
                 <element inactive_on_update="false" label="N/A" value="100"/>
-                <element inactive_on_update="false" label="Negativo" value="7"/>
                 <element inactive_on_update="false" label="Negativo" language="es" value="7"/>
+                <element inactive_on_update="false" label="Negativo" value="7"/>
                 <element inactive_on_update="false" label="Pendiente" value="4"/>
                 <element inactive_on_update="false" label="pendiente" language="es" value="4"/>
                 <element inactive_on_update="false" label="Positivo" language="es" value="1"/>
                 <element inactive_on_update="false" label="Positivo" value="1"/>
-                <element inactive_on_update="false" label="Solicitado" value="2"/>
                 <element inactive_on_update="false" label="Solicitado" language="es" value="2"/>
+                <element inactive_on_update="false" label="Solicitado" value="2"/>
             </choice>
         </element>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
@@ -60,17 +77,15 @@
                 <element inactive_on_update="false" label="Hospitalización" language="es" value="3"/>
                 <element inactive_on_update="false" label="Hospitalización" value="3"/>
                 <element inactive_on_update="false" label="Isolation" value="5"/>
-                <element inactive_on_update="false" label="Kit COVID-19" language="es" value="6"/>
                 <element inactive_on_update="false" label="Kit COVID-19" value="6"/>
+                <element inactive_on_update="false" label="Kit COVID-19" language="es" value="6"/>
                 <element inactive_on_update="false" label="Medical Study" value="4"/>
                 <element inactive_on_update="false" label="Prueba" language="es" value="1"/>
                 <element inactive_on_update="false" label="Test" value="1"/>
-                <element inactive_on_update="false" label="testchava" value="222"/>
                 <element inactive_on_update="false" label="Tratamiento" language="es" value="2"/>
                 <element inactive_on_update="false" label="Treatment" value="2"/>
                 <element inactive_on_update="false" label="Vulnerabilidad" language="es" value="7"/>
                 <element inactive_on_update="false" label="Vulnerability" value="7"/>
-                <element inactive_on_update="false" label="testxd" sequence="55" value="123"/>
             </choice>
         </element>
         <element label="User Name" max_length="150" name="u_user_name" type="string"/>

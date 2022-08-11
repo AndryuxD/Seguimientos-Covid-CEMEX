@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="09ff3d105f231000b12e3572f2b4775d" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Entrega de Kit COVID">a9bd63da97f05110321635dfe153afe2</cat_item>
+        <cat_variable>IO:05266c2297f45110321635dfe153afe7</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set User Values</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) {
+        return;
+    }
+  
+    if (newValue != '') {
+        var tableName = 'sys_user';
+        var fields = ['department', 'x_817226_segcov_user_category', 'title', 'employee_number'];
+        var rec = newValue;
+        var ga = new GlideAjax('cxServiceCatalogAjax');
+        ga.addParam('sysparm_name', 'getRecordInfo');
+        ga.addParam('sysparm_table', tableName);
+        ga.addParam('sysparm_table_sys_id', rec);
+        ga.addParam('sysparm_fields', fields);
+        ga.getXML(responseAjax);
+    }
+}
+
+function responseAjax(response) {
+    var answer = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
+
+    if (answer.department != '')
+        g_form.setValue('department', answer.department);
+    if (answer.u_user_category != '')
+        g_form.setValue('user_category', answer.x_817226_segcov_user_category);
+    if (answer.title != '')
+		g_form.clearValue('user_title');
+        g_form.setValue('user_title', answer.title);
+    if (answer.employee_number != '') {
+        if (g_form.getValue('employee_number') == '')
+            g_form.setValue('employee_number', answer.employee_number);
+    }
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-04 21:24:07</sys_created_on>
+        <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+        <sys_domain_path>!!!/!!!/</sys_domain_path>
+        <sys_id>0eb77f6697451110614839000153af13</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>Set User Values</sys_name>
+        <sys_overrides display_value="">3c54efe897411110321635dfe153af3d</sys_overrides>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>catalog_script_client_0eb77f6697451110614839000153af13</sys_update_name>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-11 15:21:53</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>catalog_script_client_0eb77f6697451110614839000153af13</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="09ff3d105f231000b12e3572f2b4775d" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Entrega de Kit COVID"&gt;a9bd63da97f05110321635dfe153afe2&lt;/cat_item&gt;&lt;cat_variable&gt;IO:05266c2297f45110321635dfe153afe7&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set User Values&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) {
+        return;
+    }
+  
+    if (newValue != '') {
+        var tableName = 'sys_user';
+        var fields = ['department', 'x_817226_segcov_user_category', 'title', 'employee_number'];
+        var rec = newValue;
+        var ga = new GlideAjax('cxServiceCatalogAjax');
+        ga.addParam('sysparm_name', 'getRecordInfo');
+        ga.addParam('sysparm_table', tableName);
+        ga.addParam('sysparm_table_sys_id', rec);
+        ga.addParam('sysparm_fields', fields);
+        ga.getXML(responseAjax);
+    }
+}
+
+function responseAjax(response) {
+    var answer = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
+
+    if (answer.department != '')
+        g_form.setValue('department', answer.department);
+    if (answer.u_user_category != '')
+        g_form.setValue('user_category', answer.x_817226_segcov_user_category);
+    if (answer.title != '')
+		g_form.clearValue('user_title');
+        g_form.setValue('user_title', answer.title);
+    if (answer.employee_number != '') {
+        if (g_form.getValue('employee_number') == '')
+            g_form.setValue('employee_number', answer.employee_number);
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;salvador.centenotéllez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-04 21:24:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;09ff3d105f231000b12e3572f2b4775d&lt;/sys_domain&gt;&lt;sys_domain_path&gt;!!!/!!!/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0eb77f6697451110614839000153af13&lt;/sys_id&gt;&lt;sys_mod_count&gt;46&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set User Values&lt;/sys_name&gt;&lt;sys_overrides display_value=""&gt;3c54efe897411110321635dfe153af3d&lt;/sys_overrides&gt;&lt;sys_package display_value="Seguimiento COVID" source="x_817226_segcov"&gt;e1c263822f74111048de56e62799b605&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Seguimiento COVID"&gt;e1c263822f74111048de56e62799b605&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_0eb77f6697451110614839000153af13&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;salvador.centenotéllez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-11 15:21:53&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1813200494</payload_hash>
+        <record_name>Set User Values</record_name>
+        <reverted_from/>
+        <source>bc114b6097d51110614839000153af0b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-11 15:21:53</sys_created_on>
+        <sys_id>14f76efc97155110614839000153afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1828d7f69030000001</sys_recorded_at>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-11 15:21:53</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>1cf76efc90155110f4e6519860253aeb</update_guid>
+        <update_guid_history>1cf76efc90155110f4e6519860253aeb:-1813200494,cda7aefcf5155110539608f31603bcf0:-366173388,f2372afc1e1551103840936d64ec3c1f:1919353064,aea6eebcbb15511022559b06a3ee5e0f:-1974902702,9586eabcb61551104ad17051e4fb91e8:294247493,880662bceb155110bc7d609c62516d91:-1974902702,87c5ea7ceb155110f64b7d2d1904a29c:-223905240,04856a7cf4155110945ad645107b21bd:-1150232613,c6e0aa3863155110bafd77744798bca3:-1974902702,b1802638da155110e8d52d85ea54145f:378654672,8c5fd37f494111106d41a97867f16ac5:-1123134898,f81e5bfbd241111008ad670cb813ffd2:2121614988,a3ad57bba341111039b9c098d8b0ae77:784159398,600d57bb75411110d4af9c3c3fe7466f:-1521259097,432c577bd34111107307ec0aad0414b1:1995475149,a81753f390411110636fd15d20add2df:-1123134898,6ad61fb3c14111104e3d38d33977e98e:-1283685552,14561bb35b411110e801eb83a372c6c1:257215249,b2451b73b841111093af3b843384dd93:870843034,b5e3d33347411110f5847756fd5c1899:315005959,11b21fbf2c0111105a39988730b48e17:1503159808,fa72d33f6f0111102ea4405b7bc26895:496571737,57d9c377820111107355900463cdd2ce:-1123134898,0644083ff0c11510d0397a4586870fb7:2052731258,d4f3c0fba4c11510f0470237cc259a36:-1685682573,b94388fbf5c11510aa03965a4a319d83:-2066300895,eaf280bb0bc115103b31243a4f5764ad:870843034,13d284bbe9c115100ebce430f86f0983:2118708398,fd00c03b36c115102c909b97046e72c3:-799450840,f7ebd9baa0c911108262efdaf485a00f:-1123134898,e11a5d3af1c91110e20fd5252bdba07f:1260846770,2861993252c91110de6df9b146617301:-600370352,546358b606c5111034a5b6e7557d2d12:-2143348554,8fc50c3a408511103ddbfddc354f473f:-1959268876,dd238476cb851110423bab5de665d447:-1123134898,67d000f21d851110cdb9c0356c214361:-972301716,c9b00cb2828511109b37c0085f4f08f9:-804895675,ca80c0b27e8511101a3a3a92157227df:-1001513099,a150c0b20f8511102ec974d624e78085:-130323569,71bfb762728511106d9541aecde8304c:143738260,23ee73221d851110bfe98ae611521bae:-527986880,ae6db3ae0f451110d6b9c887be712f27:872288426,cb0bbb6a90451110a6205c9090860a18:-2142475454,580a3f6af6451110dbbc2a4042483bbc:1800171354,2fb9f76a6d45111048ae8c2ec95cc0f7:9921568,1f093f2aba451110f8d1cd6a1df9bb8f:872288426,cab7f7e6c445111015ac6efe048bc315:-560749141</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Set User Values">ba3b004997d95110614839000153af59</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-11 22:35:41</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>06697ba6df134ead8068484dadac58b9</sys_id>
+        <sys_metadata>0eb77f6697451110614839000153af13</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set User Values</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>catalog_script_client_0eb77f6697451110614839000153af13</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_0eb77f6697451110614839000153af13">14f76efc97155110614839000153afec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-11 22:35:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

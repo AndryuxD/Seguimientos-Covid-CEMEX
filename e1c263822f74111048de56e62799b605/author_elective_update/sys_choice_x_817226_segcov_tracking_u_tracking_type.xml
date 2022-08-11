@@ -21,41 +21,20 @@
             <element>u_tracking_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>testxd</label>
-            <language>en</language>
-            <name>x_817226_segcov_tracking</name>
-            <sequence>55</sequence>
-            <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-11 16:48:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>816bf23897955110614839000153af6b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-11 16:48:15</sys_updated_on>
-            <value>123</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_tracking_type</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>Prueba</label>
             <language>es</language>
             <name>x_817226_segcov_tracking</name>
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:14:04</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>525af3b697455110614839000153afda</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:55:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8eb8173497195110614839000153afc1</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:14:04</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:55:09</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -69,14 +48,14 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:14:22</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>5a6a77b697455110614839000153af90</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:54:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8aa8dff097195110614839000153aff6</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:14:22</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:54:53</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -90,14 +69,14 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:14:37</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>8a7ab7b697455110614839000153af1c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:54:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7198533497195110614839000153af0e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:14:37</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:54:36</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -111,36 +90,15 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:14:52</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>398a37b697455110614839000153af70</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:54:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3488d3f097195110614839000153af86</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:14:52</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:54:14</sys_updated_on>
             <value>2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_tracking_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>testchava</label>
-            <language>en</language>
-            <name>x_817226_segcov_tracking</name>
-            <sequence/>
-            <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-11 16:49:55</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>b9fb3e3897955110614839000153afd0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-11 16:49:55</sys_updated_on>
-            <value>222</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -153,14 +111,14 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:12:29</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>03f97f7697455110614839000153af1c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:57:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8729137497195110614839000153af0e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:12:29</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:57:10</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -174,14 +132,14 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:12:41</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>750a3f7697455110614839000153af80</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:56:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed195f3497195110614839000153afca</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:12:41</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:56:45</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -195,14 +153,14 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:12:06</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>1de9bf3697455110614839000153af07</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:57:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f39d37497195110614839000153afd9</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:12:06</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:57:39</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -216,14 +174,14 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:13:48</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>124ab3b697455110614839000153afca</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:55:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccd8173497195110614839000153afc4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:13:48</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:55:33</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -237,14 +195,14 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:11:48</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>dfb97b7697455110614839000153aff1</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:58:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0359d37497195110614839000153afde</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:11:48</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:58:01</sys_updated_on>
             <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -258,36 +216,15 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:13:01</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>b21a33b697455110614839000153af27</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:56:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c209537497195110614839000153af50</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:13:01</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:56:29</sys_updated_on>
             <value>5</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_tracking_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Kit COVID-19</label>
-            <language>es</language>
-            <name>x_817226_segcov_tracking</name>
-            <sequence/>
-            <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:13:32</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>9e3a3f7697455110614839000153afb1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:13:32</sys_updated_on>
-            <value>6</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -300,14 +237,35 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:13:19</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>c32ab3b697455110614839000153af34</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:56:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5df85f3497195110614839000153aff7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:13:19</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:56:12</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tracking_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kit COVID-19</label>
+            <language>es</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:55:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77d89b3497195110614839000153af36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:55:55</sys_updated_on>
             <value>6</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -321,14 +279,14 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:15:09</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>fd9ab3b697455110614839000153af3b</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5878933497195110614839000153af13</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:15:09</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:53:56</sys_updated_on>
             <value>7</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -342,14 +300,14 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
-            <sys_created_by>salvador.centenotéllez</sys_created_by>
-            <sys_created_on>2022-08-05 16:15:24</sys_created_on>
-            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-            <sys_domain_path>!!!/!!!/</sys_domain_path>
-            <sys_id>e9aa33b697455110614839000153afa2</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 18:53:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d58dff097195110614839000153afee</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-            <sys_updated_on>2022-08-05 16:15:24</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 18:53:36</sys_updated_on>
             <value>7</value>
         </sys_choice>
     </sys_choice>

@@ -27,6 +27,363 @@
             <sequence/>
             <synonyms/>
             <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:28:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bdb773897995110614839000153af3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:28:48</sys_updated_on>
+            <value>ac_anti_dengue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prueba cuantitativa de anticuerpos IgM IgG en sangre</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:23:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9dba3fb497995110614839000153af68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:23:49</sys_updated_on>
+            <value>antibodies_igm_igg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BHC</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:28:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32bbf33897995110614839000153af0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:28:17</sys_updated_on>
+            <value>bhc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Radiografía tele de tórax</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:21:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c2afb7497995110614839000153af38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:21:19</sys_updated_on>
+            <value>chest_xray</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DHL</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:27:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b69bbbf497995110614839000153afdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:27:44</sys_updated_on>
+            <value>dhl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Examen General de Orina (EGO)</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:26:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>885b37f497995110614839000153af4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:26:41</sys_updated_on>
+            <value>ego</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electrocardiograma de reposo</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a7b77f497995110614839000153afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:27:12</sys_updated_on>
+            <value>electrocardiograma</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ferritina</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:29:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c0cb73897995110614839000153afe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:29:26</sys_updated_on>
+            <value>ferritin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PCR</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:25:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c3b3fb497995110614839000153af92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:25:53</sys_updated_on>
+            <value>pcr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Perfil Diabetico</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:25:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d81b3bf497995110614839000153afc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:25:25</sys_updated_on>
+            <value>perfil_diabetico</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Procalcitonina</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:24:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5fa3bf497995110614839000153af0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:24:51</sys_updated_on>
+            <value>procalcitonin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prueba de antígeno para SARS-COV-2</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:23:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b49affb497995110614839000153afb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:23:10</sys_updated_on>
+            <value>prueba_antigeno</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prueba de funcion hepatica</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:22:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a65abbb497995110614839000153af3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:22:18</sys_updated_on>
+            <value>prueba_hepatica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quimica Sanguinea</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:21:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>173a73b497995110614839000153afba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:21:47</sys_updated_on>
+            <value>quimica_sanguinea</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Proteína C Reactiva</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:24:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4da73f497995110614839000153afd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:24:24</sys_updated_on>
+            <value>reactive_protein_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TAC de tórax simple</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:20:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>210af3b497995110614839000153afe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:20:50</sys_updated_on>
+            <value>simple_chest_ct</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ZICA</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-11 21:20:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ae9b7b497995110614839000153afb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-11 21:20:22</sys_updated_on>
+            <value>zica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>complimetary_study</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ac Anti dengue</label>
+            <language>en</language>
+            <name>x_817226_segcov_tracking</name>
+            <sequence/>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>salvador.centenotéllez</sys_created_by>
             <sys_created_on>2022-08-05 16:33:05</sys_created_on>
             <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>

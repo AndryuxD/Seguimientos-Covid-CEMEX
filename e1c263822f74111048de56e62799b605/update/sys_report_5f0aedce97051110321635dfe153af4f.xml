@@ -47,7 +47,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>vulnerable_cause.label</field>
         <field_list>active,assigned_to,closed_at,closed_status,comments,date_suspicious,isolated,last_oxygenation_value,last_score,last_temperature_value</field_list>
-        <filter/>
+        <filter table="x_817226_segcov_cases">vulnerable_causeISNOTEMPTY<item endquery="false" field="vulnerable_cause" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -108,14 +109,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5f0aedce97051110321635dfe153af4f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>CXMX - Causas de vulnerabilidad</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sys_report_5f0aedce97051110321635dfe153af4f</sys_update_name>
-        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-        <sys_updated_on>2022-08-10 23:15:06</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-11 22:26:36</sys_updated_on>
         <table>x_817226_segcov_cases</table>
         <title>CXMX - Causas de vulnerabilidad</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

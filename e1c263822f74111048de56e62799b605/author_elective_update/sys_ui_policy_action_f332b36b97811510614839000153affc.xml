@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>complimetary_study</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-07 23:34:22</sys_created_on>
+        <sys_id>f332b36b97811510614839000153affc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>complimetary_study</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f332b36b97811510614839000153affc</sys_update_name>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-08 00:24:38</sys_updated_on>
+        <table>x_817226_segcov_tracking</table>
+        <ui_policy display_value="show field complementary study">efd17f2b97811510614839000153af03</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</application>
+        <file_path/>
+        <instance_id>5791b7dedb31ec180b9d21c405961984</instance_id>
+        <instance_name>dev105063</instance_name>
+        <name>sys_ui_policy_action_f332b36b97811510614839000153affc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>complimetary_study</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>salvador.centenotéllez</sys_created_by><sys_created_on>2022-08-07 23:34:22</sys_created_on><sys_id>f332b36b97811510614839000153affc</sys_id><sys_mod_count>1</sys_mod_count><sys_name>complimetary_study</sys_name><sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package><sys_policy/><sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope><sys_update_name>sys_ui_policy_action_f332b36b97811510614839000153affc</sys_update_name><sys_updated_by>salvador.centenotéllez</sys_updated_by><sys_updated_on>2022-08-08 00:24:38</sys_updated_on><table>x_817226_segcov_tracking</table><ui_policy display_value="show field complementary study">efd17f2b97811510614839000153af03</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1308253927</payload_hash>
+        <record_name>complimetary_study</record_name>
+        <reverted_from/>
+        <source>319c40cb97855110614839000153af0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>salvador.centenotéllez</sys_created_by>
+        <sys_created_on>2022-08-08 00:24:38</sys_created_on>
+        <sys_id>b7cd3b6797c11510614839000153afd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1827ad6e08f0000001</sys_recorded_at>
+        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
+        <sys_updated_on>2022-08-08 00:24:38</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>bfcd3b67bcc11510ae4f3650405fced3</update_guid>
+        <update_guid_history>bfcd3b67bcc11510ae4f3650405fced3:1308253927,9342f36b698115103f2bc1abaed47803:2110445344</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-11 19:06:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0434473ee94d418c81387a261c532984</sys_id>
+        <sys_metadata>f332b36b97811510614839000153affc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>complimetary_study</sys_name>
+        <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
+        <sys_scope_delete display_value="">0532769fa03048b49863e5d6e226d790</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_f332b36b97811510614839000153affc</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_f332b36b97811510614839000153affc">b7cd3b6797c11510614839000153afd4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-11 19:06:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -158,7 +158,7 @@ function createNewCase(user){
 	gr_c.type = "not_vulnerable";
 	
 	//gr_h.assigned_to = producer.user_medic; For review or checking
-	var c_comments = producer.comments + '\n';
+	var c_comments = producer.comentarios + '\n';
 	c_comments += 'Ubicacion: ' + producer.state + ', '+ producer.location.getDisplayValue();
 	if (producer.contact_with_positive == 'true')
 		c_comments += '\n' + 'Contacto con positivo: ' + producer.contact_user;
@@ -174,10 +174,12 @@ function createNewCase(user){
 	gr_c.opened_status = 1; //1=abierto, 2=cerrado
 	gr_c.status = 4; //4=sospechoso, 1=positivo
 	gr_c.substatus = 99; // 99=sospechoso por sintomas
-	gr_c.caused_by = 'suspect_contact'; // 99=sospechoso por sintomas
+	gr_c.caused_by = 'suspect_symptoms'; // 99=sospechoso por sintomas
 	
-	if (producer.contact_with_suspect == 'true' || producer.contact_with_positive == 'true')
+	if (producer.contact_with_suspect == 'true' || producer.contact_with_positive == 'true'){
 		gr_c.substatus = 3; //3=sospechoso por contacto
+		gr_c.caused_by = 'suspect_contact'; // 99=sospechoso por sintomas
+	}
 	
 	gr_c.checked_in = new GlideDateTime();
 	if(producer.semaphore != "green"){
@@ -233,14 +235,14 @@ function createHistory (ui_id,c_id){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 15:49:43</sys_created_on>
         <sys_id>e88d63562f74511048de56e62799b675</sys_id>
-        <sys_mod_count>90</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_name>Registro de Cerco Sanitario</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sc_cat_item_producer_e88d63562f74511048de56e62799b675</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-11 15:30:11</sys_updated_on>
+        <sys_updated_on>2022-08-11 22:08:11</sys_updated_on>
         <table_name>x_817226_segcov_history</table_name>
         <taxonomy_topic/>
         <template/>
