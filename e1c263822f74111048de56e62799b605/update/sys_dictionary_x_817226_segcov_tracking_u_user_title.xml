@@ -8,7 +8,8 @@
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
-	return '';  // return the calculated value
+	var title = current.u_user_title.getDisplayValue();
+	return title;  // return the calculated value
 
 })(current);]]></calculation>
         <choice/>
@@ -40,7 +41,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_choice_set">sys_choice_set</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -54,14 +55,14 @@
         <sys_created_by>salvador.centenotéllez</sys_created_by>
         <sys_created_on>2022-08-01 01:46:26</sys_created_on>
         <sys_id>9c4d4c2997891110321635dfe153af20</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>User Title</sys_name>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>sys_dictionary_x_817226_segcov_tracking_u_user_title</sys_update_name>
-        <sys_updated_by>salvador.centenotéllez</sys_updated_by>
-        <sys_updated_on>2022-08-01 01:46:26</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-12 16:19:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

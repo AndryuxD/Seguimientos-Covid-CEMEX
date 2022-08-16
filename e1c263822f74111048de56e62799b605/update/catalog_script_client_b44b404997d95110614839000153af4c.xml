@@ -21,7 +21,7 @@
     if (isLoading) {
         return;
     }
-  
+
     if (newValue != '') {
         var tableName = 'sys_user';
         var fields = ['department', 'x_817226_segcov_user_category', 'title', 'employee_number'];
@@ -43,12 +43,12 @@ function responseAjax(response) {
     if (answer.u_user_category != '')
         g_form.setValue('user_category', answer.x_817226_segcov_user_category);
     if (answer.title != '')
-		g_form.clearValue('user_title');
-        g_form.setValue('user_title', answer.title);
+        g_form.clearValue('user_title');
+    g_form.setValue('user_title', answer.title);
     if (answer.employee_number != '') {
         if (g_form.getValue('employee_number') == '')
             g_form.setValue('employee_number', answer.employee_number);
-    }
+    } 
 
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -57,7 +57,7 @@ function responseAjax(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b44b404997d95110614839000153af4c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>set values user</sys_name>
         <sys_overrides/>
         <sys_package display_value="Seguimiento COVID" source="x_817226_segcov">e1c263822f74111048de56e62799b605</sys_package>
@@ -65,7 +65,7 @@ function responseAjax(response) {
         <sys_scope display_value="Seguimiento COVID">e1c263822f74111048de56e62799b605</sys_scope>
         <sys_update_name>catalog_script_client_b44b404997d95110614839000153af4c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-11 22:36:27</sys_updated_on>
+        <sys_updated_on>2022-08-12 16:14:46</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

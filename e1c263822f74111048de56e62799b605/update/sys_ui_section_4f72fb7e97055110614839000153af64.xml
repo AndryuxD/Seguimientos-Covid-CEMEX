@@ -4,15 +4,29 @@
             <element>comments</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-05 15:39:45</sys_created_on>
-            <sys_id>9772fb7e97055110614839000153af93</sys_id>
+            <sys_created_on>2022-08-12 23:16:33</sys_created_on>
+            <sys_id>c72e5d9997dd9110614839000153af8c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Comments and Activities" display_value="Comments and Activities" name="x_817226_segcov_cases" sys_domain="global" view="Default view">4f72fb7e97055110614839000153af64</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-05 15:39:45</sys_updated_on>
+            <sys_updated_on>2022-08-12 23:16:33</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-12 23:16:33</sys_created_on>
+            <sys_id>4b2e5d9997dd9110614839000153af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Comments and Activities" display_value="Comments and Activities" name="x_817226_segcov_cases" sys_domain="global" view="Default view">4f72fb7e97055110614839000153af64</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-12 23:16:33</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Comments and Activities</caption>

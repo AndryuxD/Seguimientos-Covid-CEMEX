@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="User Tracking" max_length="40" name="x_817226_segcov_tracking" sizeclass="16" type="collection">
+    <element label="User Tracking" max_length="40" name="x_817226_segcov_tracking" sizeclass="47" type="collection">
         <element label="Change Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Case" max_length="32" name="case" reference="x_817226_segcov_cases" type="reference"/>
         <element choice="3" label="Complimetary Study" max_length="32" name="complimetary_study" reference_qual="element=complimetary_study^EQ" reference_qual_condition="element=complimetary_study^EQ" type="string">
@@ -88,9 +88,9 @@
                 <element inactive_on_update="false" label="Vulnerability" value="7"/>
             </choice>
         </element>
-        <element label="User Name" max_length="150" name="u_user_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="User Name" max_length="150" name="u_user_name" reference="sys_user" type="reference"/>
         <element label="User Number" max_length="50" name="u_user_number" type="string"/>
-        <element label="User Title" max_length="200" name="u_user_title" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var title = current.u_user_title.getDisplayValue();&#13;&#10;&#9;return title;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="User Title" max_length="200" name="u_user_title" reference="sys_choice_set" type="string"/>
         <index name="index">
             <element name="u_parent"/>
         </index>
